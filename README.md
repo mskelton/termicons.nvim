@@ -1,8 +1,16 @@
 # termicons.nvim
 
+Alternative set of icons for [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) using [termicons](https://github.com/mskelton/termicons).
+
 ## Installation
 
-TODO
+Install with your favorite package manager (e.g. [lazy.nvim](https://github.com/folke/lazy.nvim)).
+
+```lua
+{
+  "mskelton/termicons.nvim"
+}
+```
 
 ## Setup
 
