@@ -1550,8 +1550,8 @@ M.icons = {
 	},
 	storybook = {
 		icon = "턵",
-		color = "#ffffff",
-		cterm_color = "15",
+		color = "#FF4081",
+		cterm_color = "204",
 	},
 	stryker = {
 		icon = "턶",
@@ -1860,8 +1860,8 @@ M.icons = {
 	},
 	webpack = {
 		icon = "텲",
-		color = "#1c78c0",
-		cterm_color = "31",
+		color = "#8ED6FB",
+		cterm_color = "117",
 	},
 	wepy = {
 		icon = "텳",
