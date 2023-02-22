@@ -1298,7 +1298,12 @@ M.icons = {
 		color = "",
 		cterm_color = "",
 	},
-	react = {
+	javascriptreact = {
+		icon = "턃",
+		color = "",
+		cterm_color = "",
+	},
+	typescriptreact = {
 		icon = "턃",
 		color = "",
 		cterm_color = "",
