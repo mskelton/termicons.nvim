@@ -870,8 +870,8 @@ M.icons = {
 	},
 	kotlin = {
 		icon = "킬",
-		color = "",
-		cterm_color = "",
+		color = "#8371d9",
+		cterm_color = "98",
 	},
 	kusto = {
 		icon = "킭",
@@ -970,8 +970,8 @@ M.icons = {
 	},
 	maven = {
 		icon = "타",
-		color = "",
-		cterm_color = "",
+		color = "#d32f2f",
+		cterm_color = "160",
 	},
 	merlin = {
 		icon = "탁",
@@ -1205,8 +1205,8 @@ M.icons = {
 	},
 	postcss = {
 		icon = "탯",
-		color = "",
-		cterm_color = "",
+		color = "#e53935",
+		cterm_color = "167",
 	},
 	posthtml = {
 		icon = "탰",
@@ -1235,8 +1235,8 @@ M.icons = {
 	},
 	processing = {
 		icon = "탵",
-		color = "",
-		cterm_color = "",
+		color = "#536dfe",
+		cterm_color = "63",
 	},
 	prolog = {
 		icon = "탶",
@@ -1530,8 +1530,8 @@ M.icons = {
 	},
 	sonarcloud = {
 		icon = "턱",
-		color = "",
-		cterm_color = "",
+		color = "#ef6c00",
+		cterm_color = "202",
 	},
 	steadybit = {
 		icon = "턲",
@@ -1560,8 +1560,8 @@ M.icons = {
 	},
 	stylable = {
 		icon = "턷",
-		color = "",
-		cterm_color = "",
+		color = "#ff1744",
+		cterm_color = "197",
 	},
 	stylelint = {
 		icon = "털",
@@ -1580,8 +1580,8 @@ M.icons = {
 	},
 	supabase = {
 		icon = "턻",
-		color = "",
-		cterm_color = "",
+		color = "#66bb6a",
+		cterm_color = "71",
 	},
 	svelte = {
 		icon = "턼",
@@ -1665,8 +1665,8 @@ M.icons = {
 	},
 	tldraw = {
 		icon = "테",
-		color = "",
-		cterm_color = "",
+		color = "#b0bec5",
+		cterm_color = "7",
 	},
 	tobi = {
 		icon = "텍",
@@ -1805,8 +1805,8 @@ M.icons = {
 	},
 	vitest = {
 		icon = "텧",
-		color = "",
-		cterm_color = "",
+		color = "#ffab00",
+		cterm_color = "214",
 	},
 	vlang = {
 		icon = "텨",
