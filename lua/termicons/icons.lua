@@ -159,11 +159,11 @@ M.icons = {
 		cterm_color = "24",
 		name = "Azure",
 	},
-	["azure-pipelines"] = {
+	["azure_pipelines"] = {
 		icon = "퀙",
 		color = "#1E88E5",
 		cterm_color = "32",
-		name = "Azure-pipelines",
+		name = "AzurePipelines",
 	},
 	["babel"] = {
 		icon = "퀛",
@@ -345,11 +345,11 @@ M.icons = {
 		cterm_color = "95",
 		name = "Coconut",
 	},
-	["code-climate"] = {
+	["code_climate"] = {
 		icon = "퀹",
 		color = "#eee",
 		cterm_color = "255",
-		name = "Code-climate",
+		name = "CodeClimate",
 	},
 	["codecov"] = {
 		icon = "퀺",
@@ -441,11 +441,11 @@ M.icons = {
 		cterm_color = "75",
 		name = "Css",
 	},
-	["css-map"] = {
+	["css_map"] = {
 		icon = "큈",
 		color = "#42a5f5",
 		cterm_color = "75",
-		name = "Css-map",
+		name = "CssMap",
 	},
 	["cucumber"] = {
 		icon = "큊",
@@ -963,11 +963,11 @@ M.icons = {
 		cterm_color = "220",
 		name = "Javascript",
 	},
-	["javascript-map"] = {
+	["javascript_map"] = {
 		icon = "킟",
 		color = "#ffca28",
 		cterm_color = "220",
-		name = "Javascript-map",
+		name = "JavascriptMap",
 	},
 	["jenkins"] = {
 		icon = "킡",
@@ -1215,11 +1215,11 @@ M.icons = {
 		cterm_color = "214",
 		name = "Mxml",
 	},
-	["nano-staged"] = {
+	["nano_staged"] = {
 		icon = "탊",
 		color = "#b0bec5",
 		cterm_color = "7",
-		name = "Nano-staged",
+		name = "NanoStaged",
 	},
 	["ndst"] = {
 		icon = "탋",
@@ -1383,11 +1383,11 @@ M.icons = {
 		cterm_color = "32",
 		name = "Php",
 	},
-	["php-cs-fixer"] = {
+	["php_cs_fixer"] = {
 		icon = "탥",
 		color = "#ff7043",
 		cterm_color = "203",
-		name = "Php-cs-fixer",
+		name = "PhpCsFixer",
 	},
 	["php_elephant"] = {
 		icon = "탧",
@@ -1611,11 +1611,11 @@ M.icons = {
 		cterm_color = "15",
 		name = "Rescript",
 	},
-	["rescript-interface"] = {
+	["rescript_interface"] = {
 		icon = "턋",
 		color = "#ef5350",
 		cterm_color = "203",
-		name = "Rescript-interface",
+		name = "RescriptInterface",
 	},
 	["restql"] = {
 		icon = "턍",
@@ -1731,11 +1731,11 @@ M.icons = {
 		cterm_color = "75",
 		name = "Search",
 	},
-	["semantic-release"] = {
+	["semantic_release"] = {
 		icon = "턠",
 		color = "#f5f5f5",
 		cterm_color = "255",
-		name = "Semantic-release",
+		name = "SemanticRelease",
 	},
 	["sentry"] = {
 		icon = "턡",
@@ -2067,11 +2067,11 @@ M.icons = {
 		cterm_color = "32",
 		name = "Typescript",
 	},
-	["typescript-def"] = {
+	["typescript_def"] = {
 		icon = "텗",
 		color = "#0288d1",
 		cterm_color = "32",
-		name = "Typescript-def",
+		name = "TypescriptDef",
 	},
 	["uml"] = {
 		icon = "텙",
@@ -2181,17 +2181,17 @@ M.icons = {
 		cterm_color = "72",
 		name = "Vue",
 	},
-	["vue-config"] = {
+	["vue_config"] = {
 		icon = "텪",
 		color = "#757575",
 		cterm_color = "243",
-		name = "Vue-config",
+		name = "VueConfig",
 	},
-	["vuex-store"] = {
+	["vuex_store"] = {
 		icon = "텬",
 		color = "#41b883",
 		cterm_color = "72",
-		name = "Vuex-store",
+		name = "VuexStore",
 	},
 	["wakatime"] = {
 		icon = "텭",
