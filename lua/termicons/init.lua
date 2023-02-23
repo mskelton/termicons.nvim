@@ -1,6 +1,6 @@
-local icons = require("icons")
-local mappings = require("mappings")
-local utils = require("utils")
+local icons = require("termicons.icons")
+local mappings = require("termicons.mappings")
+local utils = require("termicons.utils")
 
 local M = {}
 

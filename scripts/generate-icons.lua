@@ -1,17 +1,6 @@
 local json = require("JSON")
 local utf8 = require("utf8")
 
---- @param str string
-local function pascal_case(str)
-	if string.match(str, "%d") == nil then
-		str = "_" .. str
-	end
-
-	return str:gsub("_(%l)(%l*)", function(a, b)
-		return string.upper(a) .. b
-	end)
-end
-
 --- @param url string
 local function fetch_json(url)
 	local file = io.popen("curl -s " .. url)
@@ -65,6 +54,17 @@ local function sorted_pairs(t)
 	end
 
 	return iter
+end
+
+--- @param str string
+local function pascal_case(str)
+	if string.match(str, "%d") == nil then
+		str = "_" .. str
+	end
+
+	return str:gsub("_(%l)(%l*)", function(a, b)
+		return string.upper(a) .. b
+	end)
 end
 
 local mapping_url = "https://mskelton.github.io/termicons/termicons.json"

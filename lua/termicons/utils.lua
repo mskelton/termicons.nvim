@@ -1,13 +1,5 @@
 local M = {}
 
-M.title_case = function(str)
-	str = "_" .. str
-
-	return str:gsub("_(%l)(%l*)", function(a, b)
-		return string.upper(a) .. b
-	end)
-end
-
 -- Expand a string into a table of strings using single level brace expansion
 M.expand = function(str)
 	local head, tail = string.match(str, "(.*)({[%w,]*})")
