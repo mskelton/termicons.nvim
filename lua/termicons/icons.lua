@@ -77,13 +77,13 @@ M.icons = {
 	},
 	["appveyor"] = {
 		icon = "퀌",
-		color = "#00B3E0",
+		color = "#00b3e0",
 		cterm_color = "38",
 		name = "Appveyor",
 	},
 	["architecture"] = {
 		icon = "퀍",
-		color = "#66BB6A",
+		color = "#66bb6a",
 		cterm_color = "71",
 		name = "Architecture",
 	},
@@ -155,13 +155,13 @@ M.icons = {
 	},
 	["azure"] = {
 		icon = "퀚",
-		color = "#01579B",
+		color = "#01579b",
 		cterm_color = "24",
 		name = "Azure",
 	},
 	["azure_pipelines"] = {
 		icon = "퀙",
-		color = "#1E88E5",
+		color = "#1e88e5",
 		cterm_color = "32",
 		name = "AzurePipelines",
 	},
@@ -245,7 +245,7 @@ M.icons = {
 	},
 	["buildkite"] = {
 		icon = "퀨",
-		color = "#00E676",
+		color = "#00e676",
 		cterm_color = "42",
 		name = "Buildkite",
 	},
@@ -347,7 +347,7 @@ M.icons = {
 	},
 	["code_climate"] = {
 		icon = "퀹",
-		color = "#eee",
+		color = "#eeeeee",
 		cterm_color = "255",
 		name = "CodeClimate",
 	},
@@ -473,7 +473,7 @@ M.icons = {
 	},
 	["dart"] = {
 		icon = "큎",
-		color = "#66C3FA",
+		color = "#66c3fa",
 		cterm_color = "75",
 		name = "Dart",
 	},
@@ -599,7 +599,7 @@ M.icons = {
 	},
 	["ember"] = {
 		icon = "큣",
-		color = "#FF5722",
+		color = "#ff5722",
 		cterm_color = "202",
 		name = "Ember",
 	},
@@ -695,13 +695,13 @@ M.icons = {
 	},
 	["fusebox"] = {
 		icon = "큳",
-		color = "#fff",
+		color = "#ffffff",
 		cterm_color = "15",
 		name = "Fusebox",
 	},
 	["gatsby"] = {
 		icon = "클",
-		color = "#fff",
+		color = "#ffffff",
 		cterm_color = "15",
 		name = "Gatsby",
 	},
@@ -839,7 +839,7 @@ M.icons = {
 	},
 	["hardhat"] = {
 		icon = "킋",
-		color = "#FFD600",
+		color = "#ffd600",
 		cterm_color = "220",
 		name = "Hardhat",
 	},
@@ -863,7 +863,7 @@ M.icons = {
 	},
 	["helm"] = {
 		icon = "킏",
-		color = "#000",
+		color = "#000000",
 		cterm_color = "0",
 		name = "Helm",
 	},
@@ -977,13 +977,13 @@ M.icons = {
 	},
 	["jest"] = {
 		icon = "킢",
-		color = "#000",
+		color = "#000000",
 		cterm_color = "0",
 		name = "Jest",
 	},
 	["jinja"] = {
 		icon = "킣",
-		color = "#BDBDBD",
+		color = "#bdbdbd",
 		cterm_color = "250",
 		name = "Jinja",
 	},
@@ -1073,7 +1073,7 @@ M.icons = {
 	},
 	["lighthouse"] = {
 		icon = "킲",
-		color = "#F4511E",
+		color = "#f4511e",
 		cterm_color = "202",
 		name = "Lighthouse",
 	},
@@ -1121,7 +1121,7 @@ M.icons = {
 	},
 	["lua"] = {
 		icon = "킺",
-		color = "#42A5F5",
+		color = "#42a5f5",
 		cterm_color = "75",
 		name = "Lua",
 	},
@@ -1199,7 +1199,7 @@ M.icons = {
 	},
 	["modernizr"] = {
 		icon = "탇",
-		color = "#E91E63",
+		color = "#e91e63",
 		cterm_color = "161",
 		name = "Modernizr",
 	},
@@ -1325,7 +1325,7 @@ M.icons = {
 	},
 	["opa"] = {
 		icon = "태",
-		color = "#BFBFBF",
+		color = "#bfbfbf",
 		cterm_color = "7",
 		name = "Opa",
 	},
@@ -1379,7 +1379,7 @@ M.icons = {
 	},
 	["php"] = {
 		icon = "탦",
-		color = "#1E88E5",
+		color = "#1e88e5",
 		cterm_color = "32",
 		name = "Php",
 	},
@@ -1433,13 +1433,13 @@ M.icons = {
 	},
 	["poetry"] = {
 		icon = "탮",
-		color = "#3F51B5",
+		color = "#3f51b5",
 		cterm_color = "61",
 		name = "Poetry",
 	},
 	["postcss"] = {
 		icon = "탯",
-		color = "#E53935",
+		color = "#e53935",
 		cterm_color = "167",
 		name = "Postcss",
 	},
@@ -1463,7 +1463,7 @@ M.icons = {
 	},
 	["prettier"] = {
 		icon = "탳",
-		color = "#56B3B4",
+		color = "#56b3b4",
 		cterm_color = "73",
 		name = "Prettier",
 	},
@@ -1607,7 +1607,7 @@ M.icons = {
 	},
 	["rescript"] = {
 		icon = "턌",
-		color = "#fff",
+		color = "#ffffff",
 		cterm_color = "15",
 		name = "Rescript",
 	},
@@ -1817,7 +1817,7 @@ M.icons = {
 	},
 	["snowpack"] = {
 		icon = "턮",
-		color = "#eee",
+		color = "#eeeeee",
 		cterm_color = "255",
 		name = "Snowpack",
 	},
@@ -1859,7 +1859,7 @@ M.icons = {
 	},
 	["storybook"] = {
 		icon = "턵",
-		color = "#FF4081",
+		color = "#ff4081",
 		cterm_color = "204",
 		name = "Storybook",
 	},
@@ -1889,7 +1889,7 @@ M.icons = {
 	},
 	["sublime"] = {
 		icon = "턺",
-		color = "#FFB74D",
+		color = "#ffb74d",
 		cterm_color = "215",
 		name = "Sublime",
 	},
@@ -2207,7 +2207,7 @@ M.icons = {
 	},
 	["watchman"] = {
 		icon = "텯",
-		color = "#fff",
+		color = "#ffffff",
 		cterm_color = "15",
 		name = "Watchman",
 	},
@@ -2225,7 +2225,7 @@ M.icons = {
 	},
 	["webpack"] = {
 		icon = "텲",
-		color = "#8ED6FB",
+		color = "#8ed6fb",
 		cterm_color = "117",
 		name = "Webpack",
 	},
@@ -2237,7 +2237,7 @@ M.icons = {
 	},
 	["windicss"] = {
 		icon = "텴",
-		color = "#42A5F5",
+		color = "#42a5f5",
 		cterm_color = "75",
 		name = "Windicss",
 	},
@@ -2267,7 +2267,7 @@ M.icons = {
 	},
 	["yaml"] = {
 		icon = "텹",
-		color = "#FF5252",
+		color = "#ff5252",
 		cterm_color = "203",
 		name = "Yaml",
 	},
