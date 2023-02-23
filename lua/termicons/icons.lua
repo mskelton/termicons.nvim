@@ -1,5 +1,3 @@
-local utils = require("utils")
-
 local M = {}
 
 M.icons = {
@@ -7,1922 +5,2294 @@ M.icons = {
 		icon = "퀀",
 		color = "#29b6f6",
 		cterm_color = "39",
+		name = "3d",
 	},
-	abc = {
+	["abc"] = {
 		icon = "퀁",
 		color = "#ff5722",
 		cterm_color = "202",
+		name = "Abc",
 	},
-	actionscript = {
+	["actionscript"] = {
 		icon = "퀂",
 		color = "#f44336",
 		cterm_color = "203",
+		name = "Actionscript",
 	},
-	ada = {
+	["ada"] = {
 		icon = "퀃",
 		color = "#0277bd",
 		cterm_color = "31",
+		name = "Ada",
 	},
-	adonis = {
+	["adonis"] = {
 		icon = "퀄",
 		color = "#7c4dff",
 		cterm_color = "99",
+		name = "Adonis",
 	},
-	advpl = {
+	["advpl"] = {
 		icon = "퀅",
 		color = "#00bcd4",
 		cterm_color = "38",
+		name = "Advpl",
 	},
-	android = {
+	["android"] = {
 		icon = "퀆",
-		color = "#8bc34a",
-		cterm_color = "107",
+		color = "#c0ca33",
+		cterm_color = "149",
+		name = "Android",
 	},
-	angular = {
+	["angular"] = {
 		icon = "퀇",
 		color = "#e53935",
 		cterm_color = "167",
+		name = "Angular",
 	},
-	antlr = {
+	["antlr"] = {
 		icon = "퀈",
 		color = "#f44336",
 		cterm_color = "203",
+		name = "Antlr",
 	},
-	apiblueprint = {
+	["apiblueprint"] = {
 		icon = "퀉",
 		color = "#42a5f5",
 		cterm_color = "75",
+		name = "Apiblueprint",
 	},
-	apollo = {
+	["apollo"] = {
 		icon = "퀊",
 		color = "#7e57c2",
 		cterm_color = "97",
+		name = "Apollo",
 	},
-	applescript = {
+	["applescript"] = {
 		icon = "퀋",
 		color = "#78909c",
 		cterm_color = "246",
+		name = "Applescript",
 	},
-	appveyor = {
+	["appveyor"] = {
 		icon = "퀌",
-		color = "#00b3e0",
+		color = "#00B3E0",
 		cterm_color = "38",
+		name = "Appveyor",
 	},
-	architecture = {
+	["architecture"] = {
 		icon = "퀍",
 		color = "#66BB6A",
 		cterm_color = "71",
+		name = "Architecture",
 	},
-	arduino = {
+	["arduino"] = {
 		icon = "퀎",
 		color = "#00979c",
 		cterm_color = "31",
+		name = "Arduino",
 	},
-	asciidoc = {
+	["asciidoc"] = {
 		icon = "퀏",
 		color = "#f44336",
 		cterm_color = "203",
+		name = "Asciidoc",
 	},
-	assembly = {
+	["assembly"] = {
 		icon = "퀐",
 		color = "#ff6e40",
 		cterm_color = "203",
+		name = "Assembly",
 	},
-	astro = {
+	["astro"] = {
 		icon = "퀑",
 		color = "#ff6d00",
 		cterm_color = "202",
+		name = "Astro",
 	},
-	astyle = {
+	["astyle"] = {
 		icon = "퀒",
 		color = "#ef5350",
 		cterm_color = "203",
+		name = "Astyle",
 	},
-	audio = {
+	["audio"] = {
 		icon = "퀓",
 		color = "#ef5350",
 		cterm_color = "203",
+		name = "Audio",
 	},
-	aurelia = {
+	["aurelia"] = {
 		icon = "퀔",
-		color = "#8053a3",
-		cterm_color = "97",
+		color = "#714896",
+		cterm_color = "60",
+		name = "Aurelia",
 	},
-	authors = {
+	["authors"] = {
 		icon = "퀕",
 		color = "#f44336",
 		cterm_color = "203",
+		name = "Authors",
 	},
-	auto = {
+	["auto"] = {
 		icon = "퀖",
-		color = "#cfd8dc",
-		cterm_color = "188",
+		color = "#ffc400",
+		cterm_color = "220",
+		name = "Auto",
 	},
-	autohotkey = {
+	["autohotkey"] = {
 		icon = "퀗",
 		color = "#4caf50",
 		cterm_color = "71",
+		name = "Autohotkey",
 	},
-	autoit = {
+	["autoit"] = {
 		icon = "퀘",
 		color = "#1976d2",
 		cterm_color = "32",
+		name = "Autoit",
 	},
-	azure_pipelines = {
-		icon = "퀙",
-		color = "#90caf9",
-		cterm_color = "117",
-	},
-	azure = {
+	["azure"] = {
 		icon = "퀚",
-		color = "#29B6F6",
-		cterm_color = "39",
+		color = "#01579B",
+		cterm_color = "24",
+		name = "Azure",
 	},
-	babel = {
+	["azure-pipelines"] = {
+		icon = "퀙",
+		color = "#1E88E5",
+		cterm_color = "32",
+		name = "Azure-pipelines",
+	},
+	["babel"] = {
 		icon = "퀛",
 		color = "#fdd835",
 		cterm_color = "221",
+		name = "Babel",
 	},
-	ballerina = {
+	["ballerina"] = {
 		icon = "퀜",
 		color = "#00bfa5",
 		cterm_color = "37",
+		name = "Ballerina",
 	},
-	bazel = {
+	["bazel"] = {
 		icon = "퀝",
-		color = "#1b5e20",
-		cterm_color = "22",
+		color = "#81c784",
+		cterm_color = "114",
+		name = "Bazel",
 	},
-	bicep = {
+	["bicep"] = {
 		icon = "퀞",
 		color = "#fbc02d",
 		cterm_color = "214",
+		name = "Bicep",
 	},
-	bitbucket = {
+	["bitbucket"] = {
 		icon = "퀟",
 		color = "#1e88e5",
 		cterm_color = "32",
+		name = "Bitbucket",
 	},
-	bithound = {
+	["bithound"] = {
 		icon = "퀠",
 		color = "#e53935",
 		cterm_color = "167",
+		name = "Bithound",
 	},
-	blink = {
+	["blink"] = {
 		icon = "퀡",
 		color = "#f9a825",
 		cterm_color = "214",
+		name = "Blink",
 	},
-	blitz = {
+	["blitz"] = {
 		icon = "퀢",
 		color = "#7c4dff",
 		cterm_color = "99",
+		name = "Blitz",
 	},
-	bower = {
+	["bower"] = {
 		icon = "퀣",
-		color = "#ffffff",
-		cterm_color = "15",
+		color = "#543729",
+		cterm_color = "237",
+		name = "Bower",
 	},
-	brainfuck = {
+	["brainfuck"] = {
 		icon = "퀤",
 		color = "#ff4081",
 		cterm_color = "204",
+		name = "Brainfuck",
 	},
-	browserlist = {
+	["browserlist"] = {
 		icon = "퀥",
 		color = "#ffca28",
 		cterm_color = "220",
+		name = "Browserlist",
 	},
-	buck = {
+	["buck"] = {
 		icon = "퀦",
 		color = "#0277bd",
 		cterm_color = "31",
+		name = "Buck",
 	},
-	bucklescript = {
+	["bucklescript"] = {
 		icon = "퀧",
 		color = "#26a69a",
 		cterm_color = "36",
+		name = "Bucklescript",
 	},
-	buildkite = {
+	["buildkite"] = {
 		icon = "퀨",
-		color = "#00C853",
-		cterm_color = "41",
+		color = "#00E676",
+		cterm_color = "42",
+		name = "Buildkite",
 	},
-	c = {
+	["c"] = {
 		icon = "퀩",
 		color = "#0277bd",
 		cterm_color = "31",
+		name = "C",
 	},
-	cabal = {
+	["cabal"] = {
 		icon = "퀪",
-		color = "#2e5bc1",
-		cterm_color = "25",
+		color = "#2d9bbd",
+		cterm_color = "31",
+		name = "Cabal",
 	},
-	caddy = {
+	["caddy"] = {
 		icon = "퀫",
 		color = "#4fc3f7",
 		cterm_color = "75",
+		name = "Caddy",
 	},
-	cadence = {
+	["cadence"] = {
 		icon = "퀬",
 		color = "#00e676",
 		cterm_color = "42",
+		name = "Cadence",
 	},
-	cake = {
+	["cake"] = {
 		icon = "퀭",
 		color = "#ff7043",
 		cterm_color = "203",
+		name = "Cake",
 	},
-	capacitor = {
+	["capacitor"] = {
 		icon = "퀮",
 		color = "#4fc3f7",
 		cterm_color = "75",
+		name = "Capacitor",
 	},
-	certificate = {
+	["certificate"] = {
 		icon = "퀯",
 		color = "#ff5722",
 		cterm_color = "202",
+		name = "Certificate",
 	},
-	changelog = {
+	["changelog"] = {
 		icon = "퀰",
 		color = "#8bc34a",
 		cterm_color = "107",
+		name = "Changelog",
 	},
-	chess = {
+	["chess"] = {
 		icon = "퀱",
 		color = "#cfd8dc",
 		cterm_color = "188",
+		name = "Chess",
 	},
-	circleci = {
+	["circleci"] = {
 		icon = "퀲",
 		color = "#fafafa",
 		cterm_color = "15",
+		name = "Circleci",
 	},
-	clojure = {
+	["clojure"] = {
 		icon = "퀳",
-		color = "#1e88e5",
-		cterm_color = "32",
+		color = "#64dd17",
+		cterm_color = "76",
+		name = "Clojure",
 	},
-	cloudfoundry = {
+	["cloudfoundry"] = {
 		icon = "퀴",
-		color = "#78909c",
-		cterm_color = "246",
+		color = "#0288d1",
+		cterm_color = "32",
+		name = "Cloudfoundry",
 	},
-	cmake = {
+	["cmake"] = {
 		icon = "퀵",
-		color = "#7cb342",
-		cterm_color = "107",
+		color = "#1f9948",
+		cterm_color = "29",
+		name = "Cmake",
 	},
-	coala = {
+	["coala"] = {
 		icon = "퀶",
-		color = "#263238",
-		cterm_color = "236",
+		color = "#90a4ae",
+		cterm_color = "109",
+		name = "Coala",
 	},
-	cobol = {
+	["cobol"] = {
 		icon = "퀷",
 		color = "#0288d1",
 		cterm_color = "32",
+		name = "Cobol",
 	},
-	coconut = {
+	["coconut"] = {
 		icon = "퀸",
 		color = "#8d6e63",
 		cterm_color = "95",
+		name = "Coconut",
 	},
-	code_climate = {
+	["code-climate"] = {
 		icon = "퀹",
 		color = "#eee",
 		cterm_color = "255",
+		name = "Code-climate",
 	},
-	codecov = {
+	["codecov"] = {
 		icon = "퀺",
 		color = "#ec407a",
 		cterm_color = "204",
+		name = "Codecov",
 	},
-	codeowners = {
+	["codeowners"] = {
 		icon = "퀻",
 		color = "#afb42b",
 		cterm_color = "142",
+		name = "Codeowners",
 	},
-	coffee = {
+	["coffee"] = {
 		icon = "퀼",
 		color = "#42a5f5",
 		cterm_color = "75",
+		name = "Coffee",
 	},
-	coldfusion = {
+	["coldfusion"] = {
 		icon = "퀽",
-		color = "#4dd0e1",
-		cterm_color = "80",
+		color = "#0d3858",
+		cterm_color = "23",
+		name = "Coldfusion",
 	},
-	command = {
+	["command"] = {
 		icon = "퀾",
 		color = "#90a4ae",
 		cterm_color = "109",
+		name = "Command",
 	},
-	commitlint = {
+	["commitlint"] = {
 		icon = "퀿",
 		color = "#009688",
 		cterm_color = "30",
+		name = "Commitlint",
 	},
-	conduct = {
+	["conduct"] = {
 		icon = "큀",
 		color = "#cddc39",
 		cterm_color = "185",
+		name = "Conduct",
 	},
-	console = {
+	["console"] = {
 		icon = "큁",
 		color = "#ff7043",
 		cterm_color = "203",
+		name = "Console",
 	},
-	contributing = {
+	["contributing"] = {
 		icon = "큂",
 		color = "#ffca28",
 		cterm_color = "220",
+		name = "Contributing",
 	},
-	cpp = {
+	["cpp"] = {
 		icon = "큃",
 		color = "#0277bd",
 		cterm_color = "31",
+		name = "Cpp",
 	},
-	craco = {
+	["craco"] = {
 		icon = "큄",
 		color = "#00bfa5",
 		cterm_color = "37",
+		name = "Craco",
 	},
-	credits = {
+	["credits"] = {
 		icon = "큅",
 		color = "#9ccc65",
 		cterm_color = "149",
+		name = "Credits",
 	},
-	crystal = {
+	["crystal"] = {
 		icon = "큆",
 		color = "#cfd8dc",
 		cterm_color = "188",
+		name = "Crystal",
 	},
-	csharp = {
+	["csharp"] = {
 		icon = "큇",
 		color = "#0277bd",
 		cterm_color = "31",
+		name = "Csharp",
 	},
-	css_map = {
-		icon = "큈",
-		color = "#42a5f5",
-		cterm_color = "75",
-	},
-	css = {
+	["css"] = {
 		icon = "큉",
 		color = "#42a5f5",
 		cterm_color = "75",
+		name = "Css",
 	},
-	cucumber = {
+	["css-map"] = {
+		icon = "큈",
+		color = "#42a5f5",
+		cterm_color = "75",
+		name = "Css-map",
+	},
+	["cucumber"] = {
 		icon = "큊",
 		color = "#4caf50",
 		cterm_color = "71",
+		name = "Cucumber",
 	},
-	cuda = {
+	["cuda"] = {
 		icon = "큋",
-		color = "#76b900",
-		cterm_color = "106",
+		color = "#8bc34a",
+		cterm_color = "107",
+		name = "Cuda",
 	},
-	cypress = {
+	["cypress"] = {
 		icon = "큌",
 		color = "#00bfa5",
 		cterm_color = "37",
+		name = "Cypress",
 	},
-	d = {
+	["d"] = {
 		icon = "큍",
 		color = "#f44336",
 		cterm_color = "203",
+		name = "D",
 	},
-	dart = {
+	["dart"] = {
 		icon = "큎",
-		color = "#58B6F0",
+		color = "#66C3FA",
 		cterm_color = "75",
+		name = "Dart",
 	},
-	database = {
+	["database"] = {
 		icon = "큏",
 		color = "#ffca28",
 		cterm_color = "220",
+		name = "Database",
 	},
-	denizenscript = {
+	["denizenscript"] = {
 		icon = "큐",
 		color = "#ffd54f",
 		cterm_color = "221",
+		name = "Denizenscript",
 	},
-	dependabot = {
+	["dependabot"] = {
 		icon = "큑",
 		color = "#448aff",
 		cterm_color = "69",
+		name = "Dependabot",
 	},
-	dhall = {
+	["dhall"] = {
 		icon = "큒",
 		color = "#78909c",
 		cterm_color = "246",
+		name = "Dhall",
 	},
-	diff = {
+	["diff"] = {
 		icon = "큓",
 		color = "#42a5f5",
 		cterm_color = "75",
+		name = "Diff",
 	},
-	dinophp = {
+	["dinophp"] = {
 		icon = "큔",
 		color = "#ff5252",
 		cterm_color = "203",
+		name = "Dinophp",
 	},
-	disc = {
+	["disc"] = {
 		icon = "큕",
 		color = "#b0bec5",
 		cterm_color = "7",
+		name = "Disc",
 	},
-	django = {
+	["django"] = {
 		icon = "큖",
 		color = "#43a047",
 		cterm_color = "71",
+		name = "Django",
 	},
-	docker = {
+	["docker"] = {
 		icon = "큗",
 		color = "#0087c9",
 		cterm_color = "32",
+		name = "Docker",
 	},
-	document = {
+	["document"] = {
 		icon = "큘",
 		color = "#42a5f5",
 		cterm_color = "75",
+		name = "Document",
 	},
-	dotjs = {
+	["dotjs"] = {
 		icon = "큙",
 		color = "#2196f3",
 		cterm_color = "33",
+		name = "Dotjs",
 	},
-	drawio = {
+	["drawio"] = {
 		icon = "큚",
 		color = "#fb8c00",
 		cterm_color = "208",
+		name = "Drawio",
 	},
-	drone = {
+	["drone"] = {
 		icon = "큛",
 		color = "#cfd8dc",
 		cterm_color = "188",
+		name = "Drone",
 	},
-	dune = {
+	["dune"] = {
 		icon = "큜",
 		color = "#f57c00",
 		cterm_color = "208",
+		name = "Dune",
 	},
-	edge = {
+	["edge"] = {
 		icon = "큝",
 		color = "#ef6c00",
 		cterm_color = "202",
+		name = "Edge",
 	},
-	editorconfig = {
+	["editorconfig"] = {
 		icon = "큞",
-		color = "#faf1f1",
-		cterm_color = "255",
+		color = "#e3e3f8",
+		cterm_color = "254",
+		name = "Editorconfig",
 	},
-	ejs = {
+	["ejs"] = {
 		icon = "큟",
 		color = "#ffca28",
 		cterm_color = "220",
+		name = "Ejs",
 	},
-	elixir = {
+	["elixir"] = {
 		icon = "큠",
 		color = "#9575cd",
 		cterm_color = "104",
+		name = "Elixir",
 	},
-	elm = {
+	["elm"] = {
 		icon = "큡",
-		color = "#60b5cc",
-		cterm_color = "74",
+		color = "#f0ad00",
+		cterm_color = "214",
+		name = "Elm",
 	},
-	email = {
+	["email"] = {
 		icon = "큢",
 		color = "#42a5f5",
 		cterm_color = "75",
+		name = "Email",
 	},
-	ember = {
+	["ember"] = {
 		icon = "큣",
 		color = "#FF5722",
 		cterm_color = "202",
+		name = "Ember",
 	},
-	erlang = {
+	["erlang"] = {
 		icon = "큤",
 		color = "#f44336",
 		cterm_color = "203",
+		name = "Erlang",
 	},
-	eslint = {
+	["eslint"] = {
 		icon = "큥",
-		color = "#3f51b5",
-		cterm_color = "61",
+		color = "#7986cb",
+		cterm_color = "104",
+		name = "Eslint",
 	},
-	exe = {
+	["exe"] = {
 		icon = "큦",
 		color = "#e64a19",
 		cterm_color = "166",
+		name = "Exe",
 	},
-	fastlane = {
+	["fastlane"] = {
 		icon = "큧",
-		color = "#9032e9",
-		cterm_color = "98",
+		color = "#0a7bff",
+		cterm_color = "33",
+		name = "Fastlane",
 	},
-	favicon = {
+	["favicon"] = {
 		icon = "큨",
 		color = "#ffd54f",
 		cterm_color = "221",
+		name = "Favicon",
 	},
-	figma = {
+	["figma"] = {
 		icon = "큩",
-		color = "#29b6f6",
-		cterm_color = "39",
+		color = "#00e676",
+		cterm_color = "42",
+		name = "Figma",
 	},
-	file = {
+	["file"] = {
 		icon = "큪",
 		color = "#42a5f5",
 		cterm_color = "75",
+		name = "File",
 	},
-	firebase = {
+	["firebase"] = {
 		icon = "큫",
 		color = "#fbc02d",
 		cterm_color = "214",
+		name = "Firebase",
 	},
-	flash = {
+	["flash"] = {
 		icon = "크",
 		color = "#e53935",
 		cterm_color = "167",
+		name = "Flash",
 	},
-	flow = {
+	["flow"] = {
 		icon = "큭",
 		color = "#fbc02d",
 		cterm_color = "214",
+		name = "Flow",
 	},
-	font = {
+	["font"] = {
 		icon = "큮",
 		color = "#f44336",
 		cterm_color = "203",
+		name = "Font",
 	},
-	forth = {
+	["forth"] = {
 		icon = "큯",
 		color = "#ef5350",
 		cterm_color = "203",
+		name = "Forth",
 	},
-	fortran = {
+	["fortran"] = {
 		icon = "큰",
 		color = "#ff7043",
 		cterm_color = "203",
+		name = "Fortran",
 	},
-	foxpro = {
+	["foxpro"] = {
 		icon = "큱",
-		color = "#263238",
-		cterm_color = "236",
-	},
-	fsharp = {
-		icon = "큲",
-		color = "#30b9db",
-		cterm_color = "74",
-	},
-	fusebox = {
-		icon = "큳",
-		color = "#383838",
-		cterm_color = "237",
-	},
-	gatsby = {
-		icon = "클",
-		color = "#663399",
-		cterm_color = "60",
-	},
-	gcp = {
-		icon = "큵",
-		color = "#ffc107",
+		color = "#fbc02d",
 		cterm_color = "214",
+		name = "Foxpro",
 	},
-	gemfile = {
+	["fsharp"] = {
+		icon = "큲",
+		color = "#378bba",
+		cterm_color = "67",
+		name = "Fsharp",
+	},
+	["fusebox"] = {
+		icon = "큳",
+		color = "#fff",
+		cterm_color = "15",
+		name = "Fusebox",
+	},
+	["gatsby"] = {
+		icon = "클",
+		color = "#fff",
+		cterm_color = "15",
+		name = "Gatsby",
+	},
+	["gcp"] = {
+		icon = "큵",
+		color = "#f44336",
+		cterm_color = "203",
+		name = "Gcp",
+	},
+	["gemfile"] = {
 		icon = "큶",
 		color = "#e53935",
 		cterm_color = "167",
+		name = "Gemfile",
 	},
-	gemini = {
+	["gemini"] = {
 		icon = "큷",
-		color = "#81c784",
-		cterm_color = "114",
+		color = "#e53935",
+		cterm_color = "167",
+		name = "Gemini",
 	},
-	git = {
+	["git"] = {
 		icon = "큸",
 		color = "#e64a19",
 		cterm_color = "166",
+		name = "Git",
 	},
-	gitlab = {
+	["gitlab"] = {
 		icon = "큹",
-		color = "#ef6c00",
-		cterm_color = "202",
+		color = "#e53935",
+		cterm_color = "167",
+		name = "Gitlab",
 	},
-	gitpod = {
+	["gitpod"] = {
 		icon = "큺",
-		color = "#ffffff",
-		cterm_color = "15",
+		color = "#ffa726",
+		cterm_color = "214",
+		name = "Gitpod",
 	},
-	gleam = {
+	["gleam"] = {
 		icon = "큻",
 		color = "#ea80fc",
 		cterm_color = "177",
+		name = "Gleam",
 	},
-	go = {
+	["go"] = {
 		icon = "큼",
 		color = "#00acc1",
 		cterm_color = "37",
+		name = "Go",
 	},
-	go_gopher = {
+	["go_gopher"] = {
 		icon = "큽",
-		color = "#030d18",
-		cterm_color = "232",
+		color = "#73cddc",
+		cterm_color = "80",
+		name = "GoGopher",
 	},
-	godot = {
+	["godot"] = {
 		icon = "큾",
 		color = "#4fc3f7",
 		cterm_color = "75",
+		name = "Godot",
 	},
-	gradle = {
+	["gradle"] = {
 		icon = "큿",
 		color = "#0097a7",
 		cterm_color = "31",
+		name = "Gradle",
 	},
-	grain = {
+	["grain"] = {
 		icon = "킀",
-		color = "#f57c00",
-		cterm_color = "208",
+		color = "#faa520",
+		cterm_color = "214",
+		name = "Grain",
 	},
-	graphcool = {
+	["graphcool"] = {
 		icon = "킁",
 		color = "#27ae60",
 		cterm_color = "35",
+		name = "Graphcool",
 	},
-	graphql = {
+	["graphql"] = {
 		icon = "킂",
 		color = "#ec407a",
 		cterm_color = "204",
+		name = "Graphql",
 	},
-	gridsome = {
+	["gridsome"] = {
 		icon = "킃",
 		color = "#00bfa5",
 		cterm_color = "37",
+		name = "Gridsome",
 	},
-	groovy = {
+	["groovy"] = {
 		icon = "킄",
 		color = "#26c6da",
 		cterm_color = "44",
+		name = "Groovy",
 	},
-	grunt = {
+	["grunt"] = {
 		icon = "킅",
-		color = "#463014",
-		cterm_color = "236",
+		color = "#fba919",
+		cterm_color = "214",
+		name = "Grunt",
 	},
-	gulp = {
+	["gulp"] = {
 		icon = "킆",
 		color = "#e53935",
 		cterm_color = "167",
+		name = "Gulp",
 	},
-	h = {
+	["h"] = {
 		icon = "킇",
 		color = "#0277bd",
 		cterm_color = "31",
+		name = "H",
 	},
-	hack = {
+	["hack"] = {
 		icon = "킈",
-		color = "#ffa000",
-		cterm_color = "214",
+		color = "#607d8b",
+		cterm_color = "66",
+		name = "Hack",
 	},
-	haml = {
+	["haml"] = {
 		icon = "킉",
 		color = "#f4511e",
 		cterm_color = "202",
+		name = "Haml",
 	},
-	handlebars = {
+	["handlebars"] = {
 		icon = "킊",
 		color = "#ff7043",
 		cterm_color = "203",
+		name = "Handlebars",
 	},
-	hardhat = {
+	["hardhat"] = {
 		icon = "킋",
 		color = "#FFD600",
 		cterm_color = "220",
+		name = "Hardhat",
 	},
-	haskell = {
+	["haskell"] = {
 		icon = "킌",
-		color = "#ffee58",
-		cterm_color = "227",
+		color = "#ef5350",
+		cterm_color = "203",
+		name = "Haskell",
 	},
-	haxe = {
+	["haxe"] = {
 		icon = "킍",
-		color = "#f25c19",
-		cterm_color = "202",
+		color = "#f68712",
+		cterm_color = "208",
+		name = "Haxe",
 	},
-	hcl = {
+	["hcl"] = {
 		icon = "킎",
 		color = "#eceff1",
 		cterm_color = "255",
+		name = "Hcl",
 	},
-	helm = {
+	["helm"] = {
 		icon = "킏",
-		color = "#00acc1",
-		cterm_color = "37",
+		color = "#000",
+		cterm_color = "0",
+		name = "Helm",
 	},
-	heroku = {
+	["heroku"] = {
 		icon = "킐",
 		color = "#6963b9",
 		cterm_color = "61",
+		name = "Heroku",
 	},
-	hex = {
+	["hex"] = {
 		icon = "킑",
 		color = "#26a69a",
 		cterm_color = "36",
+		name = "Hex",
 	},
-	horusec = {
+	["horusec"] = {
 		icon = "킒",
 		color = "#e64a19",
 		cterm_color = "166",
+		name = "Horusec",
 	},
-	hpp = {
+	["hpp"] = {
 		icon = "킓",
 		color = "#0277bd",
 		cterm_color = "31",
+		name = "Hpp",
 	},
-	html = {
+	["html"] = {
 		icon = "킔",
 		color = "#e44d26",
 		cterm_color = "166",
+		name = "Html",
 	},
-	http = {
+	["http"] = {
 		icon = "킕",
 		color = "#e53935",
 		cterm_color = "167",
+		name = "Http",
 	},
-	husky = {
+	["husky"] = {
 		icon = "킖",
 		color = "#90a4ae",
 		cterm_color = "109",
+		name = "Husky",
 	},
-	i18n = {
+	["i18n"] = {
 		icon = "킗",
 		color = "#7986cb",
 		cterm_color = "104",
+		name = "i18n",
 	},
-	idris = {
+	["idris"] = {
 		icon = "킘",
 		color = "#f44336",
 		cterm_color = "203",
+		name = "Idris",
 	},
-	image = {
+	["image"] = {
 		icon = "킙",
 		color = "#26a69a",
 		cterm_color = "36",
+		name = "Image",
 	},
-	imba = {
+	["imba"] = {
 		icon = "킚",
 		color = "#ffc400",
 		cterm_color = "220",
+		name = "Imba",
 	},
-	ionic = {
+	["ionic"] = {
 		icon = "킛",
 		color = "#4f8ff7",
 		cterm_color = "69",
+		name = "Ionic",
 	},
-	istanbul = {
+	["istanbul"] = {
 		icon = "킜",
 		color = "#fdd835",
 		cterm_color = "221",
+		name = "Istanbul",
 	},
-	jar = {
+	["jar"] = {
 		icon = "킝",
 		color = "#f44336",
 		cterm_color = "203",
+		name = "Jar",
 	},
-	java = {
+	["java"] = {
 		icon = "킞",
 		color = "#f44336",
 		cterm_color = "203",
+		name = "Java",
 	},
-	javascript_map = {
-		icon = "킟",
-		color = "#ffca28",
-		cterm_color = "220",
-	},
-	javascript = {
+	["javascript"] = {
 		icon = "킠",
 		color = "#ffca28",
 		cterm_color = "220",
+		name = "Javascript",
 	},
-	javascriptreact = {
-		icon = "턃",
+	["javascript-map"] = {
+		icon = "킟",
 		color = "#ffca28",
 		cterm_color = "220",
+		name = "Javascript-map",
 	},
-	jenkins = {
+	["jenkins"] = {
 		icon = "킡",
-		color = "#1d1919",
-		cterm_color = "234",
+		color = "#37474f",
+		cterm_color = "238",
+		name = "Jenkins",
 	},
-	jest = {
+	["jest"] = {
 		icon = "킢",
-		color = "#f4511e",
-		cterm_color = "202",
+		color = "#000",
+		cterm_color = "0",
+		name = "Jest",
 	},
-	jinja = {
+	["jinja"] = {
 		icon = "킣",
 		color = "#BDBDBD",
 		cterm_color = "250",
+		name = "Jinja",
 	},
-	jsconfig = {
+	["jsconfig"] = {
 		icon = "키",
-		color = "#ffca28",
-		cterm_color = "220",
+		color = "#757575",
+		cterm_color = "243",
+		name = "Jsconfig",
 	},
-	json = {
+	["json"] = {
 		icon = "킥",
 		color = "#fbc02d",
 		cterm_color = "214",
+		name = "Json",
 	},
-	julia = {
+	["julia"] = {
 		icon = "킦",
-		color = "#328a22",
-		cterm_color = "64",
+		color = "#bc342d",
+		cterm_color = "130",
+		name = "Julia",
 	},
-	jupyter = {
+	["jupyter"] = {
 		icon = "킧",
-		color = "#757575",
-		cterm_color = "243",
+		color = "#f57c00",
+		cterm_color = "208",
+		name = "Jupyter",
 	},
-	karma = {
+	["karma"] = {
 		icon = "킨",
-		color = "#3cbeae",
-		cterm_color = "73",
+		color = "#359b8b",
+		cterm_color = "66",
+		name = "Karma",
 	},
-	key = {
+	["key"] = {
 		icon = "킩",
 		color = "#26a69a",
 		cterm_color = "36",
+		name = "Key",
 	},
-	kivy = {
+	["kivy"] = {
 		icon = "킪",
 		color = "#90a4ae",
 		cterm_color = "109",
+		name = "Kivy",
 	},
-	kl = {
+	["kl"] = {
 		icon = "킫",
 		color = "#29b6f6",
 		cterm_color = "39",
+		name = "Kl",
 	},
-	kotlin = {
+	["kotlin"] = {
 		icon = "킬",
 		color = "#8371d9",
 		cterm_color = "98",
+		name = "Kotlin",
 	},
-	kusto = {
+	["kusto"] = {
 		icon = "킭",
 		color = "#1e88e5",
 		cterm_color = "32",
+		name = "Kusto",
 	},
-	laravel = {
+	["laravel"] = {
 		icon = "킮",
 		color = "#ff5252",
 		cterm_color = "203",
+		name = "Laravel",
 	},
-	lerna = {
+	["lerna"] = {
 		icon = "킯",
 		color = "#448aff",
 		cterm_color = "69",
+		name = "Lerna",
 	},
-	less = {
+	["less"] = {
 		icon = "킰",
 		color = "#0277bd",
 		cterm_color = "31",
+		name = "Less",
 	},
-	lib = {
+	["lib"] = {
 		icon = "킱",
 		color = "#8bc34a",
 		cterm_color = "107",
+		name = "Lib",
 	},
-	lighthouse = {
+	["lighthouse"] = {
 		icon = "킲",
 		color = "#F4511E",
 		cterm_color = "202",
+		name = "Lighthouse",
 	},
-	lilypond = {
+	["lilypond"] = {
 		icon = "킳",
 		color = "#66bb6a",
 		cterm_color = "71",
+		name = "Lilypond",
 	},
-	liquid = {
+	["liquid"] = {
 		icon = "킴",
 		color = "#29b6f6",
 		cterm_color = "39",
+		name = "Liquid",
 	},
-	lisp = {
+	["lisp"] = {
 		icon = "킵",
 		color = "#ef5350",
 		cterm_color = "203",
+		name = "Lisp",
 	},
-	livescript = {
+	["livescript"] = {
 		icon = "킶",
 		color = "#317eac",
 		cterm_color = "67",
+		name = "Livescript",
 	},
-	lock = {
+	["lock"] = {
 		icon = "킷",
 		color = "#ffd54f",
 		cterm_color = "221",
+		name = "Lock",
 	},
-	log = {
+	["log"] = {
 		icon = "킸",
 		color = "#afb42b",
 		cterm_color = "142",
+		name = "Log",
 	},
-	lolcode = {
+	["lolcode"] = {
 		icon = "킹",
 		color = "#ef5350",
 		cterm_color = "203",
+		name = "Lolcode",
 	},
-	lua = {
+	["lua"] = {
 		icon = "킺",
-		color = "#42a5f5",
+		color = "#42A5F5",
 		cterm_color = "75",
+		name = "Lua",
 	},
-	makefile = {
+	["makefile"] = {
 		icon = "킻",
 		color = "#ef5350",
 		cterm_color = "203",
+		name = "Makefile",
 	},
-	markdown = {
+	["markdown"] = {
 		icon = "킼",
 		color = "#42a5f5",
 		cterm_color = "75",
+		name = "Markdown",
 	},
-	markojs = {
+	["markojs"] = {
 		icon = "킽",
-		color = "#f44336",
-		cterm_color = "203",
+		color = "#2196f3",
+		cterm_color = "33",
+		name = "Markojs",
 	},
-	mathematica = {
+	["mathematica"] = {
 		icon = "킾",
 		color = "#f44336",
 		cterm_color = "203",
+		name = "Mathematica",
 	},
-	matlab = {
+	["matlab"] = {
 		icon = "킿",
-		color = "#ffb74d",
-		cterm_color = "215",
+		color = "#4db6ac",
+		cterm_color = "73",
+		name = "Matlab",
 	},
-	maven = {
+	["maven"] = {
 		icon = "타",
 		color = "#d32f2f",
 		cterm_color = "160",
+		name = "Maven",
 	},
-	merlin = {
+	["merlin"] = {
 		icon = "탁",
 		color = "#42a5f5",
 		cterm_color = "75",
+		name = "Merlin",
 	},
-	meson = {
+	["meson"] = {
 		icon = "탂",
 		color = "#3f51b5",
 		cterm_color = "61",
+		name = "Meson",
 	},
-	minecraft = {
+	["minecraft"] = {
 		icon = "탃",
 		color = "#4caf50",
 		cterm_color = "71",
+		name = "Minecraft",
 	},
-	mint = {
+	["mint"] = {
 		icon = "탄",
 		color = "#43a047",
 		cterm_color = "71",
+		name = "Mint",
 	},
-	mjml = {
+	["mjml"] = {
 		icon = "탅",
 		color = "#ff5722",
 		cterm_color = "202",
+		name = "Mjml",
 	},
-	mocha = {
+	["mocha"] = {
 		icon = "탆",
 		color = "#a1887f",
 		cterm_color = "138",
+		name = "Mocha",
 	},
-	modernizr = {
+	["modernizr"] = {
 		icon = "탇",
 		color = "#E91E63",
 		cterm_color = "161",
+		name = "Modernizr",
 	},
-	moonscript = {
+	["moonscript"] = {
 		icon = "탈",
 		color = "#fbc02d",
 		cterm_color = "214",
+		name = "Moonscript",
 	},
-	mxml = {
+	["mxml"] = {
 		icon = "탉",
 		color = "#ffa726",
 		cterm_color = "214",
+		name = "Mxml",
 	},
-	nano_staged = {
+	["nano-staged"] = {
 		icon = "탊",
 		color = "#b0bec5",
 		cterm_color = "7",
+		name = "Nano-staged",
 	},
-	ndst = {
+	["ndst"] = {
 		icon = "탋",
 		color = "#0097a7",
 		cterm_color = "31",
+		name = "Ndst",
 	},
-	nest = {
+	["nest"] = {
 		icon = "탌",
 		color = "#ea2845",
 		cterm_color = "161",
+		name = "Nest",
 	},
-	netlify = {
+	["netlify"] = {
 		icon = "탍",
 		color = "#00bfa5",
 		cterm_color = "37",
+		name = "Netlify",
 	},
-	next = {
+	["next"] = {
 		icon = "탎",
 		color = "#cfd8dc",
 		cterm_color = "188",
+		name = "Next",
 	},
-	nginx = {
+	["nginx"] = {
 		icon = "탏",
 		color = "#43a047",
 		cterm_color = "71",
+		name = "Nginx",
 	},
-	ngrx = {
+	["ngrx"] = {
 		icon = "탐",
 		color = "#ab47bc",
 		cterm_color = "133",
+		name = "Ngrx",
 	},
-	nim = {
+	["nim"] = {
 		icon = "탑",
 		color = "#ffca28",
 		cterm_color = "220",
+		name = "Nim",
 	},
-	nix = {
+	["nix"] = {
 		icon = "탒",
-		color = "#7db7e1",
-		cterm_color = "110",
+		color = "#5075c1",
+		cterm_color = "67",
+		name = "Nix",
 	},
-	nodejs = {
+	["nodejs"] = {
 		icon = "탓",
 		color = "#8bc34a",
 		cterm_color = "107",
+		name = "Nodejs",
 	},
-	nodemon = {
+	["nodemon"] = {
 		icon = "탔",
 		color = "#8bc34a",
 		cterm_color = "107",
+		name = "Nodemon",
 	},
-	npm = {
+	["npm"] = {
 		icon = "탕",
-		color = "#cb3837",
+		color = "#e53935",
 		cterm_color = "167",
+		name = "Npm",
 	},
-	nrwl = {
+	["nrwl"] = {
 		icon = "탖",
 		color = "#00b8d4",
 		cterm_color = "38",
+		name = "Nrwl",
 	},
-	nuget = {
+	["nuget"] = {
 		icon = "탗",
 		color = "#0288d1",
 		cterm_color = "32",
+		name = "Nuget",
 	},
-	nunjucks = {
+	["nunjucks"] = {
 		icon = "탘",
 		color = "#388e3c",
 		cterm_color = "65",
+		name = "Nunjucks",
 	},
-	nuxt = {
+	["nuxt"] = {
 		icon = "탙",
-		color = "#00e676",
-		cterm_color = "42",
+		color = "#69f0ae",
+		cterm_color = "85",
+		name = "Nuxt",
 	},
-	ocaml = {
+	["ocaml"] = {
 		icon = "탚",
 		color = "#ff9800",
 		cterm_color = "208",
+		name = "Ocaml",
 	},
-	odin = {
+	["odin"] = {
 		icon = "탛",
 		color = "#448aff",
 		cterm_color = "69",
+		name = "Odin",
 	},
-	opa = {
+	["opa"] = {
 		icon = "태",
-		color = "#ffffff",
-		cterm_color = "15",
+		color = "#BFBFBF",
+		cterm_color = "7",
+		name = "Opa",
 	},
-	opam = {
+	["opam"] = {
 		icon = "택",
 		color = "#ff9800",
 		cterm_color = "208",
+		name = "Opam",
 	},
-	otne = {
+	["otne"] = {
 		icon = "탞",
 		color = "#00c853",
 		cterm_color = "41",
+		name = "Otne",
 	},
-	parcel = {
+	["parcel"] = {
 		icon = "탟",
 		color = "#ffb74d",
 		cterm_color = "215",
+		name = "Parcel",
 	},
-	pascal = {
+	["pascal"] = {
 		icon = "탠",
 		color = "#0288d1",
 		cterm_color = "32",
+		name = "Pascal",
 	},
-	pawn = {
+	["pawn"] = {
 		icon = "탡",
 		color = "#ef6c00",
 		cterm_color = "202",
+		name = "Pawn",
 	},
-	pdf = {
+	["pdf"] = {
 		icon = "탢",
 		color = "#ef5350",
 		cterm_color = "203",
+		name = "Pdf",
 	},
-	percy = {
+	["percy"] = {
 		icon = "탣",
 		color = "#ba68c8",
 		cterm_color = "134",
+		name = "Percy",
 	},
-	perl = {
+	["perl"] = {
 		icon = "탤",
 		color = "#9575cd",
 		cterm_color = "104",
+		name = "Perl",
 	},
-	php_cs_fixer = {
-		icon = "탥",
-		color = "#ff7043",
-		cterm_color = "203",
-	},
-	php = {
+	["php"] = {
 		icon = "탦",
 		color = "#1E88E5",
 		cterm_color = "32",
+		name = "Php",
 	},
-	php_elephant = {
+	["php-cs-fixer"] = {
+		icon = "탥",
+		color = "#ff7043",
+		cterm_color = "203",
+		name = "Php-cs-fixer",
+	},
+	["php_elephant"] = {
 		icon = "탧",
 		color = "#0288d1",
 		cterm_color = "32",
+		name = "PhpElephant",
 	},
-	phpunit = {
+	["phpunit"] = {
 		icon = "탨",
 		color = "#5c6bc0",
 		cterm_color = "61",
+		name = "Phpunit",
 	},
-	pinejs = {
+	["pinejs"] = {
 		icon = "탩",
-		color = "#388e3c",
-		cterm_color = "65",
+		color = "#66bb6a",
+		cterm_color = "71",
+		name = "Pinejs",
 	},
-	pipeline = {
+	["pipeline"] = {
 		icon = "탪",
 		color = "#f57f17",
 		cterm_color = "208",
+		name = "Pipeline",
 	},
-	playwright = {
+	["playwright"] = {
 		icon = "탫",
-		color = "#4caf50",
-		cterm_color = "71",
+		color = "#ef5350",
+		cterm_color = "203",
+		name = "Playwright",
 	},
-	plop = {
+	["plop"] = {
 		icon = "탬",
 		color = "#00bfa5",
 		cterm_color = "37",
+		name = "Plop",
 	},
-	pnpm = {
+	["pnpm"] = {
 		icon = "탭",
-		color = "#e0e0e0",
-		cterm_color = "254",
+		color = "#ffb300",
+		cterm_color = "214",
+		name = "Pnpm",
 	},
-	poetry = {
+	["poetry"] = {
 		icon = "탮",
-		color = "#29B6F6",
-		cterm_color = "39",
+		color = "#3F51B5",
+		cterm_color = "61",
+		name = "Poetry",
 	},
-	postcss = {
+	["postcss"] = {
 		icon = "탯",
-		color = "#e53935",
+		color = "#E53935",
 		cterm_color = "167",
+		name = "Postcss",
 	},
-	posthtml = {
+	["posthtml"] = {
 		icon = "탰",
 		color = "#f57f17",
 		cterm_color = "208",
+		name = "Posthtml",
 	},
-	powerpoint = {
+	["powerpoint"] = {
 		icon = "탱",
 		color = "#d14524",
 		cterm_color = "166",
+		name = "Powerpoint",
 	},
-	powershell = {
+	["powershell"] = {
 		icon = "탲",
 		color = "#03a9f4",
 		cterm_color = "39",
+		name = "Powershell",
 	},
-	prettier = {
+	["prettier"] = {
 		icon = "탳",
-		color = "#BF85BF",
-		cterm_color = "139",
+		color = "#56B3B4",
+		cterm_color = "73",
+		name = "Prettier",
 	},
-	prisma = {
+	["prisma"] = {
 		icon = "탴",
 		color = "#00bfa5",
 		cterm_color = "37",
+		name = "Prisma",
 	},
-	processing = {
+	["processing"] = {
 		icon = "탵",
-		color = "#536dfe",
-		cterm_color = "63",
+		color = "#ffffff",
+		cterm_color = "15",
+		name = "Processing",
 	},
-	prolog = {
+	["prolog"] = {
 		icon = "탶",
 		color = "#ef5350",
 		cterm_color = "203",
+		name = "Prolog",
 	},
-	proto = {
+	["proto"] = {
 		icon = "탷",
-		color = "#00e676",
-		cterm_color = "42",
+		color = "#ff5722",
+		cterm_color = "202",
+		name = "Proto",
 	},
-	protractor = {
+	["protractor"] = {
 		icon = "탸",
-		color = "#f5f5f5",
-		cterm_color = "255",
+		color = "#564b55",
+		cterm_color = "239",
+		name = "Protractor",
 	},
-	pug = {
+	["pug"] = {
 		icon = "탹",
-		color = "#442823",
-		cterm_color = "235",
+		color = "#efcca3",
+		cterm_color = "223",
+		name = "Pug",
 	},
-	puppet = {
+	["puppet"] = {
 		icon = "탺",
 		color = "#fbc02d",
 		cterm_color = "214",
+		name = "Puppet",
 	},
-	purescript = {
+	["purescript"] = {
 		icon = "탻",
 		color = "#42a5f5",
 		cterm_color = "75",
+		name = "Purescript",
 	},
-	python = {
+	["python"] = {
 		icon = "탼",
-		color = "#fdd835",
-		cterm_color = "221",
+		color = "#3c78aa",
+		cterm_color = "67",
+		name = "Python",
 	},
-	qsharp = {
+	["qsharp"] = {
 		icon = "탽",
 		color = "#fbc02d",
 		cterm_color = "214",
+		name = "Qsharp",
 	},
-	quasar = {
+	["quasar"] = {
 		icon = "탾",
-		color = "#1976d2",
-		cterm_color = "32",
+		color = "#263238",
+		cterm_color = "236",
+		name = "Quasar",
 	},
-	r = {
+	["r"] = {
 		icon = "탿",
 		color = "#1976d2",
 		cterm_color = "32",
+		name = "R",
 	},
-	racket = {
+	["racket"] = {
 		icon = "턀",
-		color = "#e53935",
-		cterm_color = "167",
+		color = "#0288d1",
+		cterm_color = "32",
+		name = "Racket",
 	},
-	raml = {
+	["raml"] = {
 		icon = "턁",
 		color = "#42a5f5",
 		cterm_color = "75",
+		name = "Raml",
 	},
-	razor = {
+	["razor"] = {
 		icon = "턂",
 		color = "#42a5f5",
 		cterm_color = "75",
+		name = "Razor",
 	},
-	readme = {
+	["react"] = {
+		icon = "턃",
+		color = "#00bcd4",
+		cterm_color = "38",
+		name = "React",
+	},
+	["readme"] = {
 		icon = "턄",
 		color = "#42a5f5",
 		cterm_color = "75",
+		name = "Readme",
 	},
-	reason = {
+	["reason"] = {
 		icon = "턅",
 		color = "#f44336",
 		cterm_color = "203",
+		name = "Reason",
 	},
-	red = {
+	["red"] = {
 		icon = "턆",
-		color = "#e53935",
-		cterm_color = "167",
+		color = "#fbc02d",
+		cterm_color = "214",
+		name = "Red",
 	},
-	redux = {
+	["redux"] = {
 		icon = "턇",
 		color = "#ab47bc",
 		cterm_color = "133",
+		name = "Redux",
 	},
-	remix = {
+	["remix"] = {
 		icon = "턈",
 		color = "#b0bec5",
 		cterm_color = "7",
+		name = "Remix",
 	},
-	renovate = {
+	["renovate"] = {
 		icon = "턉",
 		color = "#ffb300",
 		cterm_color = "214",
+		name = "Renovate",
 	},
-	replit = {
+	["replit"] = {
 		icon = "턊",
 		color = "#ff6d00",
 		cterm_color = "202",
+		name = "Replit",
 	},
-	rescript_interface = {
+	["rescript"] = {
+		icon = "턌",
+		color = "#fff",
+		cterm_color = "15",
+		name = "Rescript",
+	},
+	["rescript-interface"] = {
 		icon = "턋",
 		color = "#ef5350",
 		cterm_color = "203",
+		name = "Rescript-interface",
 	},
-	rescript = {
-		icon = "턌",
-		color = "#ef5350",
-		cterm_color = "203",
-	},
-	restql = {
+	["restql"] = {
 		icon = "턍",
-		color = "#de5941",
-		cterm_color = "167",
+		color = "#83e8c2",
+		cterm_color = "115",
+		name = "Restql",
 	},
-	riot = {
+	["riot"] = {
 		icon = "턎",
 		color = "#e53935",
 		cterm_color = "167",
+		name = "Riot",
 	},
-	roadmap = {
+	["roadmap"] = {
 		icon = "턏",
 		color = "#26a69a",
 		cterm_color = "36",
+		name = "Roadmap",
 	},
-	robot = {
+	["robot"] = {
 		icon = "턐",
 		color = "#00bfa5",
 		cterm_color = "37",
+		name = "Robot",
 	},
-	robots = {
+	["robots"] = {
 		icon = "턑",
 		color = "#ff5252",
 		cterm_color = "203",
+		name = "Robots",
 	},
-	rollup = {
+	["rollup"] = {
 		icon = "턒",
 		color = "#f44336",
 		cterm_color = "203",
+		name = "Rollup",
 	},
-	rome = {
+	["rome"] = {
 		icon = "턓",
-		color = "#ffc400",
-		cterm_color = "220",
+		color = "#546e7a",
+		cterm_color = "60",
+		name = "Rome",
 	},
-	routing = {
+	["routing"] = {
 		icon = "턔",
 		color = "#43a047",
 		cterm_color = "71",
+		name = "Routing",
 	},
-	rubocop = {
+	["rubocop"] = {
 		icon = "턕",
-		color = "#b0bec5",
-		cterm_color = "7",
+		color = "#d7252c",
+		cterm_color = "160",
+		name = "Rubocop",
 	},
-	ruby = {
+	["ruby"] = {
 		icon = "턖",
 		color = "#f44336",
 		cterm_color = "203",
+		name = "Ruby",
 	},
-	rust = {
+	["rust"] = {
 		icon = "턗",
 		color = "#ff7043",
 		cterm_color = "203",
+		name = "Rust",
 	},
-	salesforce = {
+	["salesforce"] = {
 		icon = "턘",
 		color = "#039be5",
 		cterm_color = "32",
+		name = "Salesforce",
 	},
-	san = {
+	["san"] = {
 		icon = "턙",
-		color = "#a1e0ff",
-		cterm_color = "153",
+		color = "#295892",
+		cterm_color = "24",
+		name = "San",
 	},
-	sas = {
+	["sas"] = {
 		icon = "턚",
 		color = "#039be5",
 		cterm_color = "32",
+		name = "Sas",
 	},
-	sass = {
+	["sass"] = {
 		icon = "턛",
 		color = "#ec407a",
 		cterm_color = "204",
+		name = "Sass",
 	},
-	sbt = {
+	["sbt"] = {
 		icon = "턜",
 		color = "#0277bd",
 		cterm_color = "31",
+		name = "Sbt",
 	},
-	scala = {
+	["scala"] = {
 		icon = "턝",
 		color = "#f44336",
 		cterm_color = "203",
+		name = "Scala",
 	},
-	scheme = {
+	["scheme"] = {
 		icon = "턞",
 		color = "#f44336",
 		cterm_color = "203",
+		name = "Scheme",
 	},
-	search = {
+	["search"] = {
 		icon = "턟",
 		color = "#42a5f5",
 		cterm_color = "75",
+		name = "Search",
 	},
-	semantic_release = {
+	["semantic-release"] = {
 		icon = "턠",
 		color = "#f5f5f5",
 		cterm_color = "255",
+		name = "Semantic-release",
 	},
-	sentry = {
+	["sentry"] = {
 		icon = "턡",
 		color = "#f06292",
 		cterm_color = "204",
+		name = "Sentry",
 	},
-	sequelize = {
+	["sequelize"] = {
 		icon = "턢",
-		color = "#4fc3f7",
-		cterm_color = "75",
+		color = "#01579b",
+		cterm_color = "24",
+		name = "Sequelize",
 	},
-	serverless = {
+	["serverless"] = {
 		icon = "턣",
 		color = "#ef5350",
 		cterm_color = "203",
+		name = "Serverless",
 	},
-	settings = {
+	["settings"] = {
 		icon = "턤",
 		color = "#42a5f5",
 		cterm_color = "75",
+		name = "Settings",
 	},
-	shader = {
+	["shader"] = {
 		icon = "턥",
 		color = "#ab47bc",
 		cterm_color = "133",
+		name = "Shader",
 	},
-	shaderlab = {
+	["shaderlab"] = {
 		icon = "턦",
 		color = "#1976d2",
 		cterm_color = "32",
+		name = "Shaderlab",
 	},
-	silverstripe = {
+	["silverstripe"] = {
 		icon = "턧",
 		color = "#0288d1",
 		cterm_color = "32",
+		name = "Silverstripe",
 	},
-	siyuan = {
+	["siyuan"] = {
 		icon = "턨",
 		color = "#e53935",
 		cterm_color = "167",
+		name = "Siyuan",
 	},
-	sketch = {
+	["sketch"] = {
 		icon = "턩",
 		color = "#ffc107",
 		cterm_color = "214",
+		name = "Sketch",
 	},
-	slim = {
+	["slim"] = {
 		icon = "턪",
 		color = "#f57f17",
 		cterm_color = "208",
+		name = "Slim",
 	},
-	slug = {
+	["slug"] = {
 		icon = "턫",
 		color = "#f9a825",
 		cterm_color = "214",
+		name = "Slug",
 	},
-	smarty = {
+	["smarty"] = {
 		icon = "턬",
 		color = "#ffce00",
 		cterm_color = "220",
+		name = "Smarty",
 	},
-	sml = {
+	["sml"] = {
 		icon = "턭",
 		color = "#f44336",
 		cterm_color = "203",
+		name = "Sml",
 	},
-	snowpack = {
+	["snowpack"] = {
 		icon = "턮",
-		color = "#cfd8dc",
-		cterm_color = "188",
+		color = "#eee",
+		cterm_color = "255",
+		name = "Snowpack",
 	},
-	snyk = {
+	["snyk"] = {
 		icon = "턯",
 		color = "#607d8b",
 		cterm_color = "66",
+		name = "Snyk",
 	},
-	solidity = {
+	["solidity"] = {
 		icon = "터",
 		color = "#0288d1",
 		cterm_color = "32",
+		name = "Solidity",
 	},
-	sonarcloud = {
+	["sonarcloud"] = {
 		icon = "턱",
 		color = "#ef6c00",
 		cterm_color = "202",
+		name = "Sonarcloud",
 	},
-	steadybit = {
+	["steadybit"] = {
 		icon = "턲",
 		color = "#e53935",
 		cterm_color = "167",
+		name = "Steadybit",
 	},
-	stencil = {
+	["stencil"] = {
 		icon = "턳",
-		color = "#448aff",
-		cterm_color = "69",
+		color = "#536dfe",
+		cterm_color = "63",
+		name = "Stencil",
 	},
-	stitches = {
+	["stitches"] = {
 		icon = "턴",
 		color = "#cfd8dc",
 		cterm_color = "188",
+		name = "Stitches",
 	},
-	storybook = {
+	["storybook"] = {
 		icon = "턵",
 		color = "#FF4081",
 		cterm_color = "204",
+		name = "Storybook",
 	},
-	stryker = {
+	["stryker"] = {
 		icon = "턶",
 		color = "#ef5350",
 		cterm_color = "203",
+		name = "Stryker",
 	},
-	stylable = {
+	["stylable"] = {
 		icon = "턷",
-		color = "#ff1744",
-		cterm_color = "197",
+		color = "#66bb6a",
+		cterm_color = "71",
+		name = "Stylable",
 	},
-	stylelint = {
+	["stylelint"] = {
 		icon = "털",
 		color = "#cfd8dc",
 		cterm_color = "188",
+		name = "Stylelint",
 	},
-	stylus = {
+	["stylus"] = {
 		icon = "턹",
 		color = "#c0ca33",
 		cterm_color = "149",
+		name = "Stylus",
 	},
-	sublime = {
+	["sublime"] = {
 		icon = "턺",
 		color = "#FFB74D",
 		cterm_color = "215",
+		name = "Sublime",
 	},
-	supabase = {
+	["supabase"] = {
 		icon = "턻",
 		color = "#66bb6a",
 		cterm_color = "71",
+		name = "Supabase",
 	},
-	svelte = {
+	["svelte"] = {
 		icon = "턼",
 		color = "#ff5722",
 		cterm_color = "202",
+		name = "Svelte",
 	},
-	svg = {
+	["svg"] = {
 		icon = "턽",
 		color = "#ffb300",
 		cterm_color = "214",
+		name = "Svg",
 	},
-	svgo = {
+	["svgo"] = {
 		icon = "턾",
 		color = "#0288d1",
 		cterm_color = "32",
+		name = "Svgo",
 	},
-	swc = {
+	["swc"] = {
 		icon = "턿",
 		color = "#e53935",
 		cterm_color = "167",
+		name = "Swc",
 	},
-	swift = {
+	["swift"] = {
 		icon = "텀",
 		color = "#fe5e2f",
 		cterm_color = "202",
+		name = "Swift",
 	},
-	table = {
+	["table"] = {
 		icon = "텁",
 		color = "#8bc34a",
 		cterm_color = "107",
+		name = "Table",
 	},
-	tailwindcss = {
+	["tailwindcss"] = {
 		icon = "텂",
 		color = "#4db6ac",
 		cterm_color = "73",
+		name = "Tailwindcss",
 	},
-	tauri = {
+	["tauri"] = {
 		icon = "텃",
-		color = "#26c6da",
-		cterm_color = "44",
+		color = "#ffca28",
+		cterm_color = "220",
+		name = "Tauri",
 	},
-	tcl = {
+	["tcl"] = {
 		icon = "텄",
 		color = "#ef5350",
 		cterm_color = "203",
+		name = "Tcl",
 	},
-	teal = {
+	["teal"] = {
 		icon = "텅",
 		color = "#00acc1",
 		cterm_color = "37",
+		name = "Teal",
 	},
-	template = {
+	["template"] = {
 		icon = "텆",
 		color = "#90a4ae",
 		cterm_color = "109",
+		name = "Template",
 	},
-	terraform = {
+	["terraform"] = {
 		icon = "텇",
 		color = "#5c6bc0",
 		cterm_color = "61",
+		name = "Terraform",
 	},
-	test = {
+	["test"] = {
 		icon = "텈",
 		color = "#0288d1",
 		cterm_color = "32",
+		name = "Test",
 	},
-	tex = {
+	["tex"] = {
 		icon = "텉",
 		color = "#42a5f5",
 		cterm_color = "75",
+		name = "Tex",
 	},
-	textlint = {
+	["textlint"] = {
 		icon = "텊",
-		color = "#00e5ff",
-		cterm_color = "45",
+		color = "#f06292",
+		cterm_color = "204",
+		name = "Textlint",
 	},
-	tilt = {
+	["tilt"] = {
 		icon = "텋",
 		color = "#4caf50",
 		cterm_color = "71",
+		name = "Tilt",
 	},
-	tldraw = {
+	["tldraw"] = {
 		icon = "테",
 		color = "#b0bec5",
 		cterm_color = "7",
+		name = "Tldraw",
 	},
-	tobi = {
+	["tobi"] = {
 		icon = "텍",
 		color = "#c2185b",
 		cterm_color = "125",
+		name = "Tobi",
 	},
-	tobimake = {
+	["tobimake"] = {
 		icon = "텎",
-		color = "#c2185b",
-		cterm_color = "125",
+		color = "#757575",
+		cterm_color = "243",
+		name = "Tobimake",
 	},
-	todo = {
+	["todo"] = {
 		icon = "텏",
 		color = "#7cb342",
 		cterm_color = "107",
+		name = "Todo",
 	},
-	travis = {
+	["travis"] = {
 		icon = "텐",
-		color = "#2d3136",
-		cterm_color = "236",
+		color = "#cb3349",
+		cterm_color = "167",
+		name = "Travis",
 	},
-	tree = {
+	["tree"] = {
 		icon = "텑",
 		color = "#7cb342",
 		cterm_color = "107",
+		name = "Tree",
 	},
-	tsconfig = {
+	["tsconfig"] = {
 		icon = "텒",
-		color = "#ffffff",
-		cterm_color = "15",
+		color = "#757575",
+		cterm_color = "243",
+		name = "Tsconfig",
 	},
-	tune = {
+	["tune"] = {
 		icon = "텓",
 		color = "#fbc02d",
 		cterm_color = "214",
+		name = "Tune",
 	},
-	turborepo = {
+	["turborepo"] = {
 		icon = "텔",
-		color = "#eceff1",
-		cterm_color = "255",
+		color = "#2979ff",
+		cterm_color = "33",
+		name = "Turborepo",
 	},
-	twig = {
+	["twig"] = {
 		icon = "텕",
 		color = "#9bb92f",
 		cterm_color = "106",
+		name = "Twig",
 	},
-	twine = {
+	["twine"] = {
 		icon = "텖",
-		color = "#69f0ae",
-		cterm_color = "85",
-	},
-	typescript_def = {
-		icon = "텗",
-		color = "#0288d1",
+		color = "#1e88e5",
 		cterm_color = "32",
+		name = "Twine",
 	},
-	typescript = {
+	["typescript"] = {
 		icon = "텘",
 		color = "#0288d1",
 		cterm_color = "32",
+		name = "Typescript",
 	},
-	typescriptreact = {
-		icon = "턃",
+	["typescript-def"] = {
+		icon = "텗",
 		color = "#0288d1",
 		cterm_color = "32",
+		name = "Typescript-def",
 	},
-	uml = {
+	["uml"] = {
 		icon = "텙",
-		color = "#f06292",
-		cterm_color = "204",
+		color = "#b39ddb",
+		cterm_color = "146",
+		name = "Uml",
 	},
-	url = {
+	["url"] = {
 		icon = "텚",
 		color = "#42a5f5",
 		cterm_color = "75",
+		name = "Url",
 	},
-	vagrant = {
+	["vagrant"] = {
 		icon = "텛",
-		color = "#2979ff",
-		cterm_color = "33",
+		color = "#1565c0",
+		cterm_color = "25",
+		name = "Vagrant",
 	},
-	vala = {
+	["vala"] = {
 		icon = "템",
 		color = "#9575cd",
 		cterm_color = "104",
+		name = "Vala",
 	},
-	velocity = {
+	["velocity"] = {
 		icon = "텝",
 		color = "#0288d1",
 		cterm_color = "32",
+		name = "Velocity",
 	},
-	vercel = {
+	["vercel"] = {
 		icon = "텞",
 		color = "#cfd8dc",
 		cterm_color = "188",
+		name = "Vercel",
 	},
-	verdaccio = {
+	["verdaccio"] = {
 		icon = "텟",
-		color = "#e57373",
-		cterm_color = "167",
+		color = "#00897b",
+		cterm_color = "6",
+		name = "Verdaccio",
 	},
-	verilog = {
+	["verilog"] = {
 		icon = "텠",
 		color = "#ff7043",
 		cterm_color = "203",
+		name = "Verilog",
 	},
-	vfl = {
+	["vfl"] = {
 		icon = "텡",
 		color = "#f05223",
 		cterm_color = "202",
+		name = "Vfl",
 	},
-	video = {
+	["video"] = {
 		icon = "텢",
 		color = "#ff9800",
 		cterm_color = "208",
+		name = "Video",
 	},
-	vim = {
+	["vim"] = {
 		icon = "텣",
 		color = "#43a047",
 		cterm_color = "71",
+		name = "Vim",
 	},
-	virtual = {
+	["virtual"] = {
 		icon = "텤",
 		color = "#039be5",
 		cterm_color = "32",
+		name = "Virtual",
 	},
-	visualstudio = {
+	["visualstudio"] = {
 		icon = "텥",
 		color = "#ab47bc",
 		cterm_color = "133",
+		name = "Visualstudio",
 	},
-	vite = {
+	["vite"] = {
 		icon = "텦",
 		color = "#ffab00",
 		cterm_color = "214",
+		name = "Vite",
 	},
-	vitest = {
+	["vitest"] = {
 		icon = "텧",
-		color = "#ffab00",
-		cterm_color = "214",
+		color = "#ffca28",
+		cterm_color = "220",
+		name = "Vitest",
 	},
-	vlang = {
+	["vlang"] = {
 		icon = "텨",
-		color = "#039be5",
-		cterm_color = "32",
+		color = "#546e7a",
+		cterm_color = "60",
+		name = "Vlang",
 	},
-	vscode = {
+	["vscode"] = {
 		icon = "텩",
 		color = "#2196f3",
 		cterm_color = "33",
+		name = "Vscode",
 	},
-	vue_config = {
-		icon = "텪",
-		color = "#35495e",
-		cterm_color = "238",
-	},
-	vue = {
+	["vue"] = {
 		icon = "텫",
-		color = "#35495e",
-		cterm_color = "238",
+		color = "#41b883",
+		cterm_color = "72",
+		name = "Vue",
 	},
-	vuex_store = {
+	["vue-config"] = {
+		icon = "텪",
+		color = "#757575",
+		cterm_color = "243",
+		name = "Vue-config",
+	},
+	["vuex-store"] = {
 		icon = "텬",
-		color = "#ffffff",
-		cterm_color = "15",
+		color = "#41b883",
+		cterm_color = "72",
+		name = "Vuex-store",
 	},
-	wakatime = {
+	["wakatime"] = {
 		icon = "텭",
 		color = "#f5f5f5",
 		cterm_color = "255",
+		name = "Wakatime",
 	},
-	wallaby = {
+	["wallaby"] = {
 		icon = "텮",
 		color = "#4caf50",
 		cterm_color = "71",
+		name = "Wallaby",
 	},
-	watchman = {
+	["watchman"] = {
 		icon = "텯",
-		color = "#4255e5",
-		cterm_color = "62",
+		color = "#fff",
+		cterm_color = "15",
+		name = "Watchman",
 	},
-	webassembly = {
+	["webassembly"] = {
 		icon = "텰",
 		color = "#7c4dff",
 		cterm_color = "99",
+		name = "Webassembly",
 	},
-	webhint = {
+	["webhint"] = {
 		icon = "텱",
 		color = "#1e88e5",
 		cterm_color = "32",
+		name = "Webhint",
 	},
-	webpack = {
+	["webpack"] = {
 		icon = "텲",
 		color = "#8ED6FB",
 		cterm_color = "117",
+		name = "Webpack",
 	},
-	wepy = {
+	["wepy"] = {
 		icon = "텳",
 		color = "#4caf50",
 		cterm_color = "71",
+		name = "Wepy",
 	},
-	windicss = {
+	["windicss"] = {
 		icon = "텴",
 		color = "#42A5F5",
 		cterm_color = "75",
+		name = "Windicss",
 	},
-	wolframlanguage = {
+	["wolframlanguage"] = {
 		icon = "텵",
-		color = "#ffffff",
-		cterm_color = "15",
+		color = "#212121",
+		cterm_color = "234",
+		name = "Wolframlanguage",
 	},
-	word = {
+	["word"] = {
 		icon = "텶",
 		color = "#01579b",
 		cterm_color = "24",
+		name = "Word",
 	},
-	xaml = {
+	["xaml"] = {
 		icon = "텷",
 		color = "#42a5f5",
 		cterm_color = "75",
+		name = "Xaml",
 	},
-	xml = {
+	["xml"] = {
 		icon = "텸",
 		color = "#8bc34a",
 		cterm_color = "107",
+		name = "Xml",
 	},
-	yaml = {
+	["yaml"] = {
 		icon = "텹",
 		color = "#FF5252",
 		cterm_color = "203",
+		name = "Yaml",
 	},
-	yang = {
+	["yang"] = {
 		icon = "텺",
 		color = "#42a5f5",
 		cterm_color = "75",
+		name = "Yang",
 	},
-	yarn = {
+	["yarn"] = {
 		icon = "텻",
 		color = "#0288d1",
 		cterm_color = "32",
+		name = "Yarn",
 	},
-	zig = {
+	["zig"] = {
 		icon = "텼",
-		color = "#f9a825",
+		color = "#f7a41d",
 		cterm_color = "214",
+		name = "Zig",
 	},
-	zip = {
+	["zip"] = {
 		icon = "텽",
 		color = "#afb42b",
 		cterm_color = "142",
+		name = "Zip",
 	},
 }
-
--- Automatically add the name based on the table key
-for key in pairs(M.icons) do
-	M.icons[key].name = utils.title_case(key)
-end
 
 return M
