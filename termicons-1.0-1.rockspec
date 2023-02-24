@@ -14,6 +14,7 @@ description = {
 	license = "ISC",
 }
 dependencies = {
-	"lua >= 5.4",
-	"json-lua >= 0.1",
+	"lua >= 5.1",
+	"dkjson >= 2.6",
+	"hexterm >= 1.0",
 }

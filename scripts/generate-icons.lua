@@ -1,5 +1,6 @@
-local json = require("JSON")
+local json = require("dkjson")
 local utf8 = require("utf8")
+local hexterm = require("hexterm")
 
 --- @param url string
 local function fetch_json(url)
@@ -13,7 +14,7 @@ local function fetch_json(url)
 	local buf = file:read("*all")
 	file:close()
 
-	return json:decode(buf)
+	return json.decode(buf)
 end
 
 --- @param path string
@@ -82,7 +83,7 @@ for key, meta in sorted_pairs(mappings) do
 	content = content .. '\t["' .. key .. '"] = {\n'
 	content = content .. '\t\ticon = "' .. utf8.char(meta.codepoint) .. '",\n'
 	content = content .. '\t\tcolor = "' .. meta.color .. '",\n'
-	content = content .. '\t\tcterm_color = "' .. meta.ctermColor .. '",\n'
+	content = content .. '\t\tcterm_color = "' .. hexterm(meta.color) .. '",\n'
 	content = content .. '\t\tname = "' .. pascal_case(key) .. '",\n'
 	content = content .. "\t},\n"
 end
