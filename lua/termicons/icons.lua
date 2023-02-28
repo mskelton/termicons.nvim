@@ -155,8 +155,8 @@ M.icons = {
 	},
 	["azure"] = {
 		icon = "퀚",
-		color = "#01579b",
-		cterm_color = "24",
+		color = "#1976d2",
+		cterm_color = "32",
 		name = "Azure",
 	},
 	["azure_pipelines"] = {
@@ -179,8 +179,8 @@ M.icons = {
 	},
 	["bazel"] = {
 		icon = "퀝",
-		color = "#81c784",
-		cterm_color = "114",
+		color = "#43a047",
+		cterm_color = "71",
 		name = "Bazel",
 	},
 	["bicep"] = {
@@ -473,7 +473,7 @@ M.icons = {
 	},
 	["dart"] = {
 		icon = "큎",
-		color = "#66c3fa",
+		color = "#58b6f0",
 		cterm_color = "75",
 		name = "Dart",
 	},
@@ -569,8 +569,8 @@ M.icons = {
 	},
 	["editorconfig"] = {
 		icon = "큞",
-		color = "#e3e3f8",
-		cterm_color = "254",
+		color = "#020202",
+		cterm_color = "0",
 		name = "Editorconfig",
 	},
 	["ejs"] = {
@@ -701,8 +701,8 @@ M.icons = {
 	},
 	["gatsby"] = {
 		icon = "클",
-		color = "#ffffff",
-		cterm_color = "15",
+		color = "#663399",
+		cterm_color = "60",
 		name = "Gatsby",
 	},
 	["gcp"] = {
@@ -803,8 +803,8 @@ M.icons = {
 	},
 	["grunt"] = {
 		icon = "킅",
-		color = "#fba919",
-		cterm_color = "214",
+		color = "#463014",
+		cterm_color = "236",
 		name = "Grunt",
 	},
 	["gulp"] = {
@@ -851,8 +851,8 @@ M.icons = {
 	},
 	["haxe"] = {
 		icon = "킍",
-		color = "#f68712",
-		cterm_color = "208",
+		color = "#f25c19",
+		cterm_color = "202",
 		name = "Haxe",
 	},
 	["hcl"] = {
@@ -971,8 +971,8 @@ M.icons = {
 	},
 	["jenkins"] = {
 		icon = "킡",
-		color = "#37474f",
-		cterm_color = "238",
+		color = "#ffffff",
+		cterm_color = "15",
 		name = "Jenkins",
 	},
 	["jest"] = {
@@ -989,8 +989,8 @@ M.icons = {
 	},
 	["jsconfig"] = {
 		icon = "키",
-		color = "#757575",
-		cterm_color = "243",
+		color = "#ffca28",
+		cterm_color = "220",
 		name = "Jsconfig",
 	},
 	["json"] = {
@@ -1013,8 +1013,8 @@ M.icons = {
 	},
 	["karma"] = {
 		icon = "킨",
-		color = "#359b8b",
-		cterm_color = "66",
+		color = "#3cbeae",
+		cterm_color = "73",
 		name = "Karma",
 	},
 	["key"] = {
@@ -1325,8 +1325,8 @@ M.icons = {
 	},
 	["opa"] = {
 		icon = "태",
-		color = "#bfbfbf",
-		cterm_color = "7",
+		color = "#78909c",
+		cterm_color = "246",
 		name = "Opa",
 	},
 	["opam"] = {
@@ -2033,8 +2033,8 @@ M.icons = {
 	},
 	["tsconfig"] = {
 		icon = "텒",
-		color = "#757575",
-		cterm_color = "243",
+		color = "#0288d1",
+		cterm_color = "32",
 		name = "Tsconfig",
 	},
 	["tune"] = {

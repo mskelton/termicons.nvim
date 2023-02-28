@@ -2,7 +2,7 @@
 
 rockspec_format = "3.0"
 package = "termicons"
-version = "1.0-1"
+version = "dev-1"
 source = {
 	url = "git+https://github.com/mskelton/termicons.nvim",
 }
@@ -16,5 +16,5 @@ description = {
 dependencies = {
 	"lua >= 5.1",
 	"dkjson >= 2.6",
-	"hexterm >= 1.0",
+	"hexterm >= 1.0-2",
 }
