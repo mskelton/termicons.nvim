@@ -125,8 +125,8 @@ M.icons = {
 	},
 	["aurelia"] = {
 		icon = "퀔",
-		color = "#714896",
-		cterm_color = "60",
+		color = "#b31777",
+		cterm_color = "126",
 		name = "Aurelia",
 	},
 	["authors"] = {
@@ -137,8 +137,8 @@ M.icons = {
 	},
 	["auto"] = {
 		icon = "퀖",
-		color = "#ffc400",
-		cterm_color = "220",
+		color = "#ad1457",
+		cterm_color = "125",
 		name = "Auto",
 	},
 	["autohotkey"] = {
@@ -155,14 +155,14 @@ M.icons = {
 	},
 	["azure"] = {
 		icon = "퀚",
-		color = "#1976d2",
-		cterm_color = "32",
+		color = "#01579b",
+		cterm_color = "24",
 		name = "Azure",
 	},
 	["azure_pipelines"] = {
 		icon = "퀙",
-		color = "#1e88e5",
-		cterm_color = "32",
+		color = "#1565c0",
+		cterm_color = "25",
 		name = "AzurePipelines",
 	},
 	["babel"] = {
@@ -215,8 +215,8 @@ M.icons = {
 	},
 	["bower"] = {
 		icon = "퀣",
-		color = "#543729",
-		cterm_color = "237",
+		color = "#ffcc2f",
+		cterm_color = "220",
 		name = "Bower",
 	},
 	["brainfuck"] = {
@@ -245,8 +245,8 @@ M.icons = {
 	},
 	["buildkite"] = {
 		icon = "퀨",
-		color = "#00e676",
-		cterm_color = "42",
+		color = "#00c853",
+		cterm_color = "41",
 		name = "Buildkite",
 	},
 	["c"] = {
@@ -257,8 +257,8 @@ M.icons = {
 	},
 	["cabal"] = {
 		icon = "퀪",
-		color = "#2d9bbd",
-		cterm_color = "31",
+		color = "#4a4bcd",
+		cterm_color = "62",
 		name = "Cabal",
 	},
 	["caddy"] = {
@@ -305,20 +305,20 @@ M.icons = {
 	},
 	["circleci"] = {
 		icon = "퀲",
-		color = "#fafafa",
-		cterm_color = "15",
+		color = "#343434",
+		cterm_color = "236",
 		name = "Circleci",
 	},
 	["clojure"] = {
 		icon = "퀳",
-		color = "#64dd17",
-		cterm_color = "76",
+		color = "#1e88e5",
+		cterm_color = "32",
 		name = "Clojure",
 	},
 	["cloudfoundry"] = {
 		icon = "퀴",
-		color = "#0288d1",
-		cterm_color = "32",
+		color = "#78909c",
+		cterm_color = "246",
 		name = "Cloudfoundry",
 	},
 	["cmake"] = {
@@ -473,8 +473,8 @@ M.icons = {
 	},
 	["dart"] = {
 		icon = "큎",
-		color = "#58b6f0",
-		cterm_color = "75",
+		color = "#215896",
+		cterm_color = "24",
 		name = "Dart",
 	},
 	["database"] = {
@@ -587,8 +587,8 @@ M.icons = {
 	},
 	["elm"] = {
 		icon = "큡",
-		color = "#f0ad00",
-		cterm_color = "214",
+		color = "#60b5cc",
+		cterm_color = "74",
 		name = "Elm",
 	},
 	["email"] = {
@@ -611,8 +611,8 @@ M.icons = {
 	},
 	["eslint"] = {
 		icon = "큥",
-		color = "#7986cb",
-		cterm_color = "104",
+		color = "#3f51b5",
+		cterm_color = "61",
 		name = "Eslint",
 	},
 	["exe"] = {
@@ -635,8 +635,8 @@ M.icons = {
 	},
 	["figma"] = {
 		icon = "큩",
-		color = "#00e676",
-		cterm_color = "42",
+		color = "#7c4dff",
+		cterm_color = "99",
 		name = "Figma",
 	},
 	["file"] = {
@@ -707,8 +707,8 @@ M.icons = {
 	},
 	["gcp"] = {
 		icon = "큵",
-		color = "#f44336",
-		cterm_color = "203",
+		color = "#448aff",
+		cterm_color = "69",
 		name = "Gcp",
 	},
 	["gemfile"] = {
@@ -773,8 +773,8 @@ M.icons = {
 	},
 	["grain"] = {
 		icon = "킀",
-		color = "#faa520",
-		cterm_color = "214",
+		color = "#f57c00",
+		cterm_color = "208",
 		name = "Grain",
 	},
 	["graphcool"] = {
@@ -851,8 +851,8 @@ M.icons = {
 	},
 	["haxe"] = {
 		icon = "킍",
-		color = "#f25c19",
-		cterm_color = "202",
+		color = "#f68712",
+		cterm_color = "208",
 		name = "Haxe",
 	},
 	["hcl"] = {
@@ -1001,8 +1001,8 @@ M.icons = {
 	},
 	["julia"] = {
 		icon = "킦",
-		color = "#bc342d",
-		cterm_color = "130",
+		color = "#864e9f",
+		cterm_color = "97",
 		name = "Julia",
 	},
 	["jupyter"] = {
@@ -1139,8 +1139,8 @@ M.icons = {
 	},
 	["markojs"] = {
 		icon = "킽",
-		color = "#2196f3",
-		cterm_color = "33",
+		color = "#f44336",
+		cterm_color = "203",
 		name = "Markojs",
 	},
 	["mathematica"] = {
@@ -1151,8 +1151,8 @@ M.icons = {
 	},
 	["matlab"] = {
 		icon = "킿",
-		color = "#4db6ac",
-		cterm_color = "73",
+		color = "#ffb74d",
+		cterm_color = "215",
 		name = "Matlab",
 	},
 	["maven"] = {
@@ -1307,8 +1307,8 @@ M.icons = {
 	},
 	["nuxt"] = {
 		icon = "탙",
-		color = "#69f0ae",
-		cterm_color = "85",
+		color = "#00e676",
+		cterm_color = "42",
 		name = "Nuxt",
 	},
 	["ocaml"] = {
@@ -1403,8 +1403,8 @@ M.icons = {
 	},
 	["pinejs"] = {
 		icon = "탩",
-		color = "#66bb6a",
-		cterm_color = "71",
+		color = "#388e3c",
+		cterm_color = "65",
 		name = "Pinejs",
 	},
 	["pipeline"] = {
@@ -1415,8 +1415,8 @@ M.icons = {
 	},
 	["playwright"] = {
 		icon = "탫",
-		color = "#ef5350",
-		cterm_color = "203",
+		color = "#4caf50",
+		cterm_color = "71",
 		name = "Playwright",
 	},
 	["plop"] = {
@@ -1433,8 +1433,8 @@ M.icons = {
 	},
 	["poetry"] = {
 		icon = "탮",
-		color = "#3f51b5",
-		cterm_color = "61",
+		color = "#1976d2",
+		cterm_color = "32",
 		name = "Poetry",
 	},
 	["postcss"] = {
@@ -1463,8 +1463,8 @@ M.icons = {
 	},
 	["prettier"] = {
 		icon = "탳",
-		color = "#56b3b4",
-		cterm_color = "73",
+		color = "#c596c7",
+		cterm_color = "176",
 		name = "Prettier",
 	},
 	["prisma"] = {
@@ -1475,8 +1475,8 @@ M.icons = {
 	},
 	["processing"] = {
 		icon = "탵",
-		color = "#ffffff",
-		cterm_color = "15",
+		color = "#536dfe",
+		cterm_color = "63",
 		name = "Processing",
 	},
 	["prolog"] = {
@@ -1487,20 +1487,20 @@ M.icons = {
 	},
 	["proto"] = {
 		icon = "탷",
-		color = "#ff5722",
-		cterm_color = "202",
+		color = "#00e676",
+		cterm_color = "42",
 		name = "Proto",
 	},
 	["protractor"] = {
 		icon = "탸",
-		color = "#564b55",
-		cterm_color = "239",
+		color = "#e53935",
+		cterm_color = "167",
 		name = "Protractor",
 	},
 	["pug"] = {
 		icon = "탹",
-		color = "#efcca3",
-		cterm_color = "223",
+		color = "#a86454",
+		cterm_color = "131",
 		name = "Pug",
 	},
 	["puppet"] = {
@@ -1541,8 +1541,8 @@ M.icons = {
 	},
 	["racket"] = {
 		icon = "턀",
-		color = "#0288d1",
-		cterm_color = "32",
+		color = "#e53935",
+		cterm_color = "167",
 		name = "Racket",
 	},
 	["raml"] = {
@@ -1577,8 +1577,8 @@ M.icons = {
 	},
 	["red"] = {
 		icon = "턆",
-		color = "#fbc02d",
-		cterm_color = "214",
+		color = "#e53935",
+		cterm_color = "167",
 		name = "Red",
 	},
 	["redux"] = {
@@ -1655,8 +1655,8 @@ M.icons = {
 	},
 	["rome"] = {
 		icon = "턓",
-		color = "#546e7a",
-		cterm_color = "60",
+		color = "#ffc400",
+		cterm_color = "220",
 		name = "Rome",
 	},
 	["routing"] = {
@@ -1667,8 +1667,8 @@ M.icons = {
 	},
 	["rubocop"] = {
 		icon = "턕",
-		color = "#d7252c",
-		cterm_color = "160",
+		color = "#b0bec5",
+		cterm_color = "7",
 		name = "Rubocop",
 	},
 	["ruby"] = {
@@ -1745,8 +1745,8 @@ M.icons = {
 	},
 	["sequelize"] = {
 		icon = "턢",
-		color = "#01579b",
-		cterm_color = "24",
+		color = "#4fc3f7",
+		cterm_color = "75",
 		name = "Sequelize",
 	},
 	["serverless"] = {
@@ -1871,8 +1871,8 @@ M.icons = {
 	},
 	["stylable"] = {
 		icon = "턷",
-		color = "#66bb6a",
-		cterm_color = "71",
+		color = "#b71c1c",
+		cterm_color = "124",
 		name = "Stylable",
 	},
 	["stylelint"] = {
@@ -1985,8 +1985,8 @@ M.icons = {
 	},
 	["textlint"] = {
 		icon = "텊",
-		color = "#f06292",
-		cterm_color = "204",
+		color = "#00e5ff",
+		cterm_color = "45",
 		name = "Textlint",
 	},
 	["tilt"] = {
@@ -2009,8 +2009,8 @@ M.icons = {
 	},
 	["tobimake"] = {
 		icon = "텎",
-		color = "#757575",
-		cterm_color = "243",
+		color = "#c2185b",
+		cterm_color = "125",
 		name = "Tobimake",
 	},
 	["todo"] = {
@@ -2021,8 +2021,8 @@ M.icons = {
 	},
 	["travis"] = {
 		icon = "텐",
-		color = "#cb3349",
-		cterm_color = "167",
+		color = "#f4edae",
+		cterm_color = "229",
 		name = "Travis",
 	},
 	["tree"] = {
@@ -2045,8 +2045,8 @@ M.icons = {
 	},
 	["turborepo"] = {
 		icon = "텔",
-		color = "#2979ff",
-		cterm_color = "33",
+		color = "#d81b60",
+		cterm_color = "161",
 		name = "Turborepo",
 	},
 	["twig"] = {
@@ -2057,8 +2057,8 @@ M.icons = {
 	},
 	["twine"] = {
 		icon = "텖",
-		color = "#1e88e5",
-		cterm_color = "32",
+		color = "#69f0ae",
+		cterm_color = "85",
 		name = "Twine",
 	},
 	["typescript"] = {
@@ -2075,8 +2075,8 @@ M.icons = {
 	},
 	["uml"] = {
 		icon = "텙",
-		color = "#b39ddb",
-		cterm_color = "146",
+		color = "#f06292",
+		cterm_color = "204",
 		name = "Uml",
 	},
 	["url"] = {
@@ -2087,8 +2087,8 @@ M.icons = {
 	},
 	["vagrant"] = {
 		icon = "텛",
-		color = "#1565c0",
-		cterm_color = "25",
+		color = "#2979ff",
+		cterm_color = "33",
 		name = "Vagrant",
 	},
 	["vala"] = {
@@ -2165,8 +2165,8 @@ M.icons = {
 	},
 	["vlang"] = {
 		icon = "텨",
-		color = "#546e7a",
-		cterm_color = "60",
+		color = "#039be5",
+		cterm_color = "32",
 		name = "Vlang",
 	},
 	["vscode"] = {
@@ -2183,8 +2183,8 @@ M.icons = {
 	},
 	["vue_config"] = {
 		icon = "텪",
-		color = "#757575",
-		cterm_color = "243",
+		color = "#41b883",
+		cterm_color = "72",
 		name = "VueConfig",
 	},
 	["vuex_store"] = {
@@ -2207,8 +2207,8 @@ M.icons = {
 	},
 	["watchman"] = {
 		icon = "텯",
-		color = "#ffffff",
-		cterm_color = "15",
+		color = "#4255e5",
+		cterm_color = "62",
 		name = "Watchman",
 	},
 	["webassembly"] = {
@@ -2243,8 +2243,8 @@ M.icons = {
 	},
 	["wolframlanguage"] = {
 		icon = "텵",
-		color = "#212121",
-		cterm_color = "234",
+		color = "#e53935",
+		cterm_color = "167",
 		name = "Wolframlanguage",
 	},
 	["word"] = {
@@ -2285,7 +2285,7 @@ M.icons = {
 	},
 	["zig"] = {
 		icon = "텼",
-		color = "#f7a41d",
+		color = "#f9a825",
 		cterm_color = "214",
 		name = "Zig",
 	},
