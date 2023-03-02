@@ -1563,6 +1563,18 @@ M.icons = {
 		cterm_color = "38",
 		name = "React",
 	},
+	["react_js"] = {
+		icon = "턃",
+		color = "#ffca28",
+		cterm_color = "220",
+		name = "ReactJs",
+	},
+	["react_ts"] = {
+		icon = "턃",
+		color = "#0288d1",
+		cterm_color = "32",
+		name = "ReactTs",
+	},
 	["readme"] = {
 		icon = "턄",
 		color = "#42a5f5",
