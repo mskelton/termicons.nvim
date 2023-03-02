@@ -1,16 +1,13 @@
 local icons = require("termicons.icons")
 local mappings = require("termicons.mappings")
-local utils = require("termicons.utils")
 
 local M = {}
 
 local function map_icons(icon_set)
 	local res = {}
 
-	for pattern, icon in pairs(icon_set) do
-		for _, value in pairs(utils.expand(pattern)) do
-			res[value] = icons.icons[icon]
-		end
+	for key, icon in pairs(icon_set) do
+		res[key] = icons.icons[icon]
 	end
 
 	return res
