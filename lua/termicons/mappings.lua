@@ -1133,14 +1133,14 @@ M.icons_by_filename = {
 }
 
 M.icons_by_pattern = {
-	-- ["spec.{js,cjs,mjs,jsx}"] = "javascript_test",
-	-- ["test.{js,cjs,mjs,jsx}"] = "javascript_test",
-	-- ["spec.{ts,cts,mts,tsx}"] = "typescript_test",
-	-- ["test.{ts,cts,mts,tsx}"] = "typescript_test",
+	["spec.{js,cjs,mjs,jsx}"] = "test_js",
+	["test.{js,cjs,mjs,jsx}"] = "test_js",
+	["spec.{ts,cts,mts,tsx}"] = "test_ts",
+	["test.{ts,cts,mts,tsx}"] = "test_ts",
 
-	["dockerfile"] = "docker",
-	["docker-compose"] = "docker",
-	["webpack"] = "webpack",
+	-- ["dockerfile"] = "docker",
+	-- ["docker-compose"] = "docker",
+	-- ["webpack"] = "webpack",
 	-- 	["yml.dist"] = "yaml",
 	-- 	["yaml.dist"] = "yaml",
 	-- 	["xml.dist"] = "xml",

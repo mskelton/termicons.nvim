@@ -1989,6 +1989,18 @@ M.icons = {
 		cterm_color = "32",
 		name = "Test",
 	},
+	["test_js"] = {
+		icon = "텈",
+		color = "#ffca28",
+		cterm_color = "220",
+		name = "TestJs",
+	},
+	["test_ts"] = {
+		icon = "텈",
+		color = "#0288d1",
+		cterm_color = "32",
+		name = "TestTs",
+	},
 	["tex"] = {
 		icon = "텉",
 		color = "#42a5f5",
