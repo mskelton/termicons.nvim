@@ -1,2 +1,2 @@
 generate:
-	lua ./scripts/generate-icons.lua
+	@lua ./scripts/generate.lua

@@ -14,15 +14,15 @@ local function map_icons(icon_set)
 end
 
 M.get_overrides = function()
-	return map_icons(mappings.icons_by_pattern)
+	return map_icons(mappings.by_pattern)
 end
 
 M.get_overrides_by_extension = function()
-	return map_icons(mappings.icons_by_extension)
+	return map_icons(mappings.by_extension)
 end
 
 M.get_overrides_by_filename = function()
-	return map_icons(mappings.icons_by_filename)
+	return map_icons(mappings.by_filename)
 end
 
 M.setup = function()
