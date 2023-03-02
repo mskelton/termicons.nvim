@@ -1,6 +1,7 @@
 local json = require("dkjson")
 local utf8 = require("utf8")
 local hexterm = require("hexterm")
+local utils = require("scripts.utils")
 
 --- @param url string
 local function fetch_json(url)
@@ -17,55 +18,19 @@ local function fetch_json(url)
 	return json.decode(buf)
 end
 
---- @param path string
---- @param content string
-local function write_file(path, content)
-	local file = io.open(path, "w")
-	if file == nil then
-		print("Error: Failed to open output file")
-		os.exit(1)
-	end
+--- @param key string
+--- @param meta table
+local function build_icon(key, meta)
+	local content = ""
 
-	file:write(content)
-	file:close()
-end
+	content = content .. string.format('\t["%s"] = {\n', key)
+	content = content .. string.format('\t\ticon = "%s",\n', utf8.char(meta.codepoint))
+	content = content .. string.format('\t\tcolor = "%s",\n', meta.color)
+	content = content .. string.format('\t\tcterm_color = "%s",\n', hexterm(meta.color))
+	content = content .. string.format('\t\tname = "%s",\n', utils.pascal_case(key))
+	content = content .. "\t},\n"
 
---- @param t table
-local function sorted_pairs(t)
-	local sorted_keys = {}
-
-	-- Add the keys to a separate table
-	for key in pairs(t) do
-		table.insert(sorted_keys, key)
-	end
-
-	-- Sort the keys alphabetically
-	table.sort(sorted_keys)
-
-	-- Iterate through the keys in order and pull the value from the original table
-	local i = 0
-	local iter = function()
-		i = i + 1
-
-		if sorted_keys[i] == nil then
-			return nil
-		else
-			return sorted_keys[i], t[sorted_keys[i]]
-		end
-	end
-
-	return iter
-end
-
---- @param str string
-local function pascal_case(str)
-	if string.match(str, "%d") == nil then
-		str = "_" .. str
-	end
-
-	return str:gsub("_(%l)(%l*)", function(a, b)
-		return string.upper(a) .. b
-	end)
+	return content
 end
 
 local mapping_url = "https://mskelton.github.io/termicons/termicons.json"
@@ -79,13 +44,8 @@ local M = {}
 M.icons = {
 ]]
 
-for key, meta in sorted_pairs(mappings) do
-	content = content .. '\t["' .. key .. '"] = {\n'
-	content = content .. '\t\ticon = "' .. utf8.char(meta.codepoint) .. '",\n'
-	content = content .. '\t\tcolor = "' .. meta.color .. '",\n'
-	content = content .. '\t\tcterm_color = "' .. hexterm(meta.color) .. '",\n'
-	content = content .. '\t\tname = "' .. pascal_case(key) .. '",\n'
-	content = content .. "\t},\n"
+for key, meta in utils.sorted_pairs(mappings) do
+	content = content .. build_icon(key, meta)
 end
 
 content = content .. [[
@@ -94,4 +54,4 @@ content = content .. [[
 return M
 ]]
 
-write_file("lua/termicons/icons.lua", content)
+utils.write_file("lua/termicons/icons.lua", content)
