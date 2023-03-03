@@ -17,4 +17,5 @@ dependencies = {
 	"lua >= 5.1",
 	"dkjson >= 2.6",
 	"hexterm >= 1.0-2",
+	"shexpand >= 1.0-1",
 }

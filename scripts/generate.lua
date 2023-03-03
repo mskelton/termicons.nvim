@@ -2,7 +2,7 @@ local json = require("dkjson")
 local utf8 = require("utf8")
 local hexterm = require("hexterm")
 local utils = require("scripts.utils")
-local expand = require("scripts.expand")
+local shexpand = require("shexpand")
 local overrides = require("scripts.overrides")
 
 --- @param url string
@@ -72,11 +72,11 @@ end
 
 --- @param name string
 --- @param t table
-local function mapping(name, t)
+local function build_mapping(name, t)
 	local res = {}
 
 	for pattern, value in pairs(t) do
-		for _, expanded in ipairs(expand.expand(pattern)) do
+		for _, expanded in ipairs(shexpand.expand(pattern)) do
 			res[expanded] = value
 		end
 	end
@@ -87,9 +87,9 @@ end
 local function generate_mappings()
 	local content = ""
 
-	content = content .. mapping("by_extension", overrides.by_extension)
-	content = content .. mapping("by_filename", overrides.by_filename)
-	content = content .. mapping("by_pattern", overrides.by_pattern)
+	content = content .. build_mapping("by_extension", overrides.by_extension)
+	content = content .. build_mapping("by_filename", overrides.by_filename)
+	content = content .. build_mapping("by_pattern", overrides.by_pattern)
 
 	return utils.mod(content)
 end
