@@ -41,10 +41,25 @@ local function build_icon(key, meta)
 	return content
 end
 
-local mapping_url = "https://mskelton.github.io/termicons/termicons.json"
-local mappings = fetch_json(mapping_url)
+--- Get the URL of the termicons.json file. If the file exists locally, use a
+-- local file URL instead of the deployed site.
+--- @return string
+local function get_mapping_url()
+	local local_url = os.getenv("HOME") .. "/dev/termicons/dist/termicons.json"
+	local file = io.open(local_url, "r")
 
-local function generate_icons()
+	if file ~= nil then
+		io.close(file)
+		return "file://" .. local_url
+	else
+		return "https://mskelton.github.io/termicons/termicons.json"
+	end
+end
+
+--- Generate a table of icons from the mappings fetching from the termicons.json
+-- file. Icons are sorted by name.
+--- @param mappings table
+local function generate_icons(mappings)
 	local content = ""
 
 	-- Add color overrides to the mappings table so they can be sorted and applied
@@ -70,6 +85,7 @@ local function generate_icons()
 	return utils.mod(utils.tbl("icons", content))
 end
 
+--- Build a single mapping table expanding the file patterns using brace expansion.
 --- @param name string
 --- @param t table
 local function build_mapping(name, t)
@@ -84,6 +100,7 @@ local function build_mapping(name, t)
 	return utils.tbl(name, utils.tbl_to_str(res))
 end
 
+--- Generate the icon file mappings
 local function generate_mappings()
 	local content = ""
 
@@ -94,5 +111,7 @@ local function generate_mappings()
 	return utils.mod(content)
 end
 
-utils.write_file("lua/termicons/icons.lua", generate_icons())
+local mappings = fetch_json(get_mapping_url())
+
+utils.write_file("lua/termicons/icons.lua", generate_icons(mappings))
 utils.write_file("lua/termicons/mappings.lua", generate_mappings())

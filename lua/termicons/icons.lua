@@ -177,6 +177,12 @@ M.icons = {
 		cterm_color = "37",
 		name = "Ballerina",
 	},
+	["bash"] = {
+		icon = "톈",
+		color = "#47b353",
+		cterm_color = "71",
+		name = "Bash",
+	},
 	["bazel"] = {
 		icon = "퀝",
 		color = "#43a047",
@@ -657,6 +663,12 @@ M.icons = {
 		cterm_color = "75",
 		name = "File",
 	},
+	["file-symlink"] = {
+		icon = "톇",
+		color = "#42a5f5",
+		cterm_color = "75",
+		name = "FileSymlink",
+	},
 	["firebase"] = {
 		icon = "큫",
 		color = "#fbc02d",
@@ -698,6 +710,18 @@ M.icons = {
 		color = "#0288d1",
 		cterm_color = "32",
 		name = "FolderOpen",
+	},
+	["folder-symlink"] = {
+		icon = "톅",
+		color = "#0288d1",
+		cterm_color = "32",
+		name = "FolderSymlink",
+	},
+	["folder-symlink-open"] = {
+		icon = "톆",
+		color = "#0288d1",
+		cterm_color = "32",
+		name = "FolderSymlinkOpen",
 	},
 	["font"] = {
 		icon = "큮",

@@ -73,6 +73,7 @@ M.by_extension = {
 	["balx"] = "ballerina",
 	["bash"] = "console",
 	["bat"] = "console",
+	["bats"] = "bash",
 	["bazel"] = "bazel",
 	["bf"] = "brainfuck",
 	["bib"] = "lib",
