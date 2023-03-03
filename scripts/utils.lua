@@ -51,31 +51,42 @@ M.sorted_pairs = function(t)
 	return iter
 end
 
--- Expand a string into a table of strings using single level brace expansion
+--- Expand a string into a table of strings using single level brace expansion
+--- @param str string
 M.expand = function(str)
-	local i, j = string.find(str, "({[%w,]*})")
+	local regex = "{[%w,]*}"
+	local i, j = string.find(str, regex)
 
-	print(i)
+	-- If there are no more expansions, return the original string
 	if i == nil then
 		return { str }
 	end
 
-	-- local res = {}
-	--
-	-- for part in string.gmatch(tail, "%w+") do
-	-- 	table.insert(res, head .. part)
-	-- end
-	--
-	-- return res
+	local res = {}
+	local parts = str:sub(i, j):sub(2, -2)
+
+	-- Expand the string into a table of strings
+	for part in string.gmatch(parts, "%w+") do
+		table.insert(res, str:sub(1, i - 1) .. part .. str:sub(j + 1, -1))
+	end
+
+	-- If there are more expansions, recursively expand the resulting table
+	if string.find(str, regex, j + 1) == nil then
+		return res
+	else
+		return M.expand_tbl(res)
+	end
 end
 
+--- Expand a table of strings with possible brace expansions into a flattened
+--- table of strings.
 --- @param t table
 M.expand_tbl = function(t)
 	local res = {}
 
-	for pattern, value in pairs(t) do
-		for key in pairs(M.expand(pattern)) do
-			res[key] = value
+	for _, str in ipairs(t) do
+		for _, v in ipairs(M.expand(str)) do
+			table.insert(res, v)
 		end
 	end
 

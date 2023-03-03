@@ -72,7 +72,15 @@ end
 --- @param name string
 --- @param t table
 local function mapping(name, t)
-	return utils.tbl(name, utils.tbl_to_str(utils.expand_tbl(t)))
+	local res = {}
+
+	for pattern, value in pairs(t) do
+		for _, expanded in ipairs(utils.expand(pattern)) do
+			res[expanded] = value
+		end
+	end
+
+	return utils.tbl(name, utils.tbl_to_str(res))
 end
 
 local function generate_mappings()
