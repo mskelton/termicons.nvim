@@ -2,6 +2,7 @@ local json = require("dkjson")
 local utf8 = require("utf8")
 local hexterm = require("hexterm")
 local utils = require("scripts.utils")
+local expand = require("scripts.expand")
 local overrides = require("scripts.overrides")
 
 --- @param url string
@@ -75,7 +76,7 @@ local function mapping(name, t)
 	local res = {}
 
 	for pattern, value in pairs(t) do
-		for _, expanded in ipairs(utils.expand(pattern)) do
+		for _, expanded in ipairs(expand.expand(pattern)) do
 			res[expanded] = value
 		end
 	end

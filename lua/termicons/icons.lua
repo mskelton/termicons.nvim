@@ -765,6 +765,12 @@ M.icons = {
 		cterm_color = "75",
 		name = "Godot",
 	},
+	["godot_assets"] = {
+		icon = "큾",
+		color = "#81c784",
+		cterm_color = "114",
+		name = "GodotAssets",
+	},
 	["gradle"] = {
 		icon = "큿",
 		color = "#0097a7",
