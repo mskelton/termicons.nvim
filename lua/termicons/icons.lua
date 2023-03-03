@@ -675,6 +675,30 @@ M.icons = {
 		cterm_color = "214",
 		name = "Flow",
 	},
+	["folder"] = {
+		icon = "톀",
+		color = "#0288d1",
+		cterm_color = "32",
+		name = "Folder",
+	},
+	["folder-empty"] = {
+		icon = "톂",
+		color = "#0288d1",
+		cterm_color = "32",
+		name = "FolderEmpty",
+	},
+	["folder-empty-open"] = {
+		icon = "톃",
+		color = "#0288d1",
+		cterm_color = "32",
+		name = "FolderEmptyOpen",
+	},
+	["folder-open"] = {
+		icon = "톁",
+		color = "#0288d1",
+		cterm_color = "32",
+		name = "FolderOpen",
+	},
 	["font"] = {
 		icon = "큮",
 		color = "#f44336",
