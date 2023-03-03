@@ -652,6 +652,7 @@ M.by_extension = {
 	["{js,cjs,mjs}"] = "javascript",
 	["{ts,cts,mts}"] = "typescript",
 }
+
 M.by_filename = {
 	[".Rhistory"] = "r",
 	[".adonisrc.json"] = "adonis",
@@ -1116,6 +1117,7 @@ M.by_filename = {
 	["yarn-error.log"] = "yarn",
 	["yarn.lock"] = "yarn",
 }
+
 M.by_pattern = {
 	[".css.map"] = "css-map",
 	[".cy.ts"] = "cypress",

@@ -69,12 +69,18 @@ local function generate_icons()
 	return utils.mod(utils.tbl("icons", content))
 end
 
+--- @param name string
+--- @param t table
+local function mapping(name, t)
+	return utils.tbl(name, utils.tbl_to_str(utils.expand_tbl(t)))
+end
+
 local function generate_mappings()
 	local content = ""
 
-	content = content .. utils.tbl("by_extension", utils.tbl_to_str(overrides.by_extension))
-	content = content .. utils.tbl("by_filename", utils.tbl_to_str(overrides.by_filename))
-	content = content .. utils.tbl("by_pattern", utils.tbl_to_str(overrides.by_pattern))
+	content = content .. mapping("by_extension", overrides.by_extension)
+	content = content .. mapping("by_filename", overrides.by_filename)
+	content = content .. mapping("by_pattern", overrides.by_pattern)
 
 	return utils.mod(content)
 end
