@@ -19,7 +19,7 @@ M.pascal_case = function(str)
 		str = "_" .. str
 	end
 
-	return str:gsub("_(%l)(%l*)", function(a, b)
+	return str:gsub("[_-](%l)(%l*)", function(a, b)
 		return string.upper(a) .. b
 	end)
 end
