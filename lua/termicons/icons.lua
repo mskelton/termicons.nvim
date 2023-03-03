@@ -159,7 +159,7 @@ M.icons = {
 		cterm_color = "24",
 		name = "Azure",
 	},
-	["azure_pipelines"] = {
+	["azure-pipelines"] = {
 		icon = "퀙",
 		color = "#1565c0",
 		cterm_color = "25",
@@ -345,7 +345,7 @@ M.icons = {
 		cterm_color = "95",
 		name = "Coconut",
 	},
-	["code_climate"] = {
+	["code-climate"] = {
 		icon = "퀹",
 		color = "#eeeeee",
 		cterm_color = "255",
@@ -441,7 +441,7 @@ M.icons = {
 		cterm_color = "75",
 		name = "Css",
 	},
-	["css_map"] = {
+	["css-map"] = {
 		icon = "큈",
 		color = "#42a5f5",
 		cterm_color = "75",
@@ -765,7 +765,7 @@ M.icons = {
 		cterm_color = "75",
 		name = "Godot",
 	},
-	["godot_assets"] = {
+	["godot-assets"] = {
 		icon = "큾",
 		color = "#81c784",
 		cterm_color = "114",
@@ -969,7 +969,7 @@ M.icons = {
 		cterm_color = "220",
 		name = "Javascript",
 	},
-	["javascript_map"] = {
+	["javascript-map"] = {
 		icon = "킟",
 		color = "#ffca28",
 		cterm_color = "220",
@@ -977,8 +977,8 @@ M.icons = {
 	},
 	["jenkins"] = {
 		icon = "킡",
-		color = "#ffffff",
-		cterm_color = "15",
+		color = "#000000",
+		cterm_color = "0",
 		name = "Jenkins",
 	},
 	["jest"] = {
@@ -1221,7 +1221,7 @@ M.icons = {
 		cterm_color = "214",
 		name = "Mxml",
 	},
-	["nano_staged"] = {
+	["nano-staged"] = {
 		icon = "탊",
 		color = "#b0bec5",
 		cterm_color = "7",
@@ -1389,7 +1389,7 @@ M.icons = {
 		cterm_color = "32",
 		name = "Php",
 	},
-	["php_cs_fixer"] = {
+	["php-cs-fixer"] = {
 		icon = "탥",
 		color = "#ff7043",
 		cterm_color = "203",
@@ -1569,13 +1569,13 @@ M.icons = {
 		cterm_color = "38",
 		name = "React",
 	},
-	["react_js"] = {
+	["react-js"] = {
 		icon = "턃",
 		color = "#ffca28",
 		cterm_color = "220",
 		name = "ReactJs",
 	},
-	["react_ts"] = {
+	["react-ts"] = {
 		icon = "턃",
 		color = "#0288d1",
 		cterm_color = "32",
@@ -1625,11 +1625,11 @@ M.icons = {
 	},
 	["rescript"] = {
 		icon = "턌",
-		color = "#ffffff",
-		cterm_color = "15",
+		color = "#ef5350",
+		cterm_color = "203",
 		name = "Rescript",
 	},
-	["rescript_interface"] = {
+	["rescript-interface"] = {
 		icon = "턋",
 		color = "#ef5350",
 		cterm_color = "203",
@@ -1749,7 +1749,7 @@ M.icons = {
 		cterm_color = "75",
 		name = "Search",
 	},
-	["semantic_release"] = {
+	["semantic-release"] = {
 		icon = "턠",
 		color = "#f5f5f5",
 		cterm_color = "255",
@@ -1995,13 +1995,13 @@ M.icons = {
 		cterm_color = "32",
 		name = "Test",
 	},
-	["test_js"] = {
+	["test-js"] = {
 		icon = "텈",
 		color = "#ffca28",
 		cterm_color = "220",
 		name = "TestJs",
 	},
-	["test_ts"] = {
+	["test-ts"] = {
 		icon = "텈",
 		color = "#0288d1",
 		cterm_color = "32",
@@ -2097,7 +2097,7 @@ M.icons = {
 		cterm_color = "32",
 		name = "Typescript",
 	},
-	["typescript_def"] = {
+	["typescript-def"] = {
 		icon = "텗",
 		color = "#0288d1",
 		cterm_color = "32",
@@ -2211,13 +2211,13 @@ M.icons = {
 		cterm_color = "72",
 		name = "Vue",
 	},
-	["vue_config"] = {
+	["vue-config"] = {
 		icon = "텪",
 		color = "#41b883",
 		cterm_color = "72",
 		name = "VueConfig",
 	},
-	["vuex_store"] = {
+	["vuex-store"] = {
 		icon = "텬",
 		color = "#41b883",
 		cterm_color = "72",
