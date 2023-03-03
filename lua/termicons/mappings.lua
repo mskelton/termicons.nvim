@@ -658,6 +658,7 @@ M.by_extension = {
 }
 
 M.by_filename = {
+	[".DS_Store"] = "settings",
 	[".Rhistory"] = "r",
 	[".adonisrc.json"] = "adonis",
 	[".angular-cli.json"] = "angular",
@@ -955,6 +956,7 @@ M.by_filename = {
 	["babel-plugin-macros.config.js"] = "babel",
 	["babel-transform.js"] = "babel",
 	["babel.config.{cjs,js,mjs,json"] = "babel",
+	["bats"] = "bash",
 	["bitbucket-pipelines.yaml"] = "bitbucket",
 	["bitbucket-pipelines.yml"] = "bitbucket",
 	["blitz.config.js"] = "blitz",
