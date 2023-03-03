@@ -93,7 +93,7 @@ local function build_mapping(name, t)
 
 	for pattern, value in pairs(t) do
 		for _, expanded in ipairs(shexpand.expand(pattern)) do
-			res[expanded] = value
+			res[string.lower(expanded)] = value
 		end
 	end
 
