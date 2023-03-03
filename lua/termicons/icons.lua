@@ -1175,8 +1175,8 @@ M.icons = {
 	},
 	["luarocks"] = {
 		icon = "톄",
-		color = "#2c4067",
-		cterm_color = "238",
+		color = "#ffffff",
+		cterm_color = "15",
 		name = "Luarocks",
 	},
 	["makefile"] = {
