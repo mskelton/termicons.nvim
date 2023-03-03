@@ -795,6 +795,12 @@ M.icons = {
 		cterm_color = "166",
 		name = "Git",
 	},
+	["github"] = {
+		icon = "톊",
+		color = "#ffffff",
+		cterm_color = "15",
+		name = "Github",
+	},
 	["gitlab"] = {
 		icon = "큹",
 		color = "#e53935",
