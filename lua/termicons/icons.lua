@@ -1173,6 +1173,12 @@ M.icons = {
 		cterm_color = "75",
 		name = "Lua",
 	},
+	["luarocks"] = {
+		icon = "톄",
+		color = "#2c4067",
+		cterm_color = "238",
+		name = "Luarocks",
+	},
 	["makefile"] = {
 		icon = "킻",
 		color = "#ef5350",
