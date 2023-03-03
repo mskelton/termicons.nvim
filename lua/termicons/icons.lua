@@ -2217,6 +2217,12 @@ M.icons = {
 		cterm_color = "107",
 		name = "Todo",
 	},
+	["toml"] = {
+		icon = "톉",
+		color = "#7e7f7f",
+		cterm_color = "8",
+		name = "Toml",
+	},
 	["travis"] = {
 		icon = "텐",
 		color = "#f4edae",
