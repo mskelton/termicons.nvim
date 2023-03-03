@@ -249,6 +249,12 @@ M.icons = {
 		cterm_color = "41",
 		name = "Buildkite",
 	},
+	["bun"] = {
+		icon = "텾",
+		color = "#fff3e0",
+		cterm_color = "230",
+		name = "Bun",
+	},
 	["c"] = {
 		icon = "퀩",
 		color = "#0277bd",
@@ -698,6 +704,12 @@ M.icons = {
 		color = "#ffffff",
 		cterm_color = "15",
 		name = "Fusebox",
+	},
+	["gamemaker"] = {
+		icon = "텿",
+		color = "#26a69a",
+		cterm_color = "36",
+		name = "Gamemaker",
 	},
 	["gatsby"] = {
 		icon = "클",
@@ -1316,6 +1328,18 @@ M.icons = {
 		color = "#00e676",
 		cterm_color = "42",
 		name = "Nuxt",
+	},
+	["objective-c"] = {
+		icon = "퀩",
+		color = "#ffab40",
+		cterm_color = "215",
+		name = "ObjectiveC",
+	},
+	["objective-cpp"] = {
+		icon = "큃",
+		color = "#ffab40",
+		cterm_color = "215",
+		name = "ObjectiveCpp",
 	},
 	["ocaml"] = {
 		icon = "탚",
