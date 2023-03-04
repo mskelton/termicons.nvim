@@ -1516,7 +1516,7 @@ return {
 		extension = { "twig" },
 	},
 	["twine"] = {
-		extension = { "{tw,twee}" },
+		extension = { "tw{,ee}" },
 	},
 	["typescript"] = {
 		extension = { "{ts,cts,mts}" },
@@ -1547,7 +1547,7 @@ return {
 		filename = { "verdaccio.yml" },
 	},
 	["verilog"] = {
-		extension = { "vhd", "{sv,svh}" },
+		extension = { "vhd", "sv{,h}" },
 	},
 	["vfl"] = {
 		extension = { "vfl" },
@@ -1561,7 +1561,7 @@ return {
 			"mkv",
 			"mov",
 			"mp{e,eg,g,v,2,4}",
-			"m{2v,4v}",
+			"m{2,4}v",
 			"og{g,v}",
 			"qt",
 			"rm",
@@ -1602,11 +1602,9 @@ return {
 	},
 	["vscode"] = {
 		extension = {
-			"code-profile",
-			"code-snippets",
-			"code-workplace",
-			"code-workspace",
-			"{vscodeignore,vsix,vsixmanifest}",
+			"code-{profile,snippets,workplace,workspace}",
+			"vscodeignore",
+			"vsix{,manifest}",
 		},
 	},
 	["vue"] = {
@@ -1614,9 +1612,8 @@ return {
 	},
 	["vue-config"] = {
 		filename = {
-			"vetur.config.{js,ts}",
 			"volar.config.js",
-			"vue.config.{js,ts}",
+			"{vetur,vue}.config.{js,ts}",
 		},
 	},
 	["wakatime"] = {
@@ -1630,7 +1627,7 @@ return {
 		filename = { ".watchmanconfig" },
 	},
 	["webassembly"] = {
-		extension = { "{wasm,wat}" },
+		extension = { "wa{sm,t}" },
 	},
 	["webhint"] = {
 		filename = { ".hintrc" },
@@ -1643,10 +1640,10 @@ return {
 		filename = { "windi.config.{js,cjs,ts,cts,json}" },
 	},
 	["wolframlanguage"] = {
-		extension = { "{wl,wls}" },
+		extension = { "wl{,s}" },
 	},
 	["word"] = {
-		extension = { "doc", "docx", "odt", "rtf" },
+		extension = { "doc{,x}", "odt", "rtf" },
 	},
 	["xaml"] = {
 		extension = { "xaml" },
@@ -1662,7 +1659,9 @@ return {
 			"project",
 			"resx",
 			"tmlanguage",
-			"{xml,xquery,xsd,xsl,xslt}",
+			"xml",
+			"xquery",
+			"xs{d,l,lt}",
 		},
 		filename = { ".htaccess" },
 		pattern = { "xml.dist{,.sample}" },
@@ -1692,17 +1691,15 @@ return {
 			"7z",
 			"br",
 			"brotli",
-			"bz2",
-			"bzip2",
+			"bz{2,ip2}",
 			"gz{,ip}",
-			"lz4",
-			"lzma",
+			"lz{4,ma}",
 			"rar",
 			"tar",
 			"tgz",
+			"t{xz,z}",
 			"xz",
 			"zip",
-			"{txz,tz}",
 		},
 	},
 }
