@@ -594,7 +594,7 @@ return {
 		filename = { ".helmignore" },
 	},
 	["heroku"] = {
-		filename = { "procfile", "procfile.windows" },
+		filename = { "procfile{,.windows}" },
 	},
 	["hex"] = {
 		extension = { "bin", "dat", "hex" },
@@ -677,7 +677,7 @@ return {
 		filename = { ".io-config.json", "ionic.config.json" },
 	},
 	["istanbul"] = {
-		filename = { ".nycrc", ".nycrc.json" },
+		filename = { ".nycrc{,.json}" },
 	},
 	["jar"] = {
 		extension = { "jar" },
@@ -839,7 +839,8 @@ return {
 	["minecraft"] = {
 		extension = {
 			"mc{a,r,addon,function,game,level,meta,pack,structure,world}",
-			"{mine,mus}",
+			"mine",
+			"mus",
 		},
 		filename = { ".mc{attributes,definitions,ignore}" },
 	},
@@ -864,9 +865,8 @@ return {
 	},
 	["nano-staged"] = {
 		filename = {
-			".nano-staged.{js,cjs,mjs,json}",
 			".nanostagedrc",
-			"nano-staged.{js,cjs,mjs,json}",
+			"{,.}nano-staged.{js,cjs,mjs,json}",
 		},
 	},
 	["ndst"] = {
@@ -874,10 +874,8 @@ return {
 	},
 	["nest"] = {
 		filename = {
-			".nest-cli.json",
-			".nestconfig.json",
-			"nest-cli.json",
-			"nestconfig.json",
+			"{,.}nest-cli.json",
+			"{,.}nestconfig.json",
 		},
 	},
 	["nest-controller"] = {
@@ -934,8 +932,7 @@ return {
 			".esmrc",
 			".node-version",
 			".nvmrc",
-			"package-lock.json",
-			"package.json",
+			"package{,-lock}.json",
 		},
 	},
 	["nodemon"] = {
@@ -1004,10 +1001,8 @@ return {
 		filename = {
 			".phpunit-watcher.yml",
 			".phpunit.result.cache",
-			"phpunit-watcher.yml",
-			"phpunit-watcher.yml.dist",
-			"phpunit.xml",
-			"phpunit.xml.dist",
+			"phpunit-watcher.yml{,.dist}",
+			"phpunit.xml{,.dist}",
 		},
 	},
 	["pinejs"] = {
@@ -1026,7 +1021,7 @@ return {
 		filename = { "plopfile.{js,cjs,mjs}" },
 	},
 	["pnpm"] = {
-		filename = { ".pnpmfile.cjs", "pnpm-lock.yaml", "pnpm-workspace.yaml" },
+		filename = { ".pnpmfile.cjs", "pnpm-{lock,workspace}.yaml" },
 	},
 	["poetry"] = {
 		filename = { "poetry.lock" },
@@ -1035,8 +1030,7 @@ return {
 		extension = { "pcss", "sss" },
 		filename = {
 			".postcssrc",
-			".postcssrc.{js,cjs,ts,cts}",
-			".postcssrc.{json,yml,yaml}",
+			".postcssrc.{js,cjs,ts,cts,json,yml,yaml}",
 			"postcss.config.{js,cjs,ts,cts}",
 		},
 	},
@@ -1055,10 +1049,8 @@ return {
 	},
 	["prettier"] = {
 		filename = {
-			".prettierignore",
-			".prettierrc",
-			".prettierrc.toml",
-			".prettierrc.{js,cjs,json,json5,yml,yaml}",
+			".prettier{ignore,rc}",
+			".prettierrc.{js,cjs,json,json5,yml,yaml,toml}",
 			"prettier.config.{js,cjs}",
 		},
 	},
@@ -1080,7 +1072,7 @@ return {
 	},
 	["pug"] = {
 		extension = { "jade", "pug" },
-		filename = { ".pug-lintrc", ".pug-lintrc.js", ".pug-lintrc.json" },
+		filename = { ".pug-lintrc", ".pug-lintrc.{js,json}" },
 	},
 	["puppet"] = {
 		extension = { "pp" },
@@ -1107,7 +1099,7 @@ return {
 		extension = { "qs" },
 	},
 	["quasar"] = {
-		filename = { "quasar.conf.js", "quasar.config.js" },
+		filename = { "quasar.{conf,config}.js" },
 	},
 	["r"] = {
 		extension = { "r", "rmd" },
@@ -1147,7 +1139,7 @@ return {
 		filename = { "selector{,s}.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
 	},
 	["redux-store"] = {
-		pattern = { "store.{js,cjs,mjs,ts,cts,mts,tsx}" },
+		pattern = { "store{,s}.{js,cjs,mjs,ts,cts,mts,tsx}" },
 	},
 	["remix"] = {
 		filename = { "remix.config.{js,ts}" },
@@ -1173,7 +1165,7 @@ return {
 		extension = { "restql", "rql" },
 	},
 	["riot"] = {
-		extension = { "{riot,tag}" },
+		extension = { "riot", "tag" },
 	},
 	["roadmap"] = {
 		filename = {
@@ -1190,13 +1182,8 @@ return {
 	},
 	["rollup"] = {
 		filename = {
-			"rollup-config.{js,mjs,ts}",
-			"rollup.config.base.{js,mjs,ts}",
-			"rollup.config.common.{js,mjs,ts}",
-			"rollup.config.dev.{js,mjs,ts}",
-			"rollup.config.prod.vendor.{js,mjs,ts}",
-			"rollup.config.prod.{js,mjs,ts}",
-			"rollup.config.{js,mjs,ts}",
+			"rollup{-,.}config.{js,mjs,ts}",
+			"rollup{-,.}config.{base,common,dev,prod,prod.vendor}.{js,mjs,ts}",
 		},
 	},
 	["rome"] = {
@@ -1204,13 +1191,12 @@ return {
 	},
 	["routing"] = {
 		filename = {
-			"router.{js,cjs,mjs,jsx,ts,cts,mts,tsx}",
-			"routes.{js,cjs,mjs,jsx,ts,cts,mts,tsx}",
+			"route{r,s}.{js,cjs,mjs,jsx,ts,cts,mts,tsx}",
 		},
 		pattern = { "routing.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
 	},
 	["rubocop"] = {
-		filename = { ".rubocop-todo.yml", ".rubocop.yml", ".rubocop_todo.yml" },
+		filename = { ".rubocop{-,_}todo.yml", ".rubocop.yml" },
 	},
 	["ruby"] = {
 		extension = { "erb", "rb" },
@@ -1292,7 +1278,7 @@ return {
 			"shader",
 			"tes{c,e}",
 			"wgsl",
-			"{vert,vertexshader}",
+			"vert{,exshader}",
 		},
 	},
 	["shaderlab"] = {
@@ -1328,8 +1314,7 @@ return {
 	},
 	["snowpack"] = {
 		filename = {
-			"snowpack.config.json",
-			"snowpack.config.{js,cjs,mjs,ts,cts,mts}",
+			"snowpack.config.{js,cjs,mjs,ts,cts,mts,json}",
 			"snowpack.deps.json",
 		},
 	},
@@ -1347,7 +1332,7 @@ return {
 		},
 	},
 	["steadybit"] = {
-		filename = { ".steadybit.{yml,yaml}", "steadybit.{yml,yaml}" },
+		filename = { "{,.}steadybit.{yml,yaml}" },
 		pattern = { "steadybit.{yml,yaml}" },
 	},
 	["stencil"] = {
@@ -1357,7 +1342,7 @@ return {
 		filename = { "stitches.config.{js,ts}" },
 	},
 	["storybook"] = {
-		pattern = { "{stories,story}.{js,jsx,mdx,ts,tsx,svelte}" },
+		pattern = { "stor{ies,y}.{js,jsx,mdx,ts,tsx,svelte}" },
 	},
 	["stryker"] = {
 		filename = { "stryker.conf.{js,json}" },
@@ -1367,9 +1352,7 @@ return {
 	},
 	["stylelint"] = {
 		filename = {
-			".stylelintcache",
-			".stylelintignore",
-			".stylelintrc",
+			".stylelint{cache,ignore,rc}",
 			".stylelintrc.{json,yml,yaml,js,cjs}",
 			"stylelint.config.{js,cjs}",
 		},
@@ -1381,7 +1364,7 @@ return {
 		extension = { "sublime-{project,workspace}" },
 	},
 	["supabase"] = {
-		filename = { "supabase.js", "supabase.py" },
+		filename = { "supabase.{js,py}" },
 	},
 	["svelte"] = {
 		extension = { "svelte" },
@@ -1403,7 +1386,7 @@ return {
 		extension = { "swift" },
 	},
 	["table"] = {
-		extension = { "csv", "ods", "psv", "tsv", "{xls,xlsm,xlsx}" },
+		extension = { "csv", "ods", "psv", "tsv", "xls{,m,x}" },
 	},
 	["tailwindcss"] = {
 		filename = { "tailwind.config.{js,cjs,ts,cts}", "tailwind.{js,ts}" },
