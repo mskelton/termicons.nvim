@@ -1,5 +1,6 @@
 local M = {}
 
+--- Write a file to disk with the string content
 --- @param path string
 --- @param content string
 M.write_file = function(path, content)
@@ -13,6 +14,7 @@ M.write_file = function(path, content)
 	file:close()
 end
 
+--- Convert a string to pascal case
 --- @param str string
 M.pascal_case = function(str)
 	if string.match(str, "%d") == nil then
@@ -24,6 +26,7 @@ M.pascal_case = function(str)
 	end)
 end
 
+--- Sort a table by key alphabetically
 --- @param t table
 M.sorted_pairs = function(t)
 	local sorted_keys = {}
@@ -51,6 +54,8 @@ M.sorted_pairs = function(t)
 	return iter
 end
 
+--- Convert a table to a string
+--- @param t table
 M.tbl_to_str = function(t)
 	local content = ""
 
@@ -61,6 +66,7 @@ M.tbl_to_str = function(t)
 	return content
 end
 
+--- Create a string for a Lua module
 --- @param content string
 M.mod = function(content)
 	local template = [[
@@ -74,6 +80,7 @@ return M
 	return string.format(template, content)
 end
 
+--- Create a string for a Lua table
 --- @param key string
 --- @param content string
 M.tbl = function(key, content)
