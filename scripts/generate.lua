@@ -29,16 +29,16 @@ end
 --- @param key string
 --- @param meta table
 local function build_icon(key, meta)
-	local content = ""
+	local res = ""
 
-	content = content .. string.format('\t["%s"] = {\n', key)
-	content = content .. string.format('\t\ticon = "%s",\n', utf8.char(meta.codepoint))
-	content = content .. string.format('\t\tcolor = "%s",\n', meta.color)
-	content = content .. string.format('\t\tcterm_color = "%s",\n', hexterm(meta.color))
-	content = content .. string.format('\t\tname = "%s",\n', utils.pascal_case(key))
-	content = content .. "\t},\n"
+	res = res .. string.format('\t["%s"] = {\n', key)
+	res = res .. string.format('\t\ticon = "%s",\n', utf8.char(meta.codepoint))
+	res = res .. string.format('\t\tcolor = "%s",\n', meta.color)
+	res = res .. string.format('\t\tcterm_color = "%s",\n', hexterm(meta.color))
+	res = res .. string.format('\t\tname = "%s",\n', utils.pascal_case(key))
+	res = res .. "\t},\n"
 
-	return content
+	return res
 end
 
 --- Get the URL of the termicons.json file. If the file exists locally, use a
@@ -60,7 +60,7 @@ end
 -- file. Icons are sorted by name.
 --- @param mappings table
 local function generate_icons(mappings)
-	local content = ""
+	local res = ""
 
 	-- Add color overrides to the mappings table so they can be sorted and applied
 	-- to the list of icons
@@ -79,10 +79,10 @@ local function generate_icons(mappings)
 
 	-- Add each icon to the icons table
 	for key, meta in utils.sorted_pairs(mappings) do
-		content = content .. build_icon(key, meta)
+		res = res .. build_icon(key, meta)
 	end
 
-	return utils.mod(utils.tbl("icons", content))
+	return utils.mod(utils.tbl("icons", res))
 end
 
 --- Build a single mapping table expanding the file patterns using brace expansion.
@@ -102,13 +102,13 @@ end
 
 --- Generate the icon file mappings
 local function generate_mappings()
-	local content = ""
+	local res = ""
 
-	content = content .. build_mapping("by_extension", overrides.by_extension)
-	content = content .. build_mapping("by_filename", overrides.by_filename)
-	content = content .. build_mapping("by_pattern", overrides.by_pattern)
+	res = res .. build_mapping("by_extension", overrides.by_extension)
+	res = res .. build_mapping("by_filename", overrides.by_filename)
+	res = res .. build_mapping("by_pattern", overrides.by_pattern)
 
-	return utils.mod(content)
+	return utils.mod(res)
 end
 
 local mappings = fetch_json(get_mapping_url())

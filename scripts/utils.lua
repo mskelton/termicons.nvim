@@ -57,13 +57,13 @@ end
 --- Convert a table to a string
 --- @param t table
 M.tbl_to_str = function(t)
-	local content = ""
+	local res = ""
 
 	for key, value in M.sorted_pairs(t) do
-		content = content .. string.format('\t["%s"] = "%s",\n', key, value)
+		res = res .. string.format('\t["%s"] = "%s",\n', key, value)
 	end
 
-	return content
+	return res
 end
 
 --- Create a string for a Lua module
