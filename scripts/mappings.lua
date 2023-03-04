@@ -9,10 +9,8 @@ return {
 			"obj",
 			"pm{d,x}",
 			"skp",
-			"vac",
-			"vdp",
-			"vox",
-			"{stl,stp}",
+			"st{l,p}",
+			"v{ac,dp,ox}",
 		},
 	},
 	["abc"] = {
@@ -22,7 +20,7 @@ return {
 		extension = { "as" },
 	},
 	["ada"] = {
-		extension = { "ada", "adb", "ads", "ali" },
+		extension = { "ad{a,b,s}", "ali" },
 	},
 	["adonis"] = {
 		filename = { ".adonisrc.json", "ace" },
@@ -46,8 +44,7 @@ return {
 	["angular"] = {
 		extension = { "ng-template" },
 		filename = {
-			".angular-cli.json",
-			"angular-cli.json",
+			"{,.}angular-cli.json",
 			"angular.json",
 			"ng-package.json",
 		},
@@ -56,7 +53,7 @@ return {
 		extension = { "g4" },
 	},
 	["apiblueprint"] = {
-		extension = { "apib", "apiblueprint" },
+		extension = { "api{b,blueprint}" },
 	},
 	["apollo"] = {
 		filename = { "apollo.config.js" },
@@ -65,7 +62,7 @@ return {
 		extension = { "applescript", "ipa" },
 	},
 	["appveyor"] = {
-		filename = { ".appveyor.yml", "appveyor.yml" },
+		filename = { "{,.}appveyor.yml" },
 	},
 	["architecture"] = {
 		filename = { "architecture", "architecture.{md,rst,txt}" },
@@ -116,8 +113,7 @@ return {
 	["auto"] = {
 		filename = {
 			".autorc",
-			"auto.config.{js,ts}",
-			"auto.config.{json,yaml,yml,ts,js}",
+			"auto.config.{js,ts,json,yml,yaml}",
 		},
 	},
 	["autohotkey"] = {
@@ -131,34 +127,35 @@ return {
 	},
 	["azure-pipelines"] = {
 		filename = { "azure-pipelines.{yml,yaml}" },
+		-- TODO: remove
 		pattern = { "azure-pipelines.{yml,yaml}" },
 	},
 	["babel"] = {
 		filename = {
 			".babel-plugin-macrosrc",
-			".babel-plugin-macrosrc.{json,yaml,yml,js}",
+			".babel-plugin-macrosrc.{json,yml,yaml,js}",
 			".babelrc",
 			".babelrc.{cjs,js,mjs,json}",
 			"babel-plugin-macros.config.js",
 			"babel-transform.js",
-			"babel.config.{cjs,js,mjs,json",
+			"babel.config.{cjs,js,mjs,json}",
 		},
 	},
 	["ballerina"] = {
-		extension = { "bal", "balx" },
+		extension = { "bal{,x}" },
 	},
 	["bash"] = {
 		extension = { "bats" },
 	},
 	["bazel"] = {
 		extension = { "bazel", "bzl" },
-		filename = { ".bazelignore", ".bazelrc", ".bazelversion" },
+		filename = { ".bazel{ignore,rc,version}" },
 	},
 	["bicep"] = {
 		extension = { "bicep" },
 	},
 	["bitbucket"] = {
-		filename = { "bitbucket-pipelines.{yaml,yml}" },
+		filename = { "bitbucket-pipelines.{yml,yaml}" },
 	},
 	["bithound"] = {
 		filename = { ".bithoundrc" },
@@ -212,38 +209,17 @@ return {
 	["certificate"] = {
 		extension = { "cer", "cert", "crt" },
 		filename = {
-			"copying",
-			"copying.{md,rst,txt}",
-			"copyright",
-			"copyright.{md,rst,txt}",
-			"licence",
-			"licence-agpl",
-			"licence-apache",
-			"licence-bsd",
-			"licence-gpl",
-			"licence-lgpl",
-			"licence-mit",
-			"licence.md",
-			"licence.rst",
-			"licence.txt",
-			"license",
-			"license-agpl",
-			"license-apache",
-			"license-bsd",
-			"license-gpl",
-			"license-lgpl",
-			"license-mit",
-			"license.md",
-			"license.rst",
-			"license.txt",
+			"copy{ing,right}",
+			"copy{ing,right}.{md,rst,txt}",
+			"licen{s,c}e",
+			"licen{s,c}e-{agpl,apache,bsd,gpl,lgpl,mit}",
+			"licen{s,c}e.{md,rst,txt}",
 		},
 	},
 	["changelog"] = {
 		filename = {
-			"changelog",
-			"changelog.{md,rst,txt}",
-			"changes",
-			"changes.{md,rst,txt}",
+			"change{log,s}",
+			"change{log,s}.{md,rst,txt}",
 		},
 	},
 	["chess"] = {
@@ -253,17 +229,17 @@ return {
 		filename = { "circle.yml" },
 	},
 	["clojure"] = {
-		extension = { "clj", "cljc", "cljs" },
+		extension = { "clj{,c,s}" },
 	},
 	["cloudfoundry"] = {
 		filename = { ".cfignore" },
 	},
 	["cmake"] = {
 		extension = { "cmake" },
-		filename = { "cmakecache.txt", "cmakelists.txt" },
+		filename = { "cmake{cache,lists}.txt" },
 	},
 	["coala"] = {
-		extension = { "coafile", "coarc" },
+		extension = { "coa{file,rc}" },
 	},
 	["cobol"] = {
 		extension = { "cbl", "cob" },
@@ -284,16 +260,16 @@ return {
 		extension = { "coffee", "cson", "iced" },
 	},
 	["coldfusion"] = {
-		extension = { "cfc", "cfm", "cfml", "lucee" },
+		extension = { "cf{c,m,ml}", "lucee" },
 	},
 	["command"] = {
 		extension = { "command" },
 	},
 	["commitlint"] = {
 		filename = {
-			".commitlint.{yaml,yml}",
+			".commitlint.{yml,yaml}",
 			".commitlintrc",
-			".commitlintrc.{js,cjs,ts,cts,json,yaml,yml}",
+			".commitlintrc.{js,cjs,ts,cts,json,yml,yaml}",
 			"commitlint.config.{js,cjs,ts,cts}",
 		},
 	},
@@ -315,13 +291,13 @@ return {
 			"tcsh",
 			"zsh",
 		},
-		filename = { "commit-msg", "post-merge", "pre-commit", "pre-push" },
+		filename = { "commit-msg", "post-merge", "pre-{commit,push}" },
 	},
 	["contributing"] = {
 		filename = { "contributing", "contributing.{md,rst,txt}" },
 	},
 	["cpp"] = {
-		extension = { "c++", "cc", "cp", "cpp", "cxx", "ii", "mii" },
+		extension = { "c{++,c,p,pp,xx}", "ii", "mii" },
 	},
 	["craco"] = {
 		filename = { ".cracorc", ".cracorc.{ts,js}", "craco.config.{ts,js,cjs}" },
@@ -333,7 +309,7 @@ return {
 		extension = { "cr", "ecr" },
 	},
 	["csharp"] = {
-		extension = { "cs", "csx" },
+		extension = { "cs{,x}" },
 	},
 	["css"] = {
 		extension = { "css" },
@@ -342,10 +318,10 @@ return {
 		pattern = { "css.map" },
 	},
 	["cucumber"] = {
-		extension = { "feature", "features" },
+		extension = { "feature{,s}" },
 	},
 	["cuda"] = {
-		extension = { "cu", "cuh" },
+		extension = { "cu{,h}" },
 	},
 	["cypress"] = {
 		filename = {
@@ -353,7 +329,7 @@ return {
 			"cypress.env.json",
 			"cypress.json",
 		},
-		pattern = { "cy.ts", "cy.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
+		pattern = { "cy.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
 	},
 	["d"] = {
 		extension = { "d" },
@@ -368,14 +344,12 @@ return {
 	["database"] = {
 		extension = {
 			"accdb",
-			"db",
-			"db3",
-			"mdb",
-			"pdb",
+			"db{,3}",
 			"pgsql",
 			"pk{b,s}",
 			"postgres",
 			"psql",
+			"{m,p}db",
 			"{sql,sqlite,sqlite3}",
 		},
 	},
@@ -386,7 +360,7 @@ return {
 		filename = { "dependabot.{yml,yaml}" },
 	},
 	["dhall"] = {
-		extension = { "dhall", "dhallb" },
+		extension = { "dhall{,b}" },
 	},
 	["dinophp"] = {
 		extension = { "bubble" },
@@ -419,9 +393,7 @@ return {
 	["dune"] = {
 		filename = {
 			"dune",
-			"dune-project",
-			"dune-workspace",
-			"dune-workspace.dev",
+			"dune-{project,workspace,workspace.dev}",
 		},
 	},
 	["edge"] = {
@@ -434,7 +406,7 @@ return {
 		extension = { "ejs" },
 	},
 	["elixir"] = {
-		extension = { "eex", "ex", "exs", "heex", "leex" },
+		extension = { "eex", "ex{,s}", "{h,l}eex" },
 	},
 	["elm"] = {
 		extension = { "elm" },
@@ -451,9 +423,8 @@ return {
 	},
 	["eslint"] = {
 		filename = {
-			".eslintrc-jsdoc.js",
-			".eslintrc-md.js",
-			".eslintrc.{js,cjs,yaml,yml,json}",
+			".eslintrc-{jsdoc,md}.js",
+			".eslintrc.{js,cjs,yml,yaml,json}",
 			".eslint{rc,ignore,cache}",
 			"eslint.config.js",
 		},
@@ -489,28 +460,27 @@ return {
 			"bmap",
 			"eot",
 			"fnt",
-			"font",
-			"fonts",
+			"font{,s}",
 			"mrf",
 			"ntf",
 			"odttf",
 			"otf",
-			"{sui,suit}",
-			"{ttc,ttf}",
-			"{woff,woff2}",
+			"sui{,t}",
+			"tt{c,f}",
+			"woff{,2}",
 		},
 	},
 	["forth"] = {
 		extension = { "4th", "frt", "fth" },
 	},
 	["fortran"] = {
-		extension = { "f", "f03", "f08", "f77", "f90", "f95" },
+		extension = { "f{,03,08,77,90,95}" },
 	},
 	["foxpro"] = {
 		extension = { "fxp", "prg" },
 	},
 	["fsharp"] = {
-		extension = { "fs", "fsi", "fsproj", "fsx" },
+		extension = { "fs{,i,proj,x}" },
 	},
 	["fusebox"] = {
 		filename = { "fuse.js" },
@@ -521,8 +491,7 @@ return {
 	["gatsby"] = {
 		filename = {
 			"gatsby-browser.{js,tsx}",
-			"gatsby-config.{js,mjs,ts}",
-			"gatsby-node.{js,mjs,ts}",
+			"gatsby-{config,node}.{js,mjs,ts}",
 			"gatsby-ssr.{js,tsx}",
 		},
 	},
@@ -581,9 +550,9 @@ return {
 	["graphql"] = {
 		extension = { "gql", "graphql" },
 		filename = {
-			".graphqlrc.{json,js,cjs,ts,toml,yaml,yml}",
+			".graphqlrc.{json,js,cjs,ts,toml,yml,yaml}",
 			".graphql{config,rc}",
-			"graphql.config.{json,js,cjs,ts,toml,yaml,yml}",
+			"graphql.config.{json,js,cjs,ts,toml,yml,yaml}",
 		},
 	},
 	["gridsome"] = {
@@ -646,7 +615,7 @@ return {
 		filename = { "cname" },
 	},
 	["husky"] = {
-		filename = { ".huskyrc", ".huskyrc.{json,js,yaml,yml}", "husky.config.js" },
+		filename = { ".huskyrc", ".huskyrc.{json,js,yml,yaml}", "husky.config.js" },
 	},
 	["i18n"] = {
 		extension = { "lang", "mo", "po{,t}" },
@@ -1069,7 +1038,7 @@ return {
 		filename = {
 			".postcssrc",
 			".postcssrc.{js,cjs,ts,cts}",
-			".postcssrc.{json,yaml,yml}",
+			".postcssrc.{json,yml,yaml}",
 			"postcss.config.{js,cjs,ts,cts}",
 		},
 	},
@@ -1091,7 +1060,7 @@ return {
 			".prettierignore",
 			".prettierrc",
 			".prettierrc.toml",
-			".prettierrc.{js,cjs,json,json5,yaml,yml}",
+			".prettierrc.{js,cjs,json,json5,yml,yaml}",
 			"prettier.config.{js,cjs}",
 		},
 	},
@@ -1275,7 +1244,7 @@ return {
 	["semantic-release"] = {
 		filename = {
 			".releaserc",
-			".releaserc.{yaml,yml,json,js}",
+			".releaserc.{yml,yaml,json,js}",
 			"release.config.js",
 		},
 	},
@@ -1403,7 +1372,7 @@ return {
 			".stylelintcache",
 			".stylelintignore",
 			".stylelintrc",
-			".stylelintrc.{json,yaml,yml,js,cjs}",
+			".stylelintrc.{json,yml,yaml,js,cjs}",
 			"stylelint.config.{js,cjs}",
 		},
 	},
@@ -1427,7 +1396,7 @@ return {
 		filename = { "svgo.config.{js,cjs,mjs}" },
 	},
 	["svgr"] = {
-		filename = { ".svgrrc", ".svgrrc.{js,yaml,yml,json}", "svgr.config.js" },
+		filename = { ".svgrrc", ".svgrrc.{js,yml,yaml,json}", "svgr.config.js" },
 	},
 	["swc"] = {
 		extension = { "swc" },
