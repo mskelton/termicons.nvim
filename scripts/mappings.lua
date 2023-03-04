@@ -1394,11 +1394,8 @@ return {
 	["tauri"] = {
 		extension = { "tauri" },
 		filename = {
-			"tauri.conf.json",
-			"tauri.config.json",
-			"tauri.linux.conf.json",
-			"tauri.macos.conf.json",
-			"tauri.windows.conf.json",
+			"tauri.{conf,config}.json",
+			"tauri.{linux,macos,windows}.conf.json",
 		},
 	},
 	["tcl"] = {
@@ -1411,15 +1408,17 @@ return {
 		extension = { "template" },
 	},
 	["terraform"] = {
-		extension = { "{tf,tfstate,tfvars}" },
+		extension = { "tf{,state,vars}" },
 		pattern = { "tf.json" },
 	},
 	["test-js"] = {
-		pattern = { "{spec,test}.{js,cjs,mjs,jsx}" },
+		pattern = {
+			"{js,cjs,mjs,jsx}.snap",
+			"{spec,test}.{js,cjs,mjs,jsx}",
+		},
 	},
 	["test-ts"] = {
 		pattern = {
-			"{js,cts,mts,jsx}.snap",
 			"{spec,test}.{ts,cts,mts,tsx}",
 			"{ts,cts,mts,tsx}.snap",
 		},
