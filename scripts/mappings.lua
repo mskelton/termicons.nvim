@@ -545,7 +545,6 @@ return {
 	},
 	["graphcool"] = {
 		extension = { "graphcool" },
-		filename = { "project.graphcool" },
 	},
 	["graphql"] = {
 		extension = { "gql", "graphql" },
@@ -602,7 +601,6 @@ return {
 	},
 	["horusec"] = {
 		filename = { "horusec-config.json" },
-		pattern = { "horusec-config.json" },
 	},
 	["hpp"] = {
 		extension = { "h{++,h,xx,p,pp}", "inl", "tcc" },
