@@ -1413,11 +1413,13 @@ return {
 		extension = {
 			"{js,cjs,mjs,jsx}.snap",
 			"{spec,test}.{js,cjs,mjs,jsx}",
+			"{spec,test}-d.{js,cjs,mjs,jsx}",
 		},
 	},
 	["test-ts"] = {
 		extension = {
 			"{spec,test}.{ts,cts,mts,tsx}",
+			"{spec,test}-d.{ts,cts,mts,tsx}",
 			"{ts,cts,mts,tsx}.snap",
 		},
 	},
