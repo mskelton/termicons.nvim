@@ -127,8 +127,6 @@ return {
 	},
 	["azure-pipelines"] = {
 		filename = { "azure-pipelines.{yml,yaml}" },
-		-- TODO: remove
-		pattern = { "azure-pipelines.{yml,yaml}" },
 	},
 	["babel"] = {
 		filename = {
@@ -315,7 +313,7 @@ return {
 		extension = { "css" },
 	},
 	["css-map"] = {
-		pattern = { "css.map" },
+		extension = { "css.map" },
 	},
 	["cucumber"] = {
 		extension = { "feature{,s}" },
@@ -329,7 +327,7 @@ return {
 			"cypress.env.json",
 			"cypress.json",
 		},
-		pattern = { "cy.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
+		extension = { "cy.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
 	},
 	["d"] = {
 		extension = { "d" },
@@ -339,7 +337,7 @@ return {
 		filename = { ".pubignore" },
 	},
 	["dart-generated"] = {
-		pattern = { "{g,freezed}.dart" },
+		extension = { "{g,freezed}.dart" },
 	},
 	["database"] = {
 		extension = {
@@ -364,7 +362,6 @@ return {
 	},
 	["dinophp"] = {
 		extension = { "bubble" },
-		pattern = { "{html,php}.bubble" },
 	},
 	["disc"] = {
 		extension = { "iso" },
@@ -373,9 +370,11 @@ return {
 		extension = { "djt" },
 	},
 	["docker"] = {
-		extension = { "docker{file,ignore}" },
-		filename = { ".dockerignore", "compose.{yml,yaml}" },
-		pattern = { "docker-compose.{yml,yaml}" },
+		filename = {
+			".dockerignore",
+			"docker-compose.{yml,yaml}",
+			"docker{file,ignore}",
+		},
 	},
 	["document"] = {
 		extension = { "txt" },
@@ -388,7 +387,7 @@ return {
 	},
 	["drone"] = {
 		filename = { ".drone.yml" },
-		pattern = { "drone.yml" },
+		extension = { "drone.yml" },
 	},
 	["dune"] = {
 		filename = {
@@ -515,7 +514,7 @@ return {
 		},
 	},
 	["gitlab"] = {
-		pattern = { "gitlab-ci.yml" },
+		extension = { "gitlab-ci.yml" },
 	},
 	["gitpod"] = {
 		filename = { ".gitpod.yml" },
@@ -692,7 +691,7 @@ return {
 		extension = { "{js,cjs,mjs}" },
 	},
 	["javascript-map"] = {
-		pattern = { "{js,cjs,mjs}.map" },
+		extension = { "{js,cjs,mjs}.map" },
 	},
 	["jenkins"] = {
 		extension = { "jenkins{,file}" },
@@ -764,7 +763,7 @@ return {
 	},
 	["laravel"] = {
 		filename = { "artisan" },
-		pattern = { "{blade,inky}.php" },
+		extension = { "{blade,inky}.php" },
 	},
 	["lerna"] = {
 		filename = { "lerna.json" },
@@ -870,7 +869,7 @@ return {
 		},
 	},
 	["ndst"] = {
-		pattern = { "ndst.json", "ndst.{yml,yaml}" },
+		extension = { "ndst.json", "ndst.{yml,yaml}" },
 	},
 	["nest"] = {
 		filename = {
@@ -879,34 +878,34 @@ return {
 		},
 	},
 	["nest-controller"] = {
-		pattern = { "controller.{js,cjs,mjs,ts,cts,mts}" },
+		extension = { "controller.{js,cjs,mjs,ts,cts,mts}" },
 	},
 	["nest-decorator"] = {
-		pattern = { "decorator.{js,cjs,mjs,ts,cts,mts}" },
+		extension = { "decorator.{js,cjs,mjs,ts,cts,mts}" },
 	},
 	["nest-filter"] = {
-		pattern = { "filter.{js,cjs,mjs,ts,cts,mts}" },
+		extension = { "filter.{js,cjs,mjs,ts,cts,mts}" },
 	},
 	["nest-gateway"] = {
-		pattern = { "gateway.{js,cjs,mjs,ts,cts,mts}" },
+		extension = { "gateway.{js,cjs,mjs,ts,cts,mts}" },
 	},
 	["nest-guard"] = {
-		pattern = { "guard.{js,cjs,mjs,ts,cts,mts}" },
+		extension = { "guard.{js,cjs,mjs,ts,cts,mts}" },
 	},
 	["nest-middleware"] = {
-		pattern = { "middleware.{js,cjs,mjs,ts,cts,mts}" },
+		extension = { "middleware.{js,cjs,mjs,ts,cts,mts}" },
 	},
 	["nest-module"] = {
-		pattern = { "module.{js,cjs,mjs,ts,cts,mts}" },
+		extension = { "module.{js,cjs,mjs,ts,cts,mts}" },
 	},
 	["nest-pipe"] = {
-		pattern = { "pipe.{js,cjs,mjs,ts,cts,mts}" },
+		extension = { "pipe.{js,cjs,mjs,ts,cts,mts}" },
 	},
 	["nest-resolver"] = {
-		pattern = { "resolver.{js,cjs,mjs,ts,cts,mts}" },
+		extension = { "resolver.{js,cjs,mjs,ts,cts,mts}" },
 	},
 	["nest-service"] = {
-		pattern = { "service.{js,cjs,mjs,ts,cts,mts}" },
+		extension = { "service.{js,cjs,mjs,ts,cts,mts}" },
 	},
 	["netlify"] = {
 		filename = { "netlify.{json,yml,yaml,toml}" },
@@ -1139,7 +1138,7 @@ return {
 		filename = { "selector{,s}.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
 	},
 	["redux-store"] = {
-		pattern = { "store{,s}.{js,cjs,mjs,ts,cts,mts,tsx}" },
+		extension = { "store{,s}.{js,cjs,mjs,ts,cts,mts,tsx}" },
 	},
 	["remix"] = {
 		filename = { "remix.config.{js,ts}" },
@@ -1193,7 +1192,7 @@ return {
 		filename = {
 			"route{r,s}.{js,cjs,mjs,jsx,ts,cts,mts,tsx}",
 		},
-		pattern = { "routing.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
+		extension = { "routing.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
 	},
 	["rubocop"] = {
 		filename = { ".rubocop{-,_}todo.yml", ".rubocop.yml" },
@@ -1253,6 +1252,7 @@ return {
 			"prefs",
 			"prop{,s,erties}",
 			"settings",
+			"sln.dotsettings{,.user}",
 		},
 		filename = {
 			".buildignore",
@@ -1264,7 +1264,6 @@ return {
 			".yardopts",
 			"manifest.mf",
 		},
-		pattern = { "sln.dotsettings{,.user}" },
 	},
 	["shader"] = {
 		extension = {
@@ -1333,7 +1332,7 @@ return {
 	},
 	["steadybit"] = {
 		filename = { "{,.}steadybit.{yml,yaml}" },
-		pattern = { "steadybit.{yml,yaml}" },
+		extension = { "steadybit.{yml,yaml}" },
 	},
 	["stencil"] = {
 		filename = { "stencil.config.{js,ts}" },
@@ -1342,13 +1341,13 @@ return {
 		filename = { "stitches.config.{js,ts}" },
 	},
 	["storybook"] = {
-		pattern = { "stor{ies,y}.{js,jsx,mdx,ts,tsx,svelte}" },
+		extension = { "stor{ies,y}.{js,jsx,mdx,ts,tsx,svelte}" },
 	},
 	["stryker"] = {
 		filename = { "stryker.conf.{js,json}" },
 	},
 	["stylable"] = {
-		pattern = { "st.css" },
+		extension = { "st.css" },
 	},
 	["stylelint"] = {
 		filename = {
@@ -1408,17 +1407,16 @@ return {
 		extension = { "template" },
 	},
 	["terraform"] = {
-		extension = { "tf{,state,vars}" },
-		pattern = { "tf.json" },
+		extension = { "tf{,state,vars}", "tf.json" },
 	},
 	["test-js"] = {
-		pattern = {
+		extension = {
 			"{js,cjs,mjs,jsx}.snap",
 			"{spec,test}.{js,cjs,mjs,jsx}",
 		},
 	},
 	["test-ts"] = {
-		pattern = {
+		extension = {
 			"{spec,test}.{ts,cts,mts,tsx}",
 			"{ts,cts,mts,tsx}.snap",
 		},
@@ -1522,7 +1520,7 @@ return {
 		extension = { "{ts,cts,mts}" },
 	},
 	["typescript-def"] = {
-		pattern = { "d.{ts,cts,mts}" },
+		extension = { "d.{ts,cts,mts}" },
 	},
 	["uml"] = {
 		extension = { "iuml", "plantuml", "pu", "puml", "wsd" },
@@ -1586,9 +1584,10 @@ return {
 			"suo",
 			"vb",
 			"vbs",
+			"vcxitems.filters",
+			"vcxproj.filters",
 			"{vcxitems,vcxproj}",
 		},
-		pattern = { "vcxitems.filters", "vcxproj.filters" },
 	},
 	["vite"] = {
 		filename = { "vite.config.{js,mjs,cjs,ts,mts,cts}" },
@@ -1618,7 +1617,7 @@ return {
 	},
 	["wakatime"] = {
 		filename = { ".wakatime-project" },
-		pattern = { ".wakatime-project" },
+		extension = { ".wakatime-project" },
 	},
 	["wallaby"] = {
 		filename = { "wallaby.conf.js", "wallaby.js" },
@@ -1660,15 +1659,18 @@ return {
 			"resx",
 			"tmlanguage",
 			"xml",
+			"xml.dist{,.sample}",
 			"xquery",
 			"xs{d,l,lt}",
 		},
 		filename = { ".htaccess" },
-		pattern = { "xml.dist{,.sample}" },
 	},
 	["yaml"] = {
-		extension = { "yaml-tmlanguage", "{yml,yaml}" },
-		pattern = { "{yml,yaml}.dist" },
+		extension = {
+			"yaml-tmlanguage",
+			"{yml,yaml}",
+			"{yml,yaml}.dist",
+		},
 	},
 	["yang"] = {
 		extension = { "yang" },

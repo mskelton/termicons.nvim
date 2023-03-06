@@ -13,10 +13,6 @@ local function map_icons(icon_set)
 	return res
 end
 
-M.get_overrides = function()
-	return map_icons(mappings.by_pattern)
-end
-
 M.get_overrides_by_extension = function()
 	return map_icons(mappings.by_extension)
 end
@@ -27,7 +23,7 @@ end
 
 M.setup = function()
 	require("nvim-web-devicons").setup({
-		override = M.get_overrides(),
+		strict = true,
 		override_by_extension = M.get_overrides_by_extension(),
 		override_by_filename = M.get_overrides_by_filename(),
 	})

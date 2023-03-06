@@ -111,7 +111,6 @@ local function generate_mappings()
 
 	res = res .. build_mapping("extension")
 	res = res .. build_mapping("filename")
-	res = res .. build_mapping("pattern")
 
 	return utils.mod(res)
 end
