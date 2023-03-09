@@ -506,8 +506,10 @@ return {
 	["git"] = {
 		extension = { "patch" },
 		filename = {
+			".git",
 			".git-blame-ignore{,-revs}",
-			".gitignore{-,_}global",
+			".git-for-windows-updater",
+			".git{attributes,ignore}{-,_}global",
 			".git{attributes,config,ignore,include,keep,modules}",
 			"commit_editmsg",
 			"git-history",
