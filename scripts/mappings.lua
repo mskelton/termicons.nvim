@@ -1484,6 +1484,7 @@ return {
 	["tune"] = {
 		extension = { "env" },
 		filename = {
+			".env",
 			".env.alpha",
 			".env.defaults",
 			".env.dev",

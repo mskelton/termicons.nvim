@@ -883,6 +883,7 @@ M.by_filename = {
 	[".ember-cli"] = "ember",
 	[".ember-cli.js"] = "ember",
 	[".entity"] = "ngrx-entity",
+	[".env"] = "tune",
 	[".env.alpha"] = "tune",
 	[".env.defaults"] = "tune",
 	[".env.dev"] = "tune",
