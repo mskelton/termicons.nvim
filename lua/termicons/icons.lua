@@ -941,8 +941,8 @@ M.icons = {
 	},
 	["helm"] = {
 		icon = "킏",
-		color = "#000000",
-		cterm_color = "0",
+		color = "#00acc1",
+		cterm_color = "37",
 		name = "Helm",
 	},
 	["heroku"] = {
@@ -1055,8 +1055,8 @@ M.icons = {
 	},
 	["jest"] = {
 		icon = "킢",
-		color = "#000000",
-		cterm_color = "0",
+		color = "#f4511e",
+		cterm_color = "202",
 		name = "Jest",
 	},
 	["jinja"] = {
