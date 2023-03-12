@@ -1720,7 +1720,7 @@ M.icons = {
 		name = "Python",
 	},
 	["python-misc"] = {
-		icon = "톋",
+		icon = "탼",
 		color = "#3c78aa",
 		cterm_color = "67",
 		name = "PythonMisc",
