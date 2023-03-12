@@ -73,6 +73,18 @@ return {
 	["redux-store"] = {
 		extensions = { "store{,s}.{js,cjs,mjs,ts,cts,mts,tsx}" },
 	},
+	["rollup"] = {
+		filenames = {
+			"rollup{-,.}config.{js,mjs,ts}",
+			"rollup{-,.}config.{base,common,dev,prod,prod.vendor}.{js,mjs,ts}",
+		},
+	},
+	["routing"] = {
+		filenames = {
+			"route{r,s}.{js,cjs,mjs,jsx,ts,cts,mts,tsx}",
+		},
+		extensions = { "routing.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
+	},
 	["test-js"] = {
 		extensions = {
 			"{js,cjs,mjs,jsx}.snap",
