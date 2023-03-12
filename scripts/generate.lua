@@ -87,10 +87,19 @@ local function generate_icons(termicons)
 end
 
 --- Build a single mapping table expanding the file patterns using brace expansion.
+--- @param termicons table
 --- @param key string
 --- @param name string
-local function build_mapping(key, name)
+local function build_mapping(termicons, key, name)
 	local res = {}
+
+	-- First, we find the source mapping from the termicons.json file. If this
+	-- exists, we use it's mappings, otherwise we continue to the custom mappings.
+	for termicons_key, meta in pairs(termicons) do
+		for _, value in ipairs(meta[key]) do
+			res[string.lower(value)] = termicons_key
+		end
+	end
 
 	-- For each icon, expand the patterns and add them to the associated result
 	-- mapping. This is technically looping through the mappings more than needed,
@@ -107,11 +116,12 @@ local function build_mapping(key, name)
 end
 
 --- Generate the icon file mappings
-local function generate_mappings()
+--- @param termicons table
+local function generate_mappings(termicons)
 	local res = ""
 
-	res = res .. build_mapping("extensions", "by_extension")
-	res = res .. build_mapping("filenames", "by_filename")
+	res = res .. build_mapping(termicons, "extensions", "by_extension")
+	res = res .. build_mapping(termicons, "filenames", "by_filename")
 
 	return utils.mod(res)
 end
@@ -119,4 +129,4 @@ end
 local termicons = fetch_json(get_mapping_url())
 
 utils.write_file("lua/termicons/icons.lua", generate_icons(termicons))
-utils.write_file("lua/termicons/mappings.lua", generate_mappings())
+utils.write_file("lua/termicons/mappings.lua", generate_mappings(termicons))
