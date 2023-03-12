@@ -89,4 +89,17 @@ M.tbl = function(key, content)
 	return string.format(template, key, content)
 end
 
+--- Check if a table contains a value
+--- @param t table
+--- @param value any
+M.tbl_contains = function(t, value)
+	for _, v in pairs(t) do
+		if v == value then
+			return true
+		end
+	end
+
+	return false
+end
+
 return M

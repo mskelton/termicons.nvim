@@ -1281,6 +1281,12 @@ M.icons = {
 		cterm_color = "202",
 		name = "Mdsvex",
 	},
+	["mdx"] = {
+		icon = "킼",
+		color = "#FFCA28",
+		cterm_color = "220",
+		name = "Mdx",
+	},
 	["merlin"] = {
 		icon = "탁",
 		color = "#42a5f5",
@@ -1712,6 +1718,12 @@ M.icons = {
 		color = "#3c78aa",
 		cterm_color = "67",
 		name = "Python",
+	},
+	["python-misc"] = {
+		icon = "탼",
+		color = "#3c78aa",
+		cterm_color = "67",
+		name = "PythonMisc",
 	},
 	["qsharp"] = {
 		icon = "탽",
