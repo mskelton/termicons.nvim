@@ -25,6 +25,9 @@ return {
 	["godot-assets"] = {
 		extensions = { "gd{extension,nlib,ns,shader}", "godot", "{tres,tscn}" },
 	},
+	["javascript"] = {
+		extensions = { "{js,cjs,mjs}" },
+	},
 	["nest"] = {
 		filenames = {
 			"{,.}nest-cli.json",
@@ -98,5 +101,8 @@ return {
 			"{spec,test}-d.{ts,cts,mts,tsx}",
 			"{ts,cts,mts,tsx}.snap",
 		},
+	},
+	["typescript"] = {
+		extensions = { "{ts,cts,mts}" },
 	},
 }

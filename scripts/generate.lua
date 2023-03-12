@@ -97,7 +97,7 @@ local function build_mapping(termicons, key, name)
 	-- exists, we use it's mappings, otherwise we continue to the custom mappings.
 	for termicons_key, meta in pairs(termicons) do
 		for _, value in ipairs(meta[key]) do
-			res[string.lower(value)] = termicons_key
+			res[string.lower(value)] = termicons_key:sub("_", "-")
 		end
 	end
 
