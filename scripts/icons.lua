@@ -5,59 +5,20 @@ M.by_color = {
 }
 
 M.mappings = {
-	["advpl-include"] = {
-		extensions = { "ch" },
-	},
-	["advpl-prw"] = {
-		extensions = { "pr{w,x}" },
-	},
-	["advpl-ptm"] = {
-		extensions = { "ptm" },
-	},
-	["advpl-tlpp"] = {
-		extensions = { "tlpp" },
-	},
 	["auto"] = {
-		filenames = {
-			".autorc",
-			"auto.config.{js,ts,json,yml,yaml}",
-		},
+		filenames = { "auto.config.{json,yml,yaml}" },
 	},
 	["bash"] = {
 		extensions = { "bats" },
 	},
 	["cypress"] = {
-		filenames = {
-			"cypress.config.{ts,js,cjs,mjs}",
-			"cypress.env.json",
-			"cypress.json",
-		},
 		extensions = { "cy.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
 	},
-	["dart-generated"] = {
-		extensions = { "{g,freezed}.dart" },
-	},
 	["docker"] = {
-		filenames = {
-			".dockerignore",
-			"docker-compose.{yml,yaml}",
-			"docker{file,ignore}",
-		},
+		filenames = { ".dockerignore", "dockerignore" },
 	},
 	["git"] = {
-		extensions = { "patch" },
-		filenames = {
-			".git",
-			".git-blame-ignore{,-revs}",
-			".git-for-windows-updater",
-			".git{attributes,ignore}{-,_}global",
-			".git{attributes,config,ignore,include,keep,modules}",
-			"commit_editmsg",
-			"git-history",
-		},
-	},
-	["godot-assets"] = {
-		extensions = { "gd{extension,nlib,ns,shader}", "godot", "{tres,tscn}" },
+		filenames = { "commit_editmsg" },
 	},
 	["go-mod"] = {
 		filenames = { "go.work.sum", "go.{mod,sum,work}" },
@@ -65,20 +26,14 @@ M.mappings = {
 	["html"] = {
 		extensions = { "html" },
 	},
-	["javaclass"] = {
-		extensions = { "class" },
-	},
 	["javascript"] = {
-		extensions = { "{js,cjs,mjs}" },
+		extensions = { "{js,cjs}" },
 	},
 	["lisp"] = {
 		extensions = { "el" },
 	},
 	["luarocks"] = {
 		extensions = { "rockspec" },
-	},
-	["markdown"] = {
-		extensions = { "mdx" },
 	},
 	["mdsvex"] = {
 		extensions = { "svx" },
