@@ -2,6 +2,8 @@
 
 Alternative set of icons for [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) using [termicons](https://github.com/mskelton/termicons).
 
+<img width="277" alt="image" src="https://user-images.githubusercontent.com/25914066/224574131-4eb3aef2-06aa-468b-ad98-d21fea3e2506.png">
+
 ## Installation
 
 Install with your favorite package manager (e.g. [lazy.nvim](https://github.com/folke/lazy.nvim)).
