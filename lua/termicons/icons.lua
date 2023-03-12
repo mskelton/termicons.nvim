@@ -1059,6 +1059,12 @@ M.icons = {
 		cterm_color = "203",
 		name = "Java",
 	},
+	["javaclass"] = {
+		icon = "킞",
+		color = "#1e88e5",
+		cterm_color = "32",
+		name = "Javaclass",
+	},
 	["javascript"] = {
 		icon = "킠",
 		color = "#ffca28",
@@ -1268,6 +1274,12 @@ M.icons = {
 		color = "#d32f2f",
 		cterm_color = "160",
 		name = "Maven",
+	},
+	["mdsvex"] = {
+		icon = "킼",
+		color = "#FF5722",
+		cterm_color = "202",
+		name = "Mdsvex",
 	},
 	["merlin"] = {
 		icon = "탁",
@@ -2132,6 +2144,12 @@ M.icons = {
 		color = "#0288d1",
 		cterm_color = "32",
 		name = "Svgo",
+	},
+	["svgr"] = {
+		icon = "턃",
+		color = "#ffb300",
+		cterm_color = "214",
+		name = "Svgr",
 	},
 	["swc"] = {
 		icon = "턿",
