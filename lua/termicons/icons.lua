@@ -39,10 +39,34 @@ M.icons = {
 		cterm_color = "38",
 		name = "Advpl",
 	},
+	["advpl-include"] = {
+		icon = "퀅",
+		color = "#00bcd4",
+		cterm_color = "38",
+		name = "AdvplInclude",
+	},
+	["advpl-prw"] = {
+		icon = "퀅",
+		color = "#7986cb",
+		cterm_color = "104",
+		name = "AdvplPrw",
+	},
+	["advpl-ptm"] = {
+		icon = "퀅",
+		color = "#ef5350",
+		cterm_color = "203",
+		name = "AdvplPtm",
+	},
+	["advpl-tlpp"] = {
+		icon = "퀅",
+		color = "#fbc02d",
+		cterm_color = "214",
+		name = "AdvplTlpp",
+	},
 	["android"] = {
 		icon = "퀆",
-		color = "#c0ca33",
-		cterm_color = "149",
+		color = "#8bc34a",
+		cterm_color = "107",
 		name = "Android",
 	},
 	["angular"] = {
@@ -467,8 +491,8 @@ M.icons = {
 	},
 	["cuda"] = {
 		icon = "큋",
-		color = "#8bc34a",
-		cterm_color = "107",
+		color = "#76b900",
+		cterm_color = "106",
 		name = "Cuda",
 	},
 	["cypress"] = {
@@ -785,8 +809,8 @@ M.icons = {
 	},
 	["gemini"] = {
 		icon = "큷",
-		color = "#e53935",
-		cterm_color = "167",
+		color = "#81c784",
+		cterm_color = "114",
 		name = "Gemini",
 	},
 	["git"] = {

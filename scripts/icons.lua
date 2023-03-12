@@ -1,6 +1,10 @@
 local M = {}
 
 M.by_color = {
+	["advpl-include"] = { "advpl", "#00bcd4" },
+	["advpl-prw"] = { "advpl", "#7986cb" },
+	["advpl-ptm"] = { "advpl", "#ef5350" },
+	["advpl-tlpp"] = { "advpl", "#fbc02d" },
 	["dart-generated"] = { "dart", "#455a64" },
 	["godot-assets"] = { "godot", "#81c784" },
 	["nest-controller"] = { "nest", "#0288d1" },
