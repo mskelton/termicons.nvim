@@ -4,7 +4,6 @@ local hexterm = require("hexterm")
 local utils = require("scripts.utils")
 local shexpand = require("shexpand")
 local icons = require("scripts.icons")
-local mappings = require("scripts.mappings")
 
 --- @param url string
 local function fetch_json(url)
@@ -104,7 +103,7 @@ local function build_mapping(termicons, key, name)
 	-- For each icon, expand the patterns and add them to the associated result
 	-- mapping. This is technically looping through the mappings more than needed,
 	-- but it's all done at compile time, not runtime so who cares.
-	for icon, meta in pairs(mappings) do
+	for icon, meta in pairs(icons.mappings) do
 		for _, pattern in ipairs(meta[key] or {}) do
 			for _, expanded in ipairs(shexpand.expand(pattern)) do
 				res[string.lower(expanded)] = icon

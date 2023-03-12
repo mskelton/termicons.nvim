@@ -4,5 +4,5 @@ tidy:
 generate:
 	lua ./scripts/generate.lua
 
-watch:
+dev:
 	watchman-make -p 'scripts/*.lua' -t generate
