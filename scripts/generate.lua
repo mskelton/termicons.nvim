@@ -5,6 +5,14 @@ local utils = require("scripts.utils")
 local shexpand = require("shexpand")
 local icons = require("scripts.icons")
 
+--- TODO: Add support for user configuration of these icon packs
+local enabled_icon_packs = {
+	"angular",
+	"nest",
+	"react",
+	"redux",
+}
+
 --- @param url string
 local function fetch_json(url)
 	local file = io.popen("curl -s " .. url)
@@ -95,8 +103,26 @@ local function build_mapping(termicons, key, name)
 	-- First, we find the source mapping from the termicons.json file. If this
 	-- exists, we use it's mappings, otherwise we continue to the custom mappings.
 	for termicons_key, meta in pairs(termicons) do
-		for _, value in ipairs(meta[key]) do
-			res[string.lower(value)] = string.gsub(termicons_key, "_", "-")
+		-- Icons that are not tied to a specific icon pack are automatically enabled
+		local enabled = #meta.enabledFor == 0
+
+		-- If the icon is part of a pack (not enabled by default), check if the
+		-- pack is enabled. Eventually this will need to be refactored to create
+		-- separate output tables so that icon packs can be selected at runtime
+		-- when configuring the plugin.
+		if not enabled then
+			for _, icon_pack in pairs(meta.enabledFor) do
+				if utils.tbl_contains(enabled_icon_packs, icon_pack) then
+					enabled = true
+					break
+				end
+			end
+		end
+
+		if enabled then
+			for _, value in ipairs(meta[key]) do
+				res[string.lower(value)] = string.gsub(termicons_key, "_", "-")
+			end
 		end
 	end
 
