@@ -74,6 +74,9 @@ return {
 	["markdown"] = {
 		extensions = { "mdx" },
 	},
+	["mdsvex"] = {
+		extensions = { "svx" },
+	},
 	["nest"] = {
 		filenames = {
 			"{,.}nest-cli.json",
@@ -109,6 +112,9 @@ return {
 	},
 	["nest-service"] = {
 		extensions = { "service.{js,cjs,mjs,ts,cts,mts}" },
+	},
+	["ngrx-entity"] = {
+		filenames = { ".entity" },
 	},
 	["objective-c"] = {
 		extensions = { "m" },
@@ -185,6 +191,9 @@ return {
 	},
 	["toml"] = {
 		extensions = { "toml" },
+	},
+	["tune"] = {
+		filenames = { ".env" },
 	},
 	["typescript"] = {
 		extensions = { "{ts,cts,mts}" },
