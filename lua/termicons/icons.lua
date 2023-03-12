@@ -1451,7 +1451,7 @@ M.icons = {
 	},
 	["npm"] = {
 		icon = "탕",
-		color = "#e53935",
+		color = "#cb3837",
 		cterm_color = "167",
 		name = "Npm",
 	},
@@ -1709,8 +1709,8 @@ M.icons = {
 	},
 	["quasar"] = {
 		icon = "탾",
-		color = "#263238",
-		cterm_color = "236",
+		color = "#1976d2",
+		cterm_color = "32",
 		name = "Quasar",
 	},
 	["r"] = {
@@ -2033,8 +2033,8 @@ M.icons = {
 	},
 	["snowpack"] = {
 		icon = "턮",
-		color = "#eeeeee",
-		cterm_color = "255",
+		color = "#cfd8dc",
+		cterm_color = "188",
 		name = "Snowpack",
 	},
 	["snyk"] = {
@@ -2063,8 +2063,8 @@ M.icons = {
 	},
 	["stencil"] = {
 		icon = "턳",
-		color = "#536dfe",
-		cterm_color = "63",
+		color = "#448aff",
+		cterm_color = "69",
 		name = "Stencil",
 	},
 	["stitches"] = {
