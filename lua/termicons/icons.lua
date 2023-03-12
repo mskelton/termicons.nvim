@@ -947,8 +947,8 @@ M.icons = {
 	},
 	["haskell"] = {
 		icon = "킌",
-		color = "#ef5350",
-		cterm_color = "203",
+		color = "#5e5086",
+		cterm_color = "60",
 		name = "Haskell",
 	},
 	["haxe"] = {
@@ -1073,8 +1073,8 @@ M.icons = {
 	},
 	["jenkins"] = {
 		icon = "킡",
-		color = "#000000",
-		cterm_color = "0",
+		color = "#335061",
+		cterm_color = "239",
 		name = "Jenkins",
 	},
 	["jest"] = {
