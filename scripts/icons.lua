@@ -38,12 +38,6 @@ M.mappings = {
 	["mdsvex"] = {
 		extensions = { "svx" },
 	},
-	["nest"] = {
-		filenames = {
-			"{,.}nest-cli.json",
-			"{,.}nestconfig.json",
-		},
-	},
 	["nest-controller"] = {
 		extensions = { "controller.{js,cjs,mjs,ts,cts,mts}" },
 	},
@@ -77,29 +71,8 @@ M.mappings = {
 	["ngrx-entity"] = {
 		filenames = { ".entity" },
 	},
-	["objective-c"] = {
-		extensions = { "m" },
-	},
-	["objective-cpp"] = {
-		extensions = { "mm" },
-	},
-	["python-misc"] = {
-		extensions = { "pyc", "whl" },
-		filenames = {
-			".pylintrc",
-			".python-version",
-			"manifest.in",
-			"pipfile",
-			"pylintrc",
-			"pyproject.toml",
-			"requirements.txt",
-		},
-	},
 	["react-js"] = {
 		extensions = { "jsx" },
-	},
-	["react-ts"] = {
-		extensions = { "tsx" },
 	},
 	["redux-action"] = {
 		filenames = { "action{,s}.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
@@ -126,15 +99,10 @@ M.mappings = {
 		extensions = { "routing.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
 	},
 	["settings"] = {
-		filenames = {
-			".ds_store",
-		},
+		filenames = { ".ds_store" },
 	},
 	["storybook"] = {
-		extensions = { "stor{ies,y}.{js,jsx,mdx,ts,tsx,svelte}" },
-	},
-	["svgr"] = {
-		filenames = { ".svgrrc", ".svgrrc.{js,yml,yaml,json}", "svgr.config.js" },
+		extensions = { "story.svelte" },
 	},
 	["test-js"] = {
 		extensions = {
