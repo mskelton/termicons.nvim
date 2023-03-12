@@ -1059,6 +1059,12 @@ M.icons = {
 		cterm_color = "203",
 		name = "Java",
 	},
+	["javaclass"] = {
+		icon = "킞",
+		color = "#1e88e5",
+		cterm_color = "32",
+		name = "Javaclass",
+	},
 	["javascript"] = {
 		icon = "킠",
 		color = "#ffca28",

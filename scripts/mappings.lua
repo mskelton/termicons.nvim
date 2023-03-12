@@ -22,14 +22,29 @@ return {
 		},
 		extensions = { "cy.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
 	},
+	["dart-generated"] = {
+		extensions = { "{g,freezed}.dart" },
+	},
 	["godot-assets"] = {
 		extensions = { "gd{extension,nlib,ns,shader}", "godot", "{tres,tscn}" },
+	},
+	["html"] = {
+		extensions = { "html" },
+	},
+	["javaclass"] = {
+		extensions = { "class" },
 	},
 	["javascript"] = {
 		extensions = { "{js,cjs,mjs}" },
 	},
 	["lisp"] = {
 		extensions = { "el" },
+	},
+	["luarocks"] = {
+		extensions = { "rockspec" },
+	},
+	["markdown"] = {
+		extensions = { "mdx" },
 	},
 	["nest"] = {
 		filenames = {
@@ -73,6 +88,24 @@ return {
 	["objective-cpp"] = {
 		extensions = { "mm" },
 	},
+	["python-misc"] = {
+		extensions = { "pyc", "whl" },
+		filenames = {
+			".pylintrc",
+			".python-version",
+			"manifest.in",
+			"pipfile",
+			"pylintrc",
+			"pyproject.toml",
+			"requirements.txt",
+		},
+	},
+	["react-js"] = {
+		extensions = { "jsx" },
+	},
+	["react-ts"] = {
+		extensions = { "tsx" },
+	},
 	["redux-action"] = {
 		filenames = { "action{,s}.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
 	},
@@ -97,6 +130,9 @@ return {
 		},
 		extensions = { "routing.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
 	},
+	["storybook"] = {
+		extensions = { "stor{ies,y}.{js,jsx,mdx,ts,tsx,svelte}" },
+	},
 	["test-js"] = {
 		extensions = {
 			"{js,cjs,mjs,jsx}.snap",
@@ -110,6 +146,9 @@ return {
 			"{spec,test}-d.{ts,cts,mts,tsx}",
 			"{ts,cts,mts,tsx}.snap",
 		},
+	},
+	["toml"] = {
+		extensions = { "toml" },
 	},
 	["typescript"] = {
 		extensions = { "{ts,cts,mts}" },

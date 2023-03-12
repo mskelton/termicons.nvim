@@ -7,6 +7,7 @@ M.by_color = {
 	["advpl-tlpp"] = { "advpl", "#fbc02d" },
 	["dart-generated"] = { "dart", "#455a64" },
 	["godot-assets"] = { "godot", "#81c784" },
+	["javaclass"] = { "java", "#1e88e5" },
 	["nest-controller"] = { "nest", "#0288d1" },
 	["nest-decorator"] = { "nest", "#ab47bc" },
 	["nest-filter"] = { "nest", "#ff7043" },
