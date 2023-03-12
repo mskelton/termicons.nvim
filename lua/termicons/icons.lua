@@ -1719,6 +1719,12 @@ M.icons = {
 		cterm_color = "67",
 		name = "Python",
 	},
+	["python-misc"] = {
+		icon = "톋",
+		color = "#3c78aa",
+		cterm_color = "67",
+		name = "PythonMisc",
+	},
 	["qsharp"] = {
 		icon = "탽",
 		color = "#fbc02d",
