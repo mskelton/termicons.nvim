@@ -28,6 +28,9 @@ return {
 	["javascript"] = {
 		extensions = { "{js,cjs,mjs}" },
 	},
+	["lisp"] = {
+		extensions = { "el" },
+	},
 	["nest"] = {
 		filenames = {
 			"{,.}nest-cli.json",
@@ -63,6 +66,12 @@ return {
 	},
 	["nest-service"] = {
 		extensions = { "service.{js,cjs,mjs,ts,cts,mts}" },
+	},
+	["objective-c"] = {
+		extensions = { "m" },
+	},
+	["objective-cpp"] = {
+		extensions = { "mm" },
 	},
 	["redux-action"] = {
 		filenames = { "action{,s}.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },

@@ -97,7 +97,7 @@ local function build_mapping(termicons, key, name)
 	-- exists, we use it's mappings, otherwise we continue to the custom mappings.
 	for termicons_key, meta in pairs(termicons) do
 		for _, value in ipairs(meta[key]) do
-			res[string.lower(value)] = termicons_key:sub("_", "-")
+			res[string.lower(value)] = string.gsub(termicons_key, "_", "-")
 		end
 	end
 
@@ -128,5 +128,5 @@ end
 
 local termicons = fetch_json(get_mapping_url())
 
-utils.write_file("lua/termicons/icons.lua", generate_icons(termicons))
 utils.write_file("lua/termicons/mappings.lua", generate_mappings(termicons))
+utils.write_file("lua/termicons/icons.lua", generate_icons(termicons))
