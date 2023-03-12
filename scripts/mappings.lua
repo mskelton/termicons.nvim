@@ -1,6 +1,6 @@
 return {
 	["3d"] = {
-		extension = {
+		extensions = {
 			"ac",
 			"blend",
 			"fbx",
@@ -14,67 +14,67 @@ return {
 		},
 	},
 	["abc"] = {
-		extension = { "abc" },
+		extensions = { "abc" },
 	},
 	["actionscript"] = {
-		extension = { "as" },
+		extensions = { "as" },
 	},
 	["ada"] = {
-		extension = { "ad{a,b,s}", "ali" },
+		extensions = { "ad{a,b,s}", "ali" },
 	},
 	["adonis"] = {
-		filename = { ".adonisrc.json", "ace" },
+		filenames = { ".adonisrc.json", "ace" },
 	},
 	["advpl-include"] = {
-		extension = { "ch" },
+		extensions = { "ch" },
 	},
 	["advpl-prw"] = {
-		extension = { "pr{w,x}" },
+		extensions = { "pr{w,x}" },
 	},
 	["advpl-ptm"] = {
-		extension = { "ptm" },
+		extensions = { "ptm" },
 	},
 	["advpl-tlpp"] = {
-		extension = { "tlpp" },
+		extensions = { "tlpp" },
 	},
 	["android"] = {
-		extension = { "apk", "dex", "smali" },
-		filename = { "androidmanifest.xml" },
+		extensions = { "apk", "dex", "smali" },
+		filenames = { "androidmanifest.xml" },
 	},
 	["angular"] = {
-		extension = { "ng-template" },
-		filename = {
+		extensions = { "ng-template" },
+		filenames = {
 			"{,.}angular-cli.json",
 			"angular.json",
 			"ng-package.json",
 		},
 	},
 	["antlr"] = {
-		extension = { "g4" },
+		extensions = { "g4" },
 	},
 	["apiblueprint"] = {
-		extension = { "api{b,blueprint}" },
+		extensions = { "api{b,blueprint}" },
 	},
 	["apollo"] = {
-		filename = { "apollo.config.js" },
+		filenames = { "apollo.config.js" },
 	},
 	["applescript"] = {
-		extension = { "applescript", "ipa" },
+		extensions = { "applescript", "ipa" },
 	},
 	["appveyor"] = {
-		filename = { "{,.}appveyor.yml" },
+		filenames = { "{,.}appveyor.yml" },
 	},
 	["architecture"] = {
-		filename = { "architecture", "architecture.{md,rst,txt}" },
+		filenames = { "architecture", "architecture.{md,rst,txt}" },
 	},
 	["arduino"] = {
-		extension = { "ino" },
+		extensions = { "ino" },
 	},
 	["asciidoc"] = {
-		extension = { "ad", "adoc", "asciidoc" },
+		extensions = { "ad", "adoc", "asciidoc" },
 	},
 	["assembly"] = {
-		extension = {
+		extensions = {
 			"a51",
 			"aea",
 			"agc",
@@ -90,20 +90,20 @@ return {
 		},
 	},
 	["astro"] = {
-		extension = { "astro" },
-		filename = { "astro.config.{js,mjs,cjs,ts,cts,mts}" },
+		extensions = { "astro" },
+		filenames = { "astro.config.{js,mjs,cjs,ts,cts,mts}" },
 	},
 	["astyle"] = {
-		filename = { ".astylerc" },
+		filenames = { ".astylerc" },
 	},
 	["audio"] = {
-		extension = { "aiff", "flac", "m4a", "mp3", "wav", "wma" },
+		extensions = { "aiff", "flac", "m4a", "mp3", "wav", "wma" },
 	},
 	["aurelia"] = {
-		filename = { "aurelia.json" },
+		filenames = { "aurelia.json" },
 	},
 	["authors"] = {
-		filename = {
+		filenames = {
 			"authors",
 			"authors.{md,rst,txt}",
 			"contributors",
@@ -111,25 +111,25 @@ return {
 		},
 	},
 	["auto"] = {
-		filename = {
+		filenames = {
 			".autorc",
 			"auto.config.{js,ts,json,yml,yaml}",
 		},
 	},
 	["autohotkey"] = {
-		extension = { "ahk" },
+		extensions = { "ahk" },
 	},
 	["autoit"] = {
-		extension = { "au3" },
+		extensions = { "au3" },
 	},
 	["azure"] = {
-		extension = { "azcli" },
+		extensions = { "azcli" },
 	},
 	["azure-pipelines"] = {
-		filename = { "azure-pipelines.{yml,yaml}" },
+		filenames = { "azure-pipelines.{yml,yaml}" },
 	},
 	["babel"] = {
-		filename = {
+		filenames = {
 			".babel-plugin-macrosrc",
 			".babel-plugin-macrosrc.{json,yml,yaml,js}",
 			".babelrc",
@@ -140,73 +140,73 @@ return {
 		},
 	},
 	["ballerina"] = {
-		extension = { "bal{,x}" },
+		extensions = { "bal{,x}" },
 	},
 	["bash"] = {
-		extension = { "bats" },
+		extensions = { "bats" },
 	},
 	["bazel"] = {
-		extension = { "bazel", "bzl" },
-		filename = { ".bazel{ignore,rc,version}" },
+		extensions = { "bazel", "bzl" },
+		filenames = { ".bazel{ignore,rc,version}" },
 	},
 	["bicep"] = {
-		extension = { "bicep" },
+		extensions = { "bicep" },
 	},
 	["bitbucket"] = {
-		filename = { "bitbucket-pipelines.{yml,yaml}" },
+		filenames = { "bitbucket-pipelines.{yml,yaml}" },
 	},
 	["bithound"] = {
-		filename = { ".bithoundrc" },
+		filenames = { ".bithoundrc" },
 	},
 	["blink"] = {
-		extension = { "blink" },
+		extensions = { "blink" },
 	},
 	["blitz"] = {
-		filename = { ".blitz.config.compiled.js", "blitz.config.{js,ts}" },
+		filenames = { ".blitz.config.compiled.js", "blitz.config.{js,ts}" },
 	},
 	["bower"] = {
-		filename = { ".bowerrc", "bower.json" },
+		filenames = { ".bowerrc", "bower.json" },
 	},
 	["brainfuck"] = {
-		extension = { "b", "bf" },
+		extensions = { "b", "bf" },
 	},
 	["browserlist"] = {
-		filename = { ".browserslistrc", "browserslist" },
+		filenames = { ".browserslistrc", "browserslist" },
 	},
 	["buck"] = {
-		filename = { ".buckconfig" },
+		filenames = { ".buckconfig" },
 	},
 	["bucklescript"] = {
-		extension = { "cmj" },
+		extensions = { "cmj" },
 	},
 	["buildkite"] = {
-		filename = { "buildkite.{yml,yaml}" },
+		filenames = { "buildkite.{yml,yaml}" },
 	},
 	["bun"] = {
-		filename = { "bun.lockb" },
+		filenames = { "bun.lockb" },
 	},
 	["c"] = {
-		extension = { "c", "i", "mi" },
+		extensions = { "c", "i", "mi" },
 	},
 	["cabal"] = {
-		extension = { "cabal" },
-		filename = { "cabal.project", "cabal.project.{freeze,local}" },
+		extensions = { "cabal" },
+		filenames = { "cabal.project", "cabal.project.{freeze,local}" },
 	},
 	["caddy"] = {
-		filename = { "caddyfile" },
+		filenames = { "caddyfile" },
 	},
 	["cadence"] = {
-		extension = { "cdc" },
+		extensions = { "cdc" },
 	},
 	["cake"] = {
-		extension = { "cake" },
+		extensions = { "cake" },
 	},
 	["capacitor"] = {
-		filename = { "capacitor.config.{json,ts}" },
+		filenames = { "capacitor.config.{json,ts}" },
 	},
 	["certificate"] = {
-		extension = { "cer", "cert", "crt" },
-		filename = {
+		extensions = { "cer", "cert", "crt" },
+		filenames = {
 			"copy{ing,right}",
 			"copy{ing,right}.{md,rst,txt}",
 			"licen{s,c}e",
@@ -215,56 +215,56 @@ return {
 		},
 	},
 	["changelog"] = {
-		filename = {
+		filenames = {
 			"change{log,s}",
 			"change{log,s}.{md,rst,txt}",
 		},
 	},
 	["chess"] = {
-		extension = { "fen", "pgn" },
+		extensions = { "fen", "pgn" },
 	},
 	["circleci"] = {
-		filename = { "circle.yml" },
+		filenames = { "circle.yml" },
 	},
 	["clojure"] = {
-		extension = { "clj{,c,s}" },
+		extensions = { "clj{,c,s}" },
 	},
 	["cloudfoundry"] = {
-		filename = { ".cfignore" },
+		filenames = { ".cfignore" },
 	},
 	["cmake"] = {
-		extension = { "cmake" },
-		filename = { "cmake{cache,lists}.txt" },
+		extensions = { "cmake" },
+		filenames = { "cmake{cache,lists}.txt" },
 	},
 	["coala"] = {
-		extension = { "coa{file,rc}" },
+		extensions = { "coa{file,rc}" },
 	},
 	["cobol"] = {
-		extension = { "cbl", "cob" },
+		extensions = { "cbl", "cob" },
 	},
 	["coconut"] = {
-		extension = { "coco" },
+		extensions = { "coco" },
 	},
 	["code-climate"] = {
-		filename = { ".codeclimate.yml" },
+		filenames = { ".codeclimate.yml" },
 	},
 	["codecov"] = {
-		filename = { ".codecov.yml", "codecov.yml" },
+		filenames = { ".codecov.yml", "codecov.yml" },
 	},
 	["codeowners"] = {
-		filename = { "codeowners" },
+		filenames = { "codeowners" },
 	},
 	["coffee"] = {
-		extension = { "coffee", "cson", "iced" },
+		extensions = { "coffee", "cson", "iced" },
 	},
 	["coldfusion"] = {
-		extension = { "cf{c,m,ml}", "lucee" },
+		extensions = { "cf{c,m,ml}", "lucee" },
 	},
 	["command"] = {
-		extension = { "command" },
+		extensions = { "command" },
 	},
 	["commitlint"] = {
-		filename = {
+		filenames = {
 			".commitlint.{yml,yaml}",
 			".commitlintrc",
 			".commitlintrc.{js,cjs,ts,cts,json,yml,yaml}",
@@ -272,10 +272,10 @@ return {
 		},
 	},
 	["conduct"] = {
-		filename = { "code_of_conduct", "code_of_conduct.{md,txt}" },
+		filenames = { "code_of_conduct", "code_of_conduct.{md,txt}" },
 	},
 	["console"] = {
-		extension = {
+		extensions = {
 			"awk",
 			"bash",
 			"bat",
@@ -289,58 +289,58 @@ return {
 			"tcsh",
 			"zsh",
 		},
-		filename = { "commit-msg", "post-merge", "pre-{commit,push}" },
+		filenames = { "commit-msg", "post-merge", "pre-{commit,push}" },
 	},
 	["contributing"] = {
-		filename = { "contributing", "contributing.{md,rst,txt}" },
+		filenames = { "contributing", "contributing.{md,rst,txt}" },
 	},
 	["cpp"] = {
-		extension = { "c{++,c,p,pp,xx}", "ii", "mii" },
+		extensions = { "c{++,c,p,pp,xx}", "ii", "mii" },
 	},
 	["craco"] = {
-		filename = { ".cracorc", ".cracorc.{ts,js}", "craco.config.{ts,js,cjs}" },
+		filenames = { ".cracorc", ".cracorc.{ts,js}", "craco.config.{ts,js,cjs}" },
 	},
 	["credits"] = {
-		filename = { "credits", "credits.{md,rst,txt}" },
+		filenames = { "credits", "credits.{md,rst,txt}" },
 	},
 	["crystal"] = {
-		extension = { "cr", "ecr" },
+		extensions = { "cr", "ecr" },
 	},
 	["csharp"] = {
-		extension = { "cs{,x}" },
+		extensions = { "cs{,x}" },
 	},
 	["css"] = {
-		extension = { "css" },
+		extensions = { "css" },
 	},
 	["css-map"] = {
-		extension = { "css.map" },
+		extensions = { "css.map" },
 	},
 	["cucumber"] = {
-		extension = { "feature{,s}" },
+		extensions = { "feature{,s}" },
 	},
 	["cuda"] = {
-		extension = { "cu{,h}" },
+		extensions = { "cu{,h}" },
 	},
 	["cypress"] = {
-		filename = {
+		filenames = {
 			"cypress.config.{ts,js,cjs,mjs}",
 			"cypress.env.json",
 			"cypress.json",
 		},
-		extension = { "cy.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
+		extensions = { "cy.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
 	},
 	["d"] = {
-		extension = { "d" },
+		extensions = { "d" },
 	},
 	["dart"] = {
-		extension = { "dart" },
-		filename = { ".pubignore" },
+		extensions = { "dart" },
+		filenames = { ".pubignore" },
 	},
 	["dart-generated"] = {
-		extension = { "{g,freezed}.dart" },
+		extensions = { "{g,freezed}.dart" },
 	},
 	["database"] = {
-		extension = {
+		extensions = {
 			"accdb",
 			"db{,3}",
 			"pgsql",
@@ -352,76 +352,76 @@ return {
 		},
 	},
 	["denizenscript"] = {
-		extension = { "dsc" },
+		extensions = { "dsc" },
 	},
 	["dependabot"] = {
-		filename = { "dependabot.{yml,yaml}" },
+		filenames = { "dependabot.{yml,yaml}" },
 	},
 	["dhall"] = {
-		extension = { "dhall{,b}" },
+		extensions = { "dhall{,b}" },
 	},
 	["dinophp"] = {
-		extension = { "bubble" },
+		extensions = { "bubble" },
 	},
 	["disc"] = {
-		extension = { "iso" },
+		extensions = { "iso" },
 	},
 	["django"] = {
-		extension = { "djt" },
+		extensions = { "djt" },
 	},
 	["docker"] = {
-		filename = {
+		filenames = {
 			".dockerignore",
 			"docker-compose.{yml,yaml}",
 			"docker{file,ignore}",
 		},
 	},
 	["document"] = {
-		extension = { "txt" },
+		extensions = { "txt" },
 	},
 	["dotjs"] = {
-		extension = { "def", "dot", "jst" },
+		extensions = { "def", "dot", "jst" },
 	},
 	["drawio"] = {
-		extension = { "dio", "drawio" },
+		extensions = { "dio", "drawio" },
 	},
 	["drone"] = {
-		filename = { ".drone.yml" },
-		extension = { "drone.yml" },
+		filenames = { ".drone.yml" },
+		extensions = { "drone.yml" },
 	},
 	["dune"] = {
-		filename = {
+		filenames = {
 			"dune",
 			"dune-{project,workspace,workspace.dev}",
 		},
 	},
 	["edge"] = {
-		extension = { "edge" },
+		extensions = { "edge" },
 	},
 	["editorconfig"] = {
-		filename = { ".editorconfig" },
+		filenames = { ".editorconfig" },
 	},
 	["ejs"] = {
-		extension = { "ejs" },
+		extensions = { "ejs" },
 	},
 	["elixir"] = {
-		extension = { "eex", "ex{,s}", "{h,l}eex" },
+		extensions = { "eex", "ex{,s}", "{h,l}eex" },
 	},
 	["elm"] = {
-		extension = { "elm" },
+		extensions = { "elm" },
 	},
 	["email"] = {
-		extension = { "ics" },
-		filename = { ".mailmap" },
+		extensions = { "ics" },
+		filenames = { ".mailmap" },
 	},
 	["ember"] = {
-		filename = { ".ember-cli", ".ember-cli.js", "ember-cli-builds.js" },
+		filenames = { ".ember-cli", ".ember-cli.js", "ember-cli-builds.js" },
 	},
 	["erlang"] = {
-		extension = { "erl" },
+		extensions = { "erl" },
 	},
 	["eslint"] = {
-		filename = {
+		filenames = {
 			".eslintrc-{jsdoc,md}.js",
 			".eslintrc.{js,cjs,yml,yaml,json}",
 			".eslint{rc,ignore,cache}",
@@ -429,19 +429,19 @@ return {
 		},
 	},
 	["exe"] = {
-		extension = { "exe", "msi" },
+		extensions = { "exe", "msi" },
 	},
 	["fastlane"] = {
-		filename = { "appfile", "fastfile" },
+		filenames = { "appfile", "fastfile" },
 	},
 	["favicon"] = {
-		filename = { "favicon.ico" },
+		filenames = { "favicon.ico" },
 	},
 	["figma"] = {
-		extension = { "fig" },
+		extensions = { "fig" },
 	},
 	["firebase"] = {
-		filename = {
+		filenames = {
 			".firebaserc",
 			"firebase.json",
 			"firestore.indexes.json",
@@ -449,13 +449,13 @@ return {
 		},
 	},
 	["flash"] = {
-		extension = { "swf" },
+		extensions = { "swf" },
 	},
 	["flow"] = {
-		filename = { ".flowconfig" },
+		filenames = { ".flowconfig" },
 	},
 	["font"] = {
-		extension = {
+		extensions = {
 			"bmap",
 			"eot",
 			"fnt",
@@ -470,42 +470,42 @@ return {
 		},
 	},
 	["forth"] = {
-		extension = { "4th", "frt", "fth" },
+		extensions = { "4th", "frt", "fth" },
 	},
 	["fortran"] = {
-		extension = { "f{,03,08,77,90,95}" },
+		extensions = { "f{,03,08,77,90,95}" },
 	},
 	["foxpro"] = {
-		extension = { "fxp", "prg" },
+		extensions = { "fxp", "prg" },
 	},
 	["fsharp"] = {
-		extension = { "fs{,i,proj,x}" },
+		extensions = { "fs{,i,proj,x}" },
 	},
 	["fusebox"] = {
-		filename = { "fuse.js" },
+		filenames = { "fuse.js" },
 	},
 	["gamemaker"] = {
-		extension = { "gml", "yy{,p,z}" },
+		extensions = { "gml", "yy{,p,z}" },
 	},
 	["gatsby"] = {
-		filename = {
+		filenames = {
 			"gatsby-browser.{js,tsx}",
 			"gatsby-{config,node}.{js,mjs,ts}",
 			"gatsby-ssr.{js,tsx}",
 		},
 	},
 	["gcp"] = {
-		filename = { ".gcloudignore" },
+		filenames = { ".gcloudignore" },
 	},
 	["gemfile"] = {
-		filename = { "gemfile" },
+		filenames = { "gemfile" },
 	},
 	["gemini"] = {
-		extension = { "gemini", "gmi" },
+		extensions = { "gemini", "gmi" },
 	},
 	["git"] = {
-		extension = { "patch" },
-		filename = {
+		extensions = { "patch" },
+		filenames = {
 			".git",
 			".git-blame-ignore{,-revs}",
 			".git-for-windows-updater",
@@ -516,114 +516,114 @@ return {
 		},
 	},
 	["gitlab"] = {
-		extension = { "gitlab-ci.yml" },
+		extensions = { "gitlab-ci.yml" },
 	},
 	["gitpod"] = {
-		filename = { ".gitpod.yml" },
+		filenames = { ".gitpod.yml" },
 	},
 	["gleam"] = {
-		extension = { "gleam" },
-		filename = { "gleam.toml" },
+		extensions = { "gleam" },
+		filenames = { "gleam.toml" },
 	},
 	["go"] = {
-		extension = { "go" },
+		extensions = { "go" },
 	},
 	["go-mod"] = {
-		filename = { "go.work.sum", "go.{mod,sum,work}" },
+		filenames = { "go.work.sum", "go.{mod,sum,work}" },
 	},
 	["godot"] = {
-		extension = { "gd" },
+		extensions = { "gd" },
 	},
 	["godot-assets"] = {
-		extension = { "gd{extension,nlib,ns,shader}", "godot", "{tres,tscn}" },
+		extensions = { "gd{extension,nlib,ns,shader}", "godot", "{tres,tscn}" },
 	},
 	["gradle"] = {
-		extension = { "gradle" },
-		filename = { "gradle-wrapper.properties", "gradle.properties", "gradlew" },
+		extensions = { "gradle" },
+		filenames = { "gradle-wrapper.properties", "gradle.properties", "gradlew" },
 	},
 	["grain"] = {
-		extension = { "gr" },
+		extensions = { "gr" },
 	},
 	["graphcool"] = {
-		extension = { "graphcool" },
+		extensions = { "graphcool" },
 	},
 	["graphql"] = {
-		extension = { "gql", "graphql" },
-		filename = {
+		extensions = { "gql", "graphql" },
+		filenames = {
 			".graphqlrc.{json,js,cjs,ts,toml,yml,yaml}",
 			".graphql{config,rc}",
 			"graphql.config.{json,js,cjs,ts,toml,yml,yaml}",
 		},
 	},
 	["gridsome"] = {
-		filename = { "gridsome.{config,server}.js" },
+		filenames = { "gridsome.{config,server}.js" },
 	},
 	["groovy"] = {
-		extension = { "groovy" },
+		extensions = { "groovy" },
 	},
 	["grunt"] = {
-		filename = { "gruntfile.babel.{js,ts,coffee}", "gruntfile.{js,ts,coffee}" },
+		filenames = { "gruntfile.babel.{js,ts,coffee}", "gruntfile.{js,ts,coffee}" },
 	},
 	["gulp"] = {
-		filename = { "gulpfile.babel.js", "gulpfile.{js,mjs,ts,cts,mts}" },
+		filenames = { "gulpfile.babel.js", "gulpfile.{js,mjs,ts,cts,mts}" },
 	},
 	["h"] = {
-		extension = { "h" },
+		extensions = { "h" },
 	},
 	["hack"] = {
-		filename = { ".hhconfig" },
+		filenames = { ".hhconfig" },
 	},
 	["haml"] = {
-		extension = { "haml" },
+		extensions = { "haml" },
 	},
 	["handlebars"] = {
-		extension = { "hbs", "mustache" },
+		extensions = { "hbs", "mustache" },
 	},
 	["hardhat"] = {
-		filename = { "hardhat.config.{js,ts}" },
+		filenames = { "hardhat.config.{js,ts}" },
 	},
 	["haskell"] = {
-		extension = { "hs" },
+		extensions = { "hs" },
 	},
 	["haxe"] = {
-		extension = { "hx" },
+		extensions = { "hx" },
 	},
 	["hcl"] = {
-		extension = { "hcl" },
+		extensions = { "hcl" },
 	},
 	["helm"] = {
-		filename = { ".helmignore" },
+		filenames = { ".helmignore" },
 	},
 	["heroku"] = {
-		filename = { "procfile{,.windows}" },
+		filenames = { "procfile{,.windows}" },
 	},
 	["hex"] = {
-		extension = { "bin", "dat", "hex" },
+		extensions = { "bin", "dat", "hex" },
 	},
 	["horusec"] = {
-		filename = { "horusec-config.json" },
+		filenames = { "horusec-config.json" },
 	},
 	["hpp"] = {
-		extension = { "h{++,h,xx,p,pp}", "inl", "tcc" },
+		extensions = { "h{++,h,xx,p,pp}", "inl", "tcc" },
 	},
 	["html"] = {
-		extension = { "asp", "htm{,l,l_vm}", "xhtml" },
+		extensions = { "asp", "htm{,l,l_vm}", "xhtml" },
 	},
 	["http"] = {
-		extension = { "http", "rest" },
-		filename = { "cname" },
+		extensions = { "http", "rest" },
+		filenames = { "cname" },
 	},
 	["husky"] = {
-		filename = { ".huskyrc", ".huskyrc.{json,js,yml,yaml}", "husky.config.js" },
+		filenames = { ".huskyrc", ".huskyrc.{json,js,yml,yaml}", "husky.config.js" },
 	},
 	["i18n"] = {
-		extension = { "lang", "mo", "po{,t}" },
+		extensions = { "lang", "mo", "po{,t}" },
 	},
 	["idris"] = {
-		extension = { "ibc", "idr" },
+		extensions = { "ibc", "idr" },
 	},
 	["image"] = {
-		extension = {
+		extensions = {
 			"afphoto",
 			"ami",
 			"apx",
@@ -672,35 +672,35 @@ return {
 		},
 	},
 	["imba"] = {
-		extension = { "imba" },
+		extensions = { "imba" },
 	},
 	["ionic"] = {
-		filename = { ".io-config.json", "ionic.config.json" },
+		filenames = { ".io-config.json", "ionic.config.json" },
 	},
 	["istanbul"] = {
-		filename = { ".nycrc{,.json}" },
+		filenames = { ".nycrc{,.json}" },
 	},
 	["jar"] = {
-		extension = { "jar" },
+		extensions = { "jar" },
 	},
 	["java"] = {
-		extension = { "java", "jsp" },
+		extensions = { "java", "jsp" },
 	},
 	["javaclass"] = {
-		extension = { "class" },
+		extensions = { "class" },
 	},
 	["javascript"] = {
-		extension = { "{js,cjs,mjs}" },
+		extensions = { "{js,cjs,mjs}" },
 	},
 	["javascript-map"] = {
-		extension = { "{js,cjs,mjs}.map" },
+		extensions = { "{js,cjs,mjs}.map" },
 	},
 	["jenkins"] = {
-		extension = { "jenkins{,file}" },
-		filename = { "jenkinsfile" },
+		extensions = { "jenkins{,file}" },
+		filenames = { "jenkinsfile" },
 	},
 	["jest"] = {
-		filename = {
+		filenames = {
 			".jestrc",
 			".jestrc.{js,json}",
 			"jest-e2e.config.{js,cjs,mjs,ts,cts,mts,json}",
@@ -716,14 +716,14 @@ return {
 		},
 	},
 	["jinja"] = {
-		extension = { "j2", "jinja{,-html,2}" },
+		extensions = { "j2", "jinja{,-html,2}" },
 	},
 	["jsconfig"] = {
-		filename = { "jsconfig.json" },
+		filenames = { "jsconfig.json" },
 	},
 	["json"] = {
-		extension = { "json{,5,c,l}", "ndjson", "tsbuildinfo" },
-		filename = {
+		extensions = { "json{,5,c,l}", "ndjson", "tsbuildinfo" },
+		filenames = {
 			".esformatter",
 			".jsbeautifyrc",
 			".jscsrc",
@@ -734,202 +734,202 @@ return {
 		},
 	},
 	["julia"] = {
-		extension = { "jl" },
+		extensions = { "jl" },
 	},
 	["jupyter"] = {
-		extension = { "ipynb" },
+		extensions = { "ipynb" },
 	},
 	["karma"] = {
-		filename = {
+		filenames = {
 			"karma-main.{js,ts}",
 			"karma.conf.{js,ts,coffee}",
 			"karma.config.{js,ts}",
 		},
 	},
 	["key"] = {
-		extension = { "asc", "gpg", "key", "passwd", "pem", "pub" },
-		filename = { ".htpasswd" },
+		extensions = { "asc", "gpg", "key", "passwd", "pem", "pub" },
+		filenames = { ".htpasswd" },
 	},
 	["kivy"] = {
-		extension = { "kv" },
+		extensions = { "kv" },
 	},
 	["kl"] = {
-		extension = { "kl" },
-		filename = { ".kl" },
+		extensions = { "kl" },
+		filenames = { ".kl" },
 	},
 	["kotlin"] = {
-		extension = { "kt{,s}" },
+		extensions = { "kt{,s}" },
 	},
 	["kusto"] = {
-		extension = { "kql" },
+		extensions = { "kql" },
 	},
 	["laravel"] = {
-		filename = { "artisan" },
-		extension = { "{blade,inky}.php" },
+		filenames = { "artisan" },
+		extensions = { "{blade,inky}.php" },
 	},
 	["lerna"] = {
-		filename = { "lerna.json" },
+		filenames = { "lerna.json" },
 	},
 	["less"] = {
-		extension = { "less" },
+		extensions = { "less" },
 	},
 	["lib"] = {
-		extension = { "bib", "lib" },
+		extensions = { "bib", "lib" },
 	},
 	["lighthouse"] = {
-		filename = {
+		filenames = {
 			".lighthouserc.{js,json,yml,yaml}",
 			"lighthouserc.{js,json,yml,yaml}",
 		},
 	},
 	["lilypond"] = {
-		extension = { "ly" },
+		extensions = { "ly" },
 	},
 	["liquid"] = {
-		extension = { "liquid" },
+		extensions = { "liquid" },
 	},
 	["lisp"] = {
-		extension = { "cl", "el", "fast", "lisp", "lsp" },
+		extensions = { "cl", "el", "fast", "lisp", "lsp" },
 	},
 	["livescript"] = {
-		extension = { "ls" },
+		extensions = { "ls" },
 	},
 	["lock"] = {
-		extension = { "lock" },
-		filename = { "security", "security.{md,txt}" },
+		extensions = { "lock" },
+		filenames = { "security", "security.{md,txt}" },
 	},
 	["log"] = {
-		extension = { "log" },
+		extensions = { "log" },
 	},
 	["lolcode"] = {
-		extension = { "lol" },
+		extensions = { "lol" },
 	},
 	["lua"] = {
-		extension = { "lua" },
-		filename = { ".luacheckrc" },
+		extensions = { "lua" },
+		filenames = { ".luacheckrc" },
 	},
 	["luarocks"] = {
-		extension = { "rockspec" },
+		extensions = { "rockspec" },
 	},
 	["makefile"] = {
-		extension = { "mk" },
-		filename = { "gnumakefile", "kbuild", "makefile" },
+		extensions = { "mk" },
+		filenames = { "gnumakefile", "kbuild", "makefile" },
 	},
 	["markdown"] = {
-		extension = { "markdown", "md{,x}", "rst" },
+		extensions = { "markdown", "md{,x}", "rst" },
 	},
 	["markojs"] = {
-		extension = { "marko" },
+		extensions = { "marko" },
 	},
 	["mathematica"] = {
-		extension = { "nb" },
+		extensions = { "nb" },
 	},
 	["maven"] = {
-		filename = { "jvm.config", "maven.config", "pom.xml" },
+		filenames = { "jvm.config", "maven.config", "pom.xml" },
 	},
 	["mdsvex"] = {
-		extension = { "svx" },
+		extensions = { "svx" },
 	},
 	["merlin"] = {
-		extension = { "merlin" },
+		extensions = { "merlin" },
 	},
 	["meson"] = {
-		extension = { "wrap" },
-		filename = { "meson.build", "meson_options.txt" },
+		extensions = { "wrap" },
+		filenames = { "meson.build", "meson_options.txt" },
 	},
 	["minecraft"] = {
-		extension = {
+		extensions = {
 			"mc{a,r,addon,function,game,level,meta,pack,structure,world}",
 			"mine",
 			"mus",
 		},
-		filename = { ".mc{attributes,definitions,ignore}" },
+		filenames = { ".mc{attributes,definitions,ignore}" },
 	},
 	["mint"] = {
-		extension = { "mint" },
+		extensions = { "mint" },
 	},
 	["mjml"] = {
-		extension = { "mjml" },
-		filename = { ".mjmlconfig" },
+		extensions = { "mjml" },
+		filenames = { ".mjmlconfig" },
 	},
 	["mocha"] = {
-		filename = { ".mocharc.{js,json,jsonc,yml,yaml}", "mocha.opts" },
+		filenames = { ".mocharc.{js,json,jsonc,yml,yaml}", "mocha.opts" },
 	},
 	["modernizr"] = {
-		filename = { ".modernizrrc", ".modernizrrc.{js,json}" },
+		filenames = { ".modernizrrc", ".modernizrrc.{js,json}" },
 	},
 	["moonscript"] = {
-		extension = { "moon" },
+		extensions = { "moon" },
 	},
 	["mxml"] = {
-		extension = { "mxml" },
+		extensions = { "mxml" },
 	},
 	["nano-staged"] = {
-		filename = {
+		filenames = {
 			".nanostagedrc",
 			"{,.}nano-staged.{js,cjs,mjs,json}",
 		},
 	},
 	["ndst"] = {
-		extension = { "ndst.json", "ndst.{yml,yaml}" },
+		extensions = { "ndst.json", "ndst.{yml,yaml}" },
 	},
 	["nest"] = {
-		filename = {
+		filenames = {
 			"{,.}nest-cli.json",
 			"{,.}nestconfig.json",
 		},
 	},
 	["nest-controller"] = {
-		extension = { "controller.{js,cjs,mjs,ts,cts,mts}" },
+		extensions = { "controller.{js,cjs,mjs,ts,cts,mts}" },
 	},
 	["nest-decorator"] = {
-		extension = { "decorator.{js,cjs,mjs,ts,cts,mts}" },
+		extensions = { "decorator.{js,cjs,mjs,ts,cts,mts}" },
 	},
 	["nest-filter"] = {
-		extension = { "filter.{js,cjs,mjs,ts,cts,mts}" },
+		extensions = { "filter.{js,cjs,mjs,ts,cts,mts}" },
 	},
 	["nest-gateway"] = {
-		extension = { "gateway.{js,cjs,mjs,ts,cts,mts}" },
+		extensions = { "gateway.{js,cjs,mjs,ts,cts,mts}" },
 	},
 	["nest-guard"] = {
-		extension = { "guard.{js,cjs,mjs,ts,cts,mts}" },
+		extensions = { "guard.{js,cjs,mjs,ts,cts,mts}" },
 	},
 	["nest-middleware"] = {
-		extension = { "middleware.{js,cjs,mjs,ts,cts,mts}" },
+		extensions = { "middleware.{js,cjs,mjs,ts,cts,mts}" },
 	},
 	["nest-module"] = {
-		extension = { "module.{js,cjs,mjs,ts,cts,mts}" },
+		extensions = { "module.{js,cjs,mjs,ts,cts,mts}" },
 	},
 	["nest-pipe"] = {
-		extension = { "pipe.{js,cjs,mjs,ts,cts,mts}" },
+		extensions = { "pipe.{js,cjs,mjs,ts,cts,mts}" },
 	},
 	["nest-resolver"] = {
-		extension = { "resolver.{js,cjs,mjs,ts,cts,mts}" },
+		extensions = { "resolver.{js,cjs,mjs,ts,cts,mts}" },
 	},
 	["nest-service"] = {
-		extension = { "service.{js,cjs,mjs,ts,cts,mts}" },
+		extensions = { "service.{js,cjs,mjs,ts,cts,mts}" },
 	},
 	["netlify"] = {
-		filename = { "netlify.{json,yml,yaml,toml}" },
+		filenames = { "netlify.{json,yml,yaml,toml}" },
 	},
 	["next"] = {
-		filename = { "next.config.{js,mjs,ts,mts}" },
+		filenames = { "next.config.{js,mjs,ts,mts}" },
 	},
 	["nginx"] = {
-		extension = { "nginx{,config}" },
-		filename = { "nginx.conf" },
+		extensions = { "nginx{,config}" },
+		filenames = { "nginx.conf" },
 	},
 	["ngrx-entity"] = {
-		filename = { ".entity" },
+		filenames = { ".entity" },
 	},
 	["nim"] = {
-		extension = { "nim{,ble}" },
+		extensions = { "nim{,ble}" },
 	},
 	["nix"] = {
-		extension = { "nix" },
+		extensions = { "nix" },
 	},
 	["nodejs"] = {
-		filename = {
+		filenames = {
 			".esmrc",
 			".node-version",
 			".nvmrc",
@@ -937,59 +937,59 @@ return {
 		},
 	},
 	["nodemon"] = {
-		filename = { "nodemon-debug.json", "nodemon.json" },
+		filenames = { "nodemon-debug.json", "nodemon.json" },
 	},
 	["npm"] = {
-		filename = { ".npmignore", ".npmrc" },
+		filenames = { ".npmignore", ".npmrc" },
 	},
 	["nrwl"] = {
-		filename = { ".nxignore", "nx.json" },
+		filenames = { ".nxignore", "nx.json" },
 	},
 	["nuget"] = {
-		extension = { "nupkg" },
-		filename = { ".nuspec", "nuget.config", "nuget.exe" },
+		extensions = { "nupkg" },
+		filenames = { ".nuspec", "nuget.config", "nuget.exe" },
 	},
 	["nunjucks"] = {
-		extension = { "{njk,nunjucks}" },
+		extensions = { "{njk,nunjucks}" },
 	},
 	["nuxt"] = {
-		filename = { ".nuxtignore", "nuxt.config.{js,ts}" },
+		filenames = { ".nuxtignore", "nuxt.config.{js,ts}" },
 	},
 	["ocaml"] = {
-		extension = { "cmx", "ml{,i}" },
+		extensions = { "cmx", "ml{,i}" },
 	},
 	["odin"] = {
-		extension = { "odin" },
+		extensions = { "odin" },
 	},
 	["opa"] = {
-		extension = { "rego" },
+		extensions = { "rego" },
 	},
 	["opam"] = {
-		extension = { "opam" },
+		extensions = { "opam" },
 	},
 	["otne"] = {
-		extension = { "otne" },
+		extensions = { "otne" },
 	},
 	["parcel"] = {
-		filename = { ".parcelrc" },
+		filenames = { ".parcelrc" },
 	},
 	["pascal"] = {
-		extension = { "pas" },
+		extensions = { "pas" },
 	},
 	["pawn"] = {
-		extension = { "amx", "pwn" },
+		extensions = { "amx", "pwn" },
 	},
 	["pdf"] = {
-		extension = { "pdf" },
+		extensions = { "pdf" },
 	},
 	["percy"] = {
-		filename = { ".percy.yml" },
+		filenames = { ".percy.yml" },
 	},
 	["perl"] = {
-		extension = { "pm", "raku" },
+		extensions = { "pm", "raku" },
 	},
 	["php-cs-fixer"] = {
-		filename = {
+		filenames = {
 			".php-cs-fixer.dist.php",
 			".php-cs-fixer.php",
 			".php_cs",
@@ -999,7 +999,7 @@ return {
 		},
 	},
 	["phpunit"] = {
-		filename = {
+		filenames = {
 			".phpunit-watcher.yml",
 			".phpunit.result.cache",
 			"phpunit-watcher.yml{,.dist}",
@@ -1007,86 +1007,89 @@ return {
 		},
 	},
 	["pinejs"] = {
-		extension = { "pine" },
+		extensions = { "pine" },
 	},
 	["pipeline"] = {
-		extension = { "pipeline" },
+		extensions = { "pipeline" },
 	},
 	["playwright"] = {
-		filename = {
+		filenames = {
 			"playwright-ct.config.{js,mjs,ts}",
 			"playwright.config.{js,mjs,ts}",
 		},
 	},
 	["plop"] = {
-		filename = { "plopfile.{js,cjs,mjs}" },
+		filenames = { "plopfile.{js,cjs,mjs}" },
 	},
 	["pnpm"] = {
-		filename = { ".pnpmfile.cjs", "pnpm-{lock,workspace}.yaml" },
+		filenames = { ".pnpmfile.cjs", "pnpm-{lock,workspace}.yaml" },
 	},
 	["poetry"] = {
-		filename = { "poetry.lock" },
+		filenames = { "poetry.lock" },
 	},
 	["postcss"] = {
-		extension = { "pcss", "sss" },
-		filename = {
+		extensions = { "pcss", "sss" },
+		filenames = {
 			".postcssrc",
 			".postcssrc.{js,cjs,ts,cts,json,yml,yaml}",
 			"postcss.config.{js,cjs,ts,cts}",
 		},
 	},
 	["posthtml"] = {
-		filename = {
+		filenames = {
 			".posthtmlrc",
 			".posthtmlrc.{js,json,yml}",
 			"posthtml.config.js",
 		},
 	},
 	["powerpoint"] = {
-		extension = { "odp", "pot{m,x}", "ppa{,m}", "pp{s,t}{,m,x}" },
+		extensions = { "odp", "pot{m,x}", "ppa{,m}", "pp{s,t}{,m,x}" },
 	},
 	["powershell"] = {
-		extension = { "ps1{,xml}", "pssc", "ps{c,d,m}1" },
+		extensions = { "ps1{,xml}", "pssc", "ps{c,d,m}1" },
 	},
 	["prettier"] = {
-		filename = {
+		filenames = {
 			".prettier{ignore,rc}",
 			".prettierrc.{js,cjs,json,json5,yml,yaml,toml}",
 			"prettier.config.{js,cjs}",
 		},
 	},
 	["prisma"] = {
-		extension = { "prisma" },
-		filename = { "prisma.yml" },
+		extensions = { "prisma" },
+		filenames = { "prisma.yml" },
 	},
 	["processing"] = {
-		extension = { "pde" },
+		extensions = { "pde" },
 	},
 	["prolog"] = {
-		extension = { "p", "pl", "pro" },
+		extensions = { "p", "pl", "pro" },
 	},
 	["proto"] = {
-		extension = { "proto" },
+		extensions = { "proto" },
 	},
 	["protractor"] = {
-		filename = { "protractor.conf.{js,ts,coffee}", "protractor.config.{js,ts}" },
+		filenames = {
+			"protractor.conf.{js,ts,coffee}",
+			"protractor.config.{js,ts}",
+		},
 	},
 	["pug"] = {
-		extension = { "jade", "pug" },
-		filename = { ".pug-lintrc", ".pug-lintrc.{js,json}" },
+		extensions = { "jade", "pug" },
+		filenames = { ".pug-lintrc", ".pug-lintrc.{js,json}" },
 	},
 	["puppet"] = {
-		extension = { "pp" },
+		extensions = { "pp" },
 	},
 	["purescript"] = {
-		extension = { "pur{e,s}" },
+		extensions = { "pur{e,s}" },
 	},
 	["python"] = {
-		extension = { "py" },
+		extensions = { "py" },
 	},
 	["python-misc"] = {
-		extension = { "pyc", "whl" },
-		filename = {
+		extensions = { "pyc", "whl" },
+		filenames = {
 			".pylintrc",
 			".python-version",
 			"manifest.in",
@@ -1097,56 +1100,56 @@ return {
 		},
 	},
 	["qsharp"] = {
-		extension = { "qs" },
+		extensions = { "qs" },
 	},
 	["quasar"] = {
-		filename = { "quasar.{conf,config}.js" },
+		filenames = { "quasar.{conf,config}.js" },
 	},
 	["r"] = {
-		extension = { "r", "rmd" },
-		filename = { ".rhistory" },
+		extensions = { "r", "rmd" },
+		filenames = { ".rhistory" },
 	},
 	["racket"] = {
-		extension = { "rkt" },
+		extensions = { "rkt" },
 	},
 	["raml"] = {
-		extension = { "raml" },
+		extensions = { "raml" },
 	},
 	["razor"] = {
-		extension = { "cshtml", "vbhtml" },
+		extensions = { "cshtml", "vbhtml" },
 	},
 	["react-js"] = {
-		extension = { "jsx" },
+		extensions = { "jsx" },
 	},
 	["react-ts"] = {
-		extension = { "tsx" },
+		extensions = { "tsx" },
 	},
 	["readme"] = {
-		filename = { "readme", "readme.{md,rst,txt}" },
+		filenames = { "readme", "readme.{md,rst,txt}" },
 	},
 	["reason"] = {
-		extension = { "re", "rei" },
+		extensions = { "re", "rei" },
 	},
 	["red"] = {
-		extension = { "red" },
+		extensions = { "red" },
 	},
 	["redux-action"] = {
-		filename = { "action{,s}.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
+		filenames = { "action{,s}.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
 	},
 	["redux-reducer"] = {
-		filename = { "reducer{,s}.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
+		filenames = { "reducer{,s}.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
 	},
 	["redux-selector"] = {
-		filename = { "selector{,s}.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
+		filenames = { "selector{,s}.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
 	},
 	["redux-store"] = {
-		extension = { "store{,s}.{js,cjs,mjs,ts,cts,mts,tsx}" },
+		extensions = { "store{,s}.{js,cjs,mjs,ts,cts,mts,tsx}" },
 	},
 	["remix"] = {
-		filename = { "remix.config.{js,ts}" },
+		filenames = { "remix.config.{js,ts}" },
 	},
 	["renovate"] = {
-		filename = {
+		filenames = {
 			".renovaterc",
 			".renovaterc.json",
 			"renovate-config.json",
@@ -1154,96 +1157,96 @@ return {
 		},
 	},
 	["replit"] = {
-		filename = { ".replit" },
+		filenames = { ".replit" },
 	},
 	["rescript"] = {
-		extension = { "res" },
+		extensions = { "res" },
 	},
 	["rescript-interface"] = {
-		extension = { "resi" },
+		extensions = { "resi" },
 	},
 	["restql"] = {
-		extension = { "restql", "rql" },
+		extensions = { "restql", "rql" },
 	},
 	["riot"] = {
-		extension = { "riot", "tag" },
+		extensions = { "riot", "tag" },
 	},
 	["roadmap"] = {
-		filename = {
+		filenames = {
 			"milestones.{md,txt}",
 			"roadmap.{md,txt}",
 			"timeline.{md,txt}",
 		},
 	},
 	["robot"] = {
-		extension = { "robot" },
+		extensions = { "robot" },
 	},
 	["robots"] = {
-		filename = { "robots.txt" },
+		filenames = { "robots.txt" },
 	},
 	["rollup"] = {
-		filename = {
+		filenames = {
 			"rollup{-,.}config.{js,mjs,ts}",
 			"rollup{-,.}config.{base,common,dev,prod,prod.vendor}.{js,mjs,ts}",
 		},
 	},
 	["rome"] = {
-		filename = { "rome.json" },
+		filenames = { "rome.json" },
 	},
 	["routing"] = {
-		filename = {
+		filenames = {
 			"route{r,s}.{js,cjs,mjs,jsx,ts,cts,mts,tsx}",
 		},
-		extension = { "routing.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
+		extensions = { "routing.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
 	},
 	["rubocop"] = {
-		filename = { ".rubocop{-,_}todo.yml", ".rubocop.yml" },
+		filenames = { ".rubocop{-,_}todo.yml", ".rubocop.yml" },
 	},
 	["ruby"] = {
-		extension = { "erb", "rb" },
+		extensions = { "erb", "rb" },
 	},
 	["rust"] = {
-		extension = { "ron", "rs" },
+		extensions = { "ron", "rs" },
 	},
 	["san"] = {
-		extension = { "san" },
+		extensions = { "san" },
 	},
 	["sas"] = {
-		extension = { "ast", "astore", "{sas,sast,sashdat,sas7bdat}" },
+		extensions = { "ast", "astore", "{sas,sast,sashdat,sas7bdat}" },
 	},
 	["sass"] = {
-		extension = { "s{ass,css}" },
+		extensions = { "s{ass,css}" },
 	},
 	["sbt"] = {
-		extension = { "sbt" },
+		extensions = { "sbt" },
 	},
 	["scala"] = {
-		extension = { "sc{,ala}" },
+		extensions = { "sc{,ala}" },
 	},
 	["scheme"] = {
-		extension = { "s{s,cm}" },
+		extensions = { "s{s,cm}" },
 	},
 	["search"] = {
-		extension = { "code-search" },
+		extensions = { "code-search" },
 	},
 	["semantic-release"] = {
-		filename = {
+		filenames = {
 			".releaserc",
 			".releaserc.{yml,yaml,json,js}",
 			"release.config.js",
 		},
 	},
 	["sentry"] = {
-		filename = { ".sentryclirc" },
+		filenames = { ".sentryclirc" },
 	},
 	["sequelize"] = {
-		filename = { ".sequelizerc" },
+		filenames = { ".sequelizerc" },
 	},
 	["serverless"] = {
-		filename = { "serverless.yml" },
+		filenames = { "serverless.yml" },
 	},
 	["settings"] = {
-		extension = {
+		extensions = {
 			"cfg",
 			"conf",
 			"config",
@@ -1256,7 +1259,7 @@ return {
 			"settings",
 			"sln.dotsettings{,.user}",
 		},
-		filename = {
+		filenames = {
 			".buildignore",
 			".clang-format",
 			".clang-tidy",
@@ -1268,7 +1271,7 @@ return {
 		},
 	},
 	["shader"] = {
-		extension = {
+		extensions = {
 			"comp",
 			"computeshader",
 			"frag",
@@ -1283,25 +1286,25 @@ return {
 		},
 	},
 	["shaderlab"] = {
-		extension = { "unity" },
+		extensions = { "unity" },
 	},
 	["siyuan"] = {
-		extension = { "sy" },
+		extensions = { "sy" },
 	},
 	["sketch"] = {
-		extension = { "sketch" },
+		extensions = { "sketch" },
 	},
 	["slim"] = {
-		extension = { "slim" },
+		extensions = { "slim" },
 	},
 	["slug"] = {
-		filename = { ".slugignore" },
+		filenames = { ".slugignore" },
 	},
 	["smarty"] = {
-		extension = { "tpl" },
+		extensions = { "tpl" },
 	},
 	["sml"] = {
-		extension = {
+		extensions = {
 			"cm",
 			"fun",
 			"grm",
@@ -1314,150 +1317,150 @@ return {
 		},
 	},
 	["snowpack"] = {
-		filename = {
+		filenames = {
 			"snowpack.config.{js,cjs,mjs,ts,cts,mts,json}",
 			"snowpack.deps.json",
 		},
 	},
 	["snyk"] = {
-		filename = { ".snyk" },
+		filenames = { ".snyk" },
 	},
 	["solidity"] = {
-		extension = { "sol" },
+		extensions = { "sol" },
 	},
 	["sonarcloud"] = {
-		filename = {
+		filenames = {
 			".sonarcloud.properties",
 			"sonar-project.properties",
 			"sonarcloud.yaml",
 		},
 	},
 	["steadybit"] = {
-		filename = { "{,.}steadybit.{yml,yaml}" },
-		extension = { "steadybit.{yml,yaml}" },
+		filenames = { "{,.}steadybit.{yml,yaml}" },
+		extensions = { "steadybit.{yml,yaml}" },
 	},
 	["stencil"] = {
-		filename = { "stencil.config.{js,ts}" },
+		filenames = { "stencil.config.{js,ts}" },
 	},
 	["stitches"] = {
-		filename = { "stitches.config.{js,ts}" },
+		filenames = { "stitches.config.{js,ts}" },
 	},
 	["storybook"] = {
-		extension = { "stor{ies,y}.{js,jsx,mdx,ts,tsx,svelte}" },
+		extensions = { "stor{ies,y}.{js,jsx,mdx,ts,tsx,svelte}" },
 	},
 	["stryker"] = {
-		filename = { "stryker.conf.{js,json}" },
+		filenames = { "stryker.conf.{js,json}" },
 	},
 	["stylable"] = {
-		extension = { "st.css" },
+		extensions = { "st.css" },
 	},
 	["stylelint"] = {
-		filename = {
+		filenames = {
 			".stylelint{cache,ignore,rc}",
 			".stylelintrc.{json,yml,yaml,js,cjs}",
 			"stylelint.config.{js,cjs}",
 		},
 	},
 	["stylus"] = {
-		extension = { "styl" },
+		extensions = { "styl" },
 	},
 	["sublime"] = {
-		extension = { "sublime-{project,workspace}" },
+		extensions = { "sublime-{project,workspace}" },
 	},
 	["supabase"] = {
-		filename = { "supabase.{js,py}" },
+		filenames = { "supabase.{js,py}" },
 	},
 	["svelte"] = {
-		extension = { "svelte" },
-		filename = { "svelte.config.{js,cjs}" },
+		extensions = { "svelte" },
+		filenames = { "svelte.config.{js,cjs}" },
 	},
 	["svg"] = {
-		extension = { "svg" },
+		extensions = { "svg" },
 	},
 	["svgo"] = {
-		filename = { "svgo.config.{js,cjs,mjs}" },
+		filenames = { "svgo.config.{js,cjs,mjs}" },
 	},
 	["svgr"] = {
-		filename = { ".svgrrc", ".svgrrc.{js,yml,yaml,json}", "svgr.config.js" },
+		filenames = { ".svgrrc", ".svgrrc.{js,yml,yaml,json}", "svgr.config.js" },
 	},
 	["swc"] = {
-		extension = { "swc" },
+		extensions = { "swc" },
 	},
 	["swift"] = {
-		extension = { "swift" },
+		extensions = { "swift" },
 	},
 	["table"] = {
-		extension = { "csv", "ods", "psv", "tsv", "xls{,m,x}" },
+		extensions = { "csv", "ods", "psv", "tsv", "xls{,m,x}" },
 	},
 	["tailwindcss"] = {
-		filename = { "tailwind.config.{js,cjs,ts,cts}", "tailwind.{js,ts}" },
+		filenames = { "tailwind.config.{js,cjs,ts,cts}", "tailwind.{js,ts}" },
 	},
 	["tauri"] = {
-		extension = { "tauri" },
-		filename = {
+		extensions = { "tauri" },
+		filenames = {
 			"tauri.{conf,config}.json",
 			"tauri.{linux,macos,windows}.conf.json",
 		},
 	},
 	["tcl"] = {
-		extension = { "tcl" },
+		extensions = { "tcl" },
 	},
 	["teal"] = {
-		extension = { "tl" },
+		extensions = { "tl" },
 	},
 	["template"] = {
-		extension = { "template" },
+		extensions = { "template" },
 	},
 	["terraform"] = {
-		extension = { "tf{,state,vars}", "tf.json" },
+		extensions = { "tf{,state,vars}", "tf.json" },
 	},
 	["test-js"] = {
-		extension = {
+		extensions = {
 			"{js,cjs,mjs,jsx}.snap",
 			"{spec,test}.{js,cjs,mjs,jsx}",
 			"{spec,test}-d.{js,cjs,mjs,jsx}",
 		},
 	},
 	["test-ts"] = {
-		extension = {
+		extensions = {
 			"{spec,test}.{ts,cts,mts,tsx}",
 			"{spec,test}-d.{ts,cts,mts,tsx}",
 			"{ts,cts,mts,tsx}.snap",
 		},
 	},
 	["tex"] = {
-		extension = { "dtx", "ltx", "sty", "tex" },
+		extensions = { "dtx", "ltx", "sty", "tex" },
 	},
 	["textlint"] = {
-		filename = { ".textlintrc" },
+		filenames = { ".textlintrc" },
 	},
 	["tilt"] = {
-		filename = { "tiltfile" },
+		filenames = { "tiltfile" },
 	},
 	["tldraw"] = {
-		extension = { "tldr" },
+		extensions = { "tldr" },
 	},
 	["tobi"] = {
-		extension = { "tobi" },
+		extensions = { "tobi" },
 	},
 	["tobimake"] = {
-		filename = { ".tobimake" },
+		filenames = { ".tobimake" },
 	},
 	["todo"] = {
-		extension = { "todo" },
-		filename = { "todo{,s}.md" },
+		extensions = { "todo" },
+		filenames = { "todo{,s}.md" },
 	},
 	["toml"] = {
-		extension = { "toml" },
+		extensions = { "toml" },
 	},
 	["travis"] = {
-		filename = { ".travis.yml" },
+		filenames = { ".travis.yml" },
 	},
 	["tree"] = {
-		extension = { "tree" },
+		extensions = { "tree" },
 	},
 	["tsconfig"] = {
-		filename = {
+		filenames = {
 			"tsconfig.app.json",
 			"tsconfig.base.json",
 			"tsconfig.build.json",
@@ -1482,8 +1485,8 @@ return {
 		},
 	},
 	["tune"] = {
-		extension = { "env" },
-		filename = {
+		extensions = { "env" },
+		filenames = {
 			".env",
 			".env.alpha",
 			".env.defaults",
@@ -1513,51 +1516,51 @@ return {
 		},
 	},
 	["turborepo"] = {
-		filename = { "turbo.json" },
+		filenames = { "turbo.json" },
 	},
 	["twig"] = {
-		extension = { "twig" },
+		extensions = { "twig" },
 	},
 	["twine"] = {
-		extension = { "tw{,ee}" },
+		extensions = { "tw{,ee}" },
 	},
 	["typescript"] = {
-		extension = { "{ts,cts,mts}" },
+		extensions = { "{ts,cts,mts}" },
 	},
 	["typescript-def"] = {
-		extension = { "d.{ts,cts,mts}" },
+		extensions = { "d.{ts,cts,mts}" },
 	},
 	["uml"] = {
-		extension = { "iuml", "plantuml", "pu", "puml", "wsd" },
+		extensions = { "iuml", "plantuml", "pu", "puml", "wsd" },
 	},
 	["url"] = {
-		extension = { "url" },
+		extensions = { "url" },
 	},
 	["vagrant"] = {
-		extension = { "vagrantfile" },
-		filename = { "vagrantfile" },
+		extensions = { "vagrantfile" },
+		filenames = { "vagrantfile" },
 	},
 	["vala"] = {
-		extension = { "vala" },
+		extensions = { "vala" },
 	},
 	["velocity"] = {
-		extension = { "fhtml", "vm", "vtl" },
+		extensions = { "fhtml", "vm", "vtl" },
 	},
 	["vercel"] = {
-		filename = { ".nowignore", ".vercelignore", "now.json", "vercel.json" },
+		filenames = { ".nowignore", ".vercelignore", "now.json", "vercel.json" },
 	},
 	["verdaccio"] = {
-		filename = { "verdaccio.yml" },
+		filenames = { "verdaccio.yml" },
 	},
 	["verilog"] = {
-		extension = { "vhd", "sv{,h}" },
+		extensions = { "vhd", "sv{,h}" },
 	},
 	["vfl"] = {
-		extension = { "vfl" },
-		filename = { ".vfl" },
+		extensions = { "vfl" },
+		filenames = { ".vfl" },
 	},
 	["video"] = {
-		extension = {
+		extensions = {
 			"avi",
 			"flv",
 			"gifv",
@@ -1576,13 +1579,13 @@ return {
 		},
 	},
 	["vim"] = {
-		extension = { "exrc", "gvimrc", "{vim,viminfo,vimrc}" },
+		extensions = { "exrc", "gvimrc", "{vim,viminfo,vimrc}" },
 	},
 	["virtual"] = {
-		extension = { "vdi", "{vbox,vbox-prev}" },
+		extensions = { "vdi", "{vbox,vbox-prev}" },
 	},
 	["visualstudio"] = {
-		extension = {
+		extensions = {
 			"csproj",
 			"ruleset",
 			"sln",
@@ -1595,65 +1598,65 @@ return {
 		},
 	},
 	["vite"] = {
-		filename = { "vite.config.{js,mjs,cjs,ts,mts,cts}" },
+		filenames = { "vite.config.{js,mjs,cjs,ts,mts,cts}" },
 	},
 	["vitest"] = {
-		filename = { "vitest.config.{js,mjs,cjs,ts,mts,cts}" },
+		filenames = { "vitest.config.{js,mjs,cjs,ts,mts,cts}" },
 	},
 	["vlang"] = {
-		extension = { "v" },
-		filename = { "v.mod", "vpkg.json" },
+		extensions = { "v" },
+		filenames = { "v.mod", "vpkg.json" },
 	},
 	["vscode"] = {
-		extension = {
+		extensions = {
 			"code-{profile,snippets,workplace,workspace}",
 			"vscodeignore",
 			"vsix{,manifest}",
 		},
 	},
 	["vue"] = {
-		extension = { "vue" },
+		extensions = { "vue" },
 	},
 	["vue-config"] = {
-		filename = {
+		filenames = {
 			"volar.config.js",
 			"{vetur,vue}.config.{js,ts}",
 		},
 	},
 	["wakatime"] = {
-		filename = { ".wakatime-project" },
-		extension = { ".wakatime-project" },
+		filenames = { ".wakatime-project" },
+		extensions = { ".wakatime-project" },
 	},
 	["wallaby"] = {
-		filename = { "wallaby.conf.js", "wallaby.js" },
+		filenames = { "wallaby.conf.js", "wallaby.js" },
 	},
 	["watchman"] = {
-		filename = { ".watchmanconfig" },
+		filenames = { ".watchmanconfig" },
 	},
 	["webassembly"] = {
-		extension = { "wa{sm,t}" },
+		extensions = { "wa{sm,t}" },
 	},
 	["webhint"] = {
-		filename = { ".hintrc" },
+		filenames = { ".hintrc" },
 	},
 	["wepy"] = {
-		extension = { "wpy" },
+		extensions = { "wpy" },
 	},
 	["windicss"] = {
-		extension = { "windi" },
-		filename = { "windi.config.{js,cjs,ts,cts,json}" },
+		extensions = { "windi" },
+		filenames = { "windi.config.{js,cjs,ts,cts,json}" },
 	},
 	["wolframlanguage"] = {
-		extension = { "wl{,s}" },
+		extensions = { "wl{,s}" },
 	},
 	["word"] = {
-		extension = { "doc{,x}", "odt", "rtf" },
+		extensions = { "doc{,x}", "odt", "rtf" },
 	},
 	["xaml"] = {
-		extension = { "xaml" },
+		extensions = { "xaml" },
 	},
 	["xml"] = {
-		extension = {
+		extensions = {
 			"dmn",
 			"dtd",
 			"iml",
@@ -1668,20 +1671,20 @@ return {
 			"xquery",
 			"xs{d,l,lt}",
 		},
-		filename = { ".htaccess" },
+		filenames = { ".htaccess" },
 	},
 	["yaml"] = {
-		extension = {
+		extensions = {
 			"yaml-tmlanguage",
 			"{yml,yaml}",
 			"{yml,yaml}.dist",
 		},
 	},
 	["yang"] = {
-		extension = { "yang" },
+		extensions = { "yang" },
 	},
 	["yarn"] = {
-		filename = {
+		filenames = {
 			".yarn-integrity",
 			".yarnclean",
 			".yarnrc",
@@ -1691,10 +1694,10 @@ return {
 		},
 	},
 	["zig"] = {
-		extension = { "zig" },
+		extensions = { "zig" },
 	},
 	["zip"] = {
-		extension = {
+		extensions = {
 			"7z",
 			"br",
 			"brotli",

@@ -87,30 +87,31 @@ local function generate_icons(termicons)
 end
 
 --- Build a single mapping table expanding the file patterns using brace expansion.
+--- @param key string
 --- @param name string
-local function build_mapping(name)
+local function build_mapping(key, name)
 	local res = {}
 
 	-- For each icon, expand the patterns and add them to the associated result
 	-- mapping. This is technically looping through the mappings more than needed,
 	-- but it's all done at compile time, not runtime so who cares.
 	for icon, meta in pairs(mappings) do
-		for _, pattern in ipairs(meta[name] or {}) do
+		for _, pattern in ipairs(meta[key] or {}) do
 			for _, expanded in ipairs(shexpand.expand(pattern)) do
 				res[string.lower(expanded)] = icon
 			end
 		end
 	end
 
-	return utils.tbl("by_" .. name, utils.tbl_to_str(res))
+	return utils.tbl(name, utils.tbl_to_str(res))
 end
 
 --- Generate the icon file mappings
 local function generate_mappings()
 	local res = ""
 
-	res = res .. build_mapping("extension")
-	res = res .. build_mapping("filename")
+	res = res .. build_mapping("extensions", "by_extension")
+	res = res .. build_mapping("filenames", "by_filename")
 
 	return utils.mod(res)
 end
