@@ -1275,6 +1275,12 @@ M.icons = {
 		cterm_color = "160",
 		name = "Maven",
 	},
+	["mdsvex"] = {
+		icon = "킼",
+		color = "#FF5722",
+		cterm_color = "202",
+		name = "Mdsvex",
+	},
 	["merlin"] = {
 		icon = "탁",
 		color = "#42a5f5",
@@ -2138,6 +2144,12 @@ M.icons = {
 		color = "#0288d1",
 		cterm_color = "32",
 		name = "Svgo",
+	},
+	["svgr"] = {
+		icon = "턃",
+		color = "#ffb300",
+		cterm_color = "214",
+		name = "Svgr",
 	},
 	["swc"] = {
 		icon = "턿",

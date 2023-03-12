@@ -11,6 +11,12 @@ return {
 	["advpl-tlpp"] = {
 		extensions = { "tlpp" },
 	},
+	["auto"] = {
+		filenames = {
+			".autorc",
+			"auto.config.{js,ts,json,yml,yaml}",
+		},
+	},
 	["bash"] = {
 		extensions = { "bats" },
 	},
@@ -25,8 +31,30 @@ return {
 	["dart-generated"] = {
 		extensions = { "{g,freezed}.dart" },
 	},
+	["docker"] = {
+		filenames = {
+			".dockerignore",
+			"docker-compose.{yml,yaml}",
+			"docker{file,ignore}",
+		},
+	},
+	["git"] = {
+		extensions = { "patch" },
+		filenames = {
+			".git",
+			".git-blame-ignore{,-revs}",
+			".git-for-windows-updater",
+			".git{attributes,ignore}{-,_}global",
+			".git{attributes,config,ignore,include,keep,modules}",
+			"commit_editmsg",
+			"git-history",
+		},
+	},
 	["godot-assets"] = {
 		extensions = { "gd{extension,nlib,ns,shader}", "godot", "{tres,tscn}" },
+	},
+	["go-mod"] = {
+		filenames = { "go.work.sum", "go.{mod,sum,work}" },
 	},
 	["html"] = {
 		extensions = { "html" },
@@ -130,8 +158,16 @@ return {
 		},
 		extensions = { "routing.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
 	},
+	["settings"] = {
+		filenames = {
+			".ds_store",
+		},
+	},
 	["storybook"] = {
 		extensions = { "stor{ies,y}.{js,jsx,mdx,ts,tsx,svelte}" },
+	},
+	["svgr"] = {
+		filenames = { ".svgrrc", ".svgrrc.{js,yml,yaml,json}", "svgr.config.js" },
 	},
 	["test-js"] = {
 		extensions = {
