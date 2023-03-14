@@ -1,0 +1,16 @@
+on:
+  push:
+  repository_dispatch:
+    types: [update-icons]
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Lua
+        uses: leafo/gh-actions-lua@v9
+      - name: Setup Luarocks
+        uses: leafo/gh-actions-luarocks@v4
+      - name: install a module
+        run: make generate
