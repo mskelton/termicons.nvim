@@ -12,5 +12,7 @@ jobs:
         uses: leafo/gh-actions-lua@v9
       - name: Setup Luarocks
         uses: leafo/gh-actions-luarocks@v4
+      - name: Install dependencies
+        run: luarocks make
       - name: install a module
         run: make generate
