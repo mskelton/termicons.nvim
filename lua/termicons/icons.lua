@@ -5,7 +5,7 @@ local M = {}
 M.icons = {
 	["3d"] = {
 		icon = "퀀",
-		color = "#29b6f6",
+		color = "#29b6f3",
 		cterm_color = "39",
 		name = "3d",
 	},

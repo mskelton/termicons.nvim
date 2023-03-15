@@ -1,7 +1,11 @@
+name: Build
 on:
   push:
   repository_dispatch:
     types: [update-icons]
+permissions:
+  contents: write
+  pull-requests: write
 jobs:
   dispatch:
     runs-on: ubuntu-latest
@@ -14,5 +18,13 @@ jobs:
         uses: leafo/gh-actions-luarocks@v4
       - name: Install dependencies
         run: luarocks make
-      - name: install a module
+      - name: Generate icons and mappings
         run: make generate
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          branch: chore/update-icons
+          commit-message: "chore: Auto-update icons"
+          title: "Auto-update icons"
+          body: |
+            Update icons and file mappings from [termicons](https://github.com/mskelton/termicons).
