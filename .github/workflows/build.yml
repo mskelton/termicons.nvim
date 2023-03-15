@@ -2,7 +2,6 @@ name: Build
 on:
   push:
   repository_dispatch:
-    types: [update-icons]
 permissions:
   contents: write
   pull-requests: write
@@ -23,6 +22,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
         with:
+          add-paths: lua/*
           branch: chore/update-icons
           commit-message: "chore: Auto-update icons"
           title: "Auto-update icons"
