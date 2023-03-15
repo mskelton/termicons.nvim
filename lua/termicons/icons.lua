@@ -531,6 +531,12 @@ M.icons = {
 		cterm_color = "221",
 		name = "Denizenscript",
 	},
+	["deno"] = {
+		icon = "톋",
+		color = "#cfd8dc",
+		cterm_color = "188",
+		name = "Deno",
+	},
 	["dependabot"] = {
 		icon = "큑",
 		color = "#448aff",
@@ -578,6 +584,12 @@ M.icons = {
 		color = "#42a5f5",
 		cterm_color = "75",
 		name = "Document",
+	},
+	["docusaurus"] = {
+		icon = "톌",
+		color = "#00e676",
+		cterm_color = "42",
+		name = "Docusaurus",
 	},
 	["dotjs"] = {
 		icon = "큙",
@@ -1035,6 +1047,12 @@ M.icons = {
 		cterm_color = "220",
 		name = "Imba",
 	},
+	["installation"] = {
+		icon = "톍",
+		color = "#ff5722",
+		cterm_color = "202",
+		name = "Installation",
+	},
 	["ionic"] = {
 		icon = "킛",
 		color = "#4f8ff7",
@@ -1287,6 +1305,12 @@ M.icons = {
 		cterm_color = "220",
 		name = "Mdx",
 	},
+	["mercurial"] = {
+		icon = "톎",
+		color = "#90a4ae",
+		cterm_color = "109",
+		name = "Mercurial",
+	},
 	["merlin"] = {
 		icon = "탁",
 		color = "#42a5f5",
@@ -1298,6 +1322,12 @@ M.icons = {
 		color = "#3f51b5",
 		cterm_color = "61",
 		name = "Meson",
+	},
+	["metro"] = {
+		icon = "톏",
+		color = "#ef5350",
+		cterm_color = "203",
+		name = "Metro",
 	},
 	["minecraft"] = {
 		icon = "탃",
@@ -1611,6 +1641,12 @@ M.icons = {
 		cterm_color = "208",
 		name = "Pipeline",
 	},
+	["plastic"] = {
+		icon = "톐",
+		color = "#ef6c00",
+		cterm_color = "202",
+		name = "Plastic",
+	},
 	["playwright"] = {
 		icon = "탫",
 		color = "#4caf50",
@@ -1724,6 +1760,12 @@ M.icons = {
 		color = "#3c78aa",
 		cterm_color = "67",
 		name = "PythonMisc",
+	},
+	["qml"] = {
+		icon = "톑",
+		color = "#41cc53",
+		cterm_color = "77",
+		name = "Qml",
 	},
 	["qsharp"] = {
 		icon = "탽",
@@ -2343,6 +2385,12 @@ M.icons = {
 		cterm_color = "204",
 		name = "Uml",
 	},
+	["unity"] = {
+		icon = "톒",
+		color = "#bdbdbd",
+		cterm_color = "250",
+		name = "Unity",
+	},
 	["url"] = {
 		icon = "텚",
 		color = "#42a5f5",
@@ -2360,6 +2408,12 @@ M.icons = {
 		color = "#9575cd",
 		cterm_color = "104",
 		name = "Vala",
+	},
+	["vanilla-extract"] = {
+		icon = "톓",
+		color = "#ff7ca8",
+		cterm_color = "211",
+		name = "VanillaExtract",
 	},
 	["velocity"] = {
 		icon = "텝",
