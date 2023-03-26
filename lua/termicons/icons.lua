@@ -869,14 +869,14 @@ M.icons = {
 	},
 	["godot"] = {
 		icon = "큾",
-		color = "#4fc3f7",
+		color = "#42a5f5",
 		cterm_color = "75",
 		name = "Godot",
 	},
 	["godot-assets"] = {
 		icon = "큾",
-		color = "#81c784",
-		cterm_color = "114",
+		color = "#66bb6a",
+		cterm_color = "71",
 		name = "GodotAssets",
 	},
 	["gradle"] = {
