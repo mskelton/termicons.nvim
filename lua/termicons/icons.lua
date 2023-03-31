@@ -2379,6 +2379,12 @@ M.icons = {
 		cterm_color = "32",
 		name = "TypescriptDef",
 	},
+	["typst"] = {
+		icon = "톔",
+		color = "#0097a7",
+		cterm_color = "31",
+		name = "Typst",
+	},
 	["uml"] = {
 		icon = "텙",
 		color = "#f06292",
