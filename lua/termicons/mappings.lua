@@ -598,6 +598,7 @@ M.by_extension = {
 	["rar"] = "zip",
 	["raw"] = "image",
 	["rb"] = "ruby",
+	["rc"] = "rc",
 	["re"] = "reason",
 	["reb"] = "image",
 	["red"] = "red",

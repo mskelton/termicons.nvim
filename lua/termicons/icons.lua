@@ -287,8 +287,8 @@ M.icons = {
 	},
 	["c"] = {
 		icon = "퀩",
-		color = "#0277bd",
-		cterm_color = "31",
+		color = "#0288d1",
+		cterm_color = "32",
 		name = "C",
 	},
 	["cabal"] = {
@@ -443,8 +443,8 @@ M.icons = {
 	},
 	["cpp"] = {
 		icon = "큃",
-		color = "#0277bd",
-		cterm_color = "31",
+		color = "#0288d1",
+		cterm_color = "32",
 		name = "Cpp",
 	},
 	["craco"] = {
@@ -467,8 +467,8 @@ M.icons = {
 	},
 	["csharp"] = {
 		icon = "큇",
-		color = "#0277bd",
-		cterm_color = "31",
+		color = "#0288d1",
+		cterm_color = "32",
 		name = "Csharp",
 	},
 	["css"] = {
@@ -1802,6 +1802,12 @@ M.icons = {
 		color = "#42a5f5",
 		cterm_color = "75",
 		name = "Razor",
+	},
+	["rc"] = {
+		icon = "",
+		color = "#0288d1",
+		cterm_color = "32",
+		name = "Rc",
 	},
 	["react"] = {
 		icon = "턃",
