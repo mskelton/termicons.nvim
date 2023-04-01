@@ -1804,7 +1804,7 @@ M.icons = {
 		name = "Razor",
 	},
 	["rc"] = {
-		icon = "",
+		icon = "톕",
 		color = "#0288d1",
 		cterm_color = "32",
 		name = "Rc",
