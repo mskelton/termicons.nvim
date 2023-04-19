@@ -1035,6 +1035,12 @@ M.icons = {
 		cterm_color = "203",
 		name = "Idris",
 	},
+	["ifanr-cloud"] = {
+		icon = "톖",
+		color = "#0288d1",
+		cterm_color = "32",
+		name = "IfanrCloud",
+	},
 	["image"] = {
 		icon = "킙",
 		color = "#26a69a",
