@@ -1048,6 +1048,7 @@ M.by_filename = {
 	[".mcattributes"] = "minecraft",
 	[".mcdefinitions"] = "minecraft",
 	[".mcignore"] = "minecraft",
+	[".mincloudrc"] = "ifanr-cloud",
 	[".mjmlconfig"] = "mjml",
 	[".mocharc.js"] = "mocha",
 	[".mocharc.json"] = "mocha",
