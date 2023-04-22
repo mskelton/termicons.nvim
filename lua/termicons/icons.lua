@@ -1785,6 +1785,12 @@ M.icons = {
 		cterm_color = "32",
 		name = "Quasar",
 	},
+	["qwik"] = {
+		icon = "톗",
+		color = "#29b6f6",
+		cterm_color = "39",
+		name = "Qwik",
+	},
 	["r"] = {
 		icon = "탿",
 		color = "#1976d2",
