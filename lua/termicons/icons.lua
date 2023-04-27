@@ -1323,6 +1323,12 @@ M.icons = {
 		cterm_color = "75",
 		name = "Merlin",
 	},
+	["mermaid"] = {
+		icon = "톘",
+		color = "#ff4081",
+		cterm_color = "204",
+		name = "Mermaid",
+	},
 	["meson"] = {
 		icon = "탂",
 		color = "#3f51b5",
