@@ -1371,6 +1371,12 @@ M.icons = {
 		cterm_color = "161",
 		name = "Modernizr",
 	},
+	["mojo"] = {
+		icon = "톙",
+		color = "#ff7043",
+		cterm_color = "203",
+		name = "Mojo",
+	},
 	["moonscript"] = {
 		icon = "탈",
 		color = "#fbc02d",
