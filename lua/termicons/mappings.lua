@@ -463,6 +463,7 @@ M.by_extension = {
 	["module.mjs"] = "nest-module",
 	["module.mts"] = "nest-module",
 	["module.ts"] = "nest-module",
+	["mojo"] = "mojo",
 	["moon"] = "moonscript",
 	["mov"] = "video",
 	["mp2"] = "video",
@@ -899,6 +900,7 @@ M.by_extension = {
 	["zig"] = "zig",
 	["zip"] = "zip",
 	["zsh"] = "console",
+	["🔥"] = "mojo",
 }
 
 M.by_filename = {
