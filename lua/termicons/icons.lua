@@ -2427,6 +2427,12 @@ M.icons = {
 		cterm_color = "250",
 		name = "Unity",
 	},
+	["unocss"] = {
+		icon = "톚",
+		color = "#b0bec5",
+		cterm_color = "7",
+		name = "Unocss",
+	},
 	["url"] = {
 		icon = "텚",
 		color = "#42a5f5",
