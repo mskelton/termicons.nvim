@@ -177,6 +177,12 @@ M.icons = {
 		cterm_color = "32",
 		name = "Autoit",
 	},
+	["aws"] = {
+		icon = "톛",
+		color = "#ff9900",
+		cterm_color = "208",
+		name = "Aws",
+	},
 	["azure"] = {
 		icon = "퀚",
 		color = "#01579b",
@@ -272,6 +278,12 @@ M.icons = {
 		color = "#26a69a",
 		cterm_color = "36",
 		name = "Bucklescript",
+	},
+	["buf"] = {
+		icon = "톜",
+		color = "#77e1ff",
+		cterm_color = "117",
+		name = "Buf",
 	},
 	["buildkite"] = {
 		icon = "퀨",
@@ -422,6 +434,12 @@ M.icons = {
 		color = "#009688",
 		cterm_color = "30",
 		name = "Commitlint",
+	},
+	["conda"] = {
+		icon = "톝",
+		color = "#43b02a",
+		cterm_color = "70",
+		name = "Conda",
 	},
 	["conduct"] = {
 		icon = "큀",
@@ -921,6 +939,12 @@ M.icons = {
 		cterm_color = "236",
 		name = "Grunt",
 	},
+	["guix"] = {
+		icon = "톞",
+		color = "#ffcc00",
+		cterm_color = "220",
+		name = "Guix",
+	},
 	["gulp"] = {
 		icon = "킆",
 		color = "#e53935",
@@ -1310,6 +1334,12 @@ M.icons = {
 		color = "#FFCA28",
 		cterm_color = "220",
 		name = "Mdx",
+	},
+	["memory"] = {
+		icon = "톟",
+		color = "#ff7043",
+		cterm_color = "203",
+		name = "Memory",
 	},
 	["mercurial"] = {
 		icon = "톎",
@@ -2150,6 +2180,12 @@ M.icons = {
 		color = "#ef6c00",
 		cterm_color = "202",
 		name = "Sonarcloud",
+	},
+	["spack"] = {
+		icon = "토",
+		color = "#0f3a80",
+		cterm_color = "24",
+		name = "Spack",
 	},
 	["steadybit"] = {
 		icon = "턲",
