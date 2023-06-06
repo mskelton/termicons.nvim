@@ -63,6 +63,12 @@ M.icons = {
 		cterm_color = "214",
 		name = "AdvplTlpp",
 	},
+	["amazon"] = {
+		icon = "톡",
+		color = "#ff9900",
+		cterm_color = "208",
+		name = "Amazon",
+	},
 	["android"] = {
 		icon = "퀆",
 		color = "#8bc34a",
@@ -1239,6 +1245,12 @@ M.icons = {
 		cterm_color = "71",
 		name = "Lilypond",
 	},
+	["linux"] = {
+		icon = "톦",
+		color = "#f5c11c",
+		cterm_color = "214",
+		name = "Linux",
+	},
 	["liquid"] = {
 		icon = "킴",
 		color = "#29b6f6",
@@ -1616,6 +1628,12 @@ M.icons = {
 		color = "#00c853",
 		cterm_color = "41",
 		name = "Otne",
+	},
+	["package"] = {
+		icon = "톣",
+		color = "#29b6f6",
+		cterm_color = "39",
+		name = "Package",
 	},
 	["parcel"] = {
 		icon = "탟",
@@ -2451,6 +2469,12 @@ M.icons = {
 		cterm_color = "31",
 		name = "Typst",
 	},
+	["ubuntu"] = {
+		icon = "톥",
+		color = "#dd4814",
+		cterm_color = "166",
+		name = "Ubuntu",
+	},
 	["uml"] = {
 		icon = "텙",
 		color = "#f06292",
@@ -2462,6 +2486,12 @@ M.icons = {
 		color = "#bdbdbd",
 		cterm_color = "250",
 		name = "Unity",
+	},
+	["unknown"] = {
+		icon = "톤",
+		color = "#d01c1c",
+		cterm_color = "160",
+		name = "Unknown",
 	},
 	["unocss"] = {
 		icon = "톚",
@@ -2636,6 +2666,12 @@ M.icons = {
 		color = "#42a5f5",
 		cterm_color = "75",
 		name = "Windicss",
+	},
+	["windows"] = {
+		icon = "톢",
+		color = "#0078d4",
+		cterm_color = "32",
+		name = "Windows",
 	},
 	["wolframlanguage"] = {
 		icon = "텵",
