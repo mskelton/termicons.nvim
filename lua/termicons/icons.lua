@@ -2097,6 +2097,12 @@ M.icons = {
 		cterm_color = "255",
 		name = "SemanticRelease",
 	},
+	["semgrep"] = {
+		icon = "톧",
+		color = "#00bfa5",
+		cterm_color = "37",
+		name = "Semgrep",
+	},
 	["sentry"] = {
 		icon = "턡",
 		color = "#f06292",
