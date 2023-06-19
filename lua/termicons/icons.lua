@@ -2667,6 +2667,12 @@ M.icons = {
 		cterm_color = "71",
 		name = "Wepy",
 	},
+	["werf"] = {
+		icon = "톨",
+		color = "#1e88e5",
+		cterm_color = "32",
+		name = "Werf",
+	},
 	["windicss"] = {
 		icon = "텴",
 		color = "#42a5f5",
