@@ -1635,6 +1635,12 @@ M.icons = {
 		cterm_color = "39",
 		name = "Package",
 	},
+	["panda"] = {
+		icon = "톩",
+		color = "#ffd740",
+		cterm_color = "221",
+		name = "Panda",
+	},
 	["parcel"] = {
 		icon = "탟",
 		color = "#ffb74d",
@@ -1994,6 +2000,12 @@ M.icons = {
 		color = "#26a69a",
 		cterm_color = "36",
 		name = "Roadmap",
+	},
+	["roblox"] = {
+		icon = "톪",
+		color = "#42a5f5",
+		cterm_color = "75",
+		name = "Roblox",
 	},
 	["robot"] = {
 		icon = "턐",
