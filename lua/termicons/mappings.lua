@@ -793,6 +793,7 @@ M.by_extension = {
 	["tex"] = "tex",
 	["tf"] = "terraform",
 	["tf.json"] = "terraform",
+	["tfbackend"] = "terraform",
 	["tfstate"] = "terraform",
 	["tfvars"] = "terraform",
 	["tga"] = "image",
