@@ -2037,8 +2037,10 @@ M.by_filename = {
 	["windi.config.js"] = "windicss",
 	["windi.config.json"] = "windicss",
 	["windi.config.ts"] = "windicss",
+	["yaml"] = "yaml",
 	["yarn-error.log"] = "yarn",
 	["yarn.lock"] = "yarn",
+	["yml"] = "yaml",
 }
 
 return M
