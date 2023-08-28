@@ -128,7 +128,7 @@ M.mappings = {
 		extensions = { "{ts,cts,mts}" },
 	},
 	["yaml"] = {
-		filenames = { "yml", "yaml" },
+		extensions = { "yml", "yaml" },
 	},
 }
 
