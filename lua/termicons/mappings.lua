@@ -895,9 +895,11 @@ M.by_extension = {
 	["xsl"] = "xml",
 	["xslt"] = "xml",
 	["xz"] = "zip",
+	["yaml"] = "yaml",
 	["yaml-tmlanguage"] = "yaml",
 	["yaml.dist"] = "yaml",
 	["yang"] = "yang",
+	["yml"] = "yaml",
 	["yml.dist"] = "yaml",
 	["yuv"] = "video",
 	["yy"] = "gamemaker",
@@ -2037,10 +2039,8 @@ M.by_filename = {
 	["windi.config.js"] = "windicss",
 	["windi.config.json"] = "windicss",
 	["windi.config.ts"] = "windicss",
-	["yaml"] = "yaml",
 	["yarn-error.log"] = "yarn",
 	["yarn.lock"] = "yarn",
-	["yml"] = "yaml",
 }
 
 return M
