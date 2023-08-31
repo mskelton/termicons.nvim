@@ -121,6 +121,9 @@ M.mappings = {
 	["toml"] = {
 		extensions = { "toml" },
 	},
+	["tsup"] = {
+		filenames = { "tsup.config.{js,cjs,mjs,ts,json}" },
+	},
 	["tune"] = {
 		filenames = { ".env" },
 	},
