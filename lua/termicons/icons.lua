@@ -2445,6 +2445,12 @@ M.icons = {
 		cterm_color = "32",
 		name = "Tsconfig",
 	},
+	["tsup"] = {
+		icon = "톫",
+		color = "#ffcf00",
+		cterm_color = "220",
+		name = "Tsup",
+	},
 	["tune"] = {
 		icon = "텓",
 		color = "#fbc02d",
