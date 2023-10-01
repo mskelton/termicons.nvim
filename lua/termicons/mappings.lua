@@ -715,6 +715,7 @@ M.by_extension = {
 	["spec.mts"] = "test-ts",
 	["spec.ts"] = "test-ts",
 	["spec.tsx"] = "test-ts",
+	["spwn"] = "spwn",
 	["sql"] = "database",
 	["sqlite"] = "database",
 	["sqlite3"] = "database",

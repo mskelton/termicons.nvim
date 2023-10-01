@@ -2223,6 +2223,12 @@ M.icons = {
 		cterm_color = "24",
 		name = "Spack",
 	},
+	["spwn"] = {
+		icon = "톬",
+		color = "#00bfa5",
+		cterm_color = "37",
+		name = "Spwn",
+	},
 	["steadybit"] = {
 		icon = "턲",
 		color = "#e53935",
