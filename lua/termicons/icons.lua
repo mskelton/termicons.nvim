@@ -231,6 +231,12 @@ M.icons = {
 		cterm_color = "214",
 		name = "Bicep",
 	},
+	["biome"] = {
+		icon = "톭",
+		color = "#ffb300",
+		cterm_color = "214",
+		name = "Biome",
+	},
 	["bitbucket"] = {
 		icon = "퀟",
 		color = "#1e88e5",
@@ -686,6 +692,12 @@ M.icons = {
 		color = "#f44336",
 		cterm_color = "203",
 		name = "Erlang",
+	},
+	["esbuild"] = {
+		icon = "톮",
+		color = "#ffca28",
+		cterm_color = "220",
+		name = "Esbuild",
 	},
 	["eslint"] = {
 		icon = "큥",
@@ -2229,6 +2241,12 @@ M.icons = {
 		cterm_color = "37",
 		name = "Spwn",
 	},
+	["stan"] = {
+		icon = "톰",
+		color = "#e53935",
+		cterm_color = "167",
+		name = "Stan",
+	},
 	["steadybit"] = {
 		icon = "턲",
 		color = "#e53935",
@@ -2354,6 +2372,12 @@ M.icons = {
 		color = "#00acc1",
 		cterm_color = "37",
 		name = "Teal",
+	},
+	["templ"] = {
+		icon = "톯",
+		color = "#ffd54f",
+		cterm_color = "221",
+		name = "Templ",
 	},
 	["template"] = {
 		icon = "텆",
