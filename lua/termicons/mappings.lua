@@ -1195,6 +1195,7 @@ M.by_filename = {
 	[".vfl"] = "vfl",
 	[".wakatime-project"] = "wakatime",
 	[".watchmanconfig"] = "watchman",
+	[".whitesource"] = "json",
 	[".yardopts"] = "settings",
 	[".yarn-integrity"] = "yarn",
 	[".yarnclean"] = "yarn",
