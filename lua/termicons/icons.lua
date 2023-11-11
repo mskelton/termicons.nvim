@@ -9,6 +9,12 @@ M.icons = {
 		cterm_color = "39",
 		name = "3d",
 	},
+	["abap"] = {
+		icon = "톱",
+		color = "#0288d1",
+		cterm_color = "32",
+		name = "Abap",
+	},
 	["abc"] = {
 		icon = "퀁",
 		color = "#ff5722",
@@ -1299,6 +1305,12 @@ M.icons = {
 		cterm_color = "203",
 		name = "Lolcode",
 	},
+	["lottie"] = {
+		icon = "톳",
+		color = "#00bfa5",
+		cterm_color = "37",
+		name = "Lottie",
+	},
 	["lua"] = {
 		icon = "킺",
 		color = "#42a5f5",
@@ -2354,6 +2366,12 @@ M.icons = {
 		color = "#4db6ac",
 		cterm_color = "73",
 		name = "Tailwindcss",
+	},
+	["taskfile"] = {
+		icon = "톲",
+		color = "#4db6ac",
+		cterm_color = "73",
+		name = "Taskfile",
 	},
 	["tauri"] = {
 		icon = "텃",
