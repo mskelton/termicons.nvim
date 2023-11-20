@@ -111,6 +111,12 @@ M.icons = {
 		cterm_color = "246",
 		name = "Applescript",
 	},
+	["apps-script"] = {
+		icon = "톴",
+		color = "#448aff",
+		cterm_color = "69",
+		name = "AppsScript",
+	},
 	["appveyor"] = {
 		icon = "퀌",
 		color = "#00b3e0",
@@ -1040,6 +1046,12 @@ M.icons = {
 		color = "#26a69a",
 		cterm_color = "36",
 		name = "Hex",
+	},
+	["hjson"] = {
+		icon = "통",
+		color = "#8bc34a",
+		cterm_color = "107",
+		name = "Hjson",
 	},
 	["horusec"] = {
 		icon = "킒",
