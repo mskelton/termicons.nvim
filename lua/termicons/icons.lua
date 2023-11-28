@@ -375,6 +375,12 @@ M.icons = {
 		cterm_color = "188",
 		name = "Chess",
 	},
+	["chrome"] = {
+		icon = "톶",
+		color = "#42a5f5",
+		cterm_color = "75",
+		name = "Chrome",
+	},
 	["circleci"] = {
 		icon = "퀲",
 		color = "#343434",
@@ -1850,6 +1856,12 @@ M.icons = {
 		color = "#fbc02d",
 		cterm_color = "214",
 		name = "Puppet",
+	},
+	["puppeteer"] = {
+		icon = "톷",
+		color = "#00bfa5",
+		cterm_color = "37",
+		name = "Puppeteer",
 	},
 	["purescript"] = {
 		icon = "탻",
