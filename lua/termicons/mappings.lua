@@ -1172,6 +1172,7 @@ M.by_filename = {
 	[".renovaterc.json"] = "renovate",
 	[".replit"] = "replit",
 	[".rhistory"] = "r",
+	[".rspec"] = "rspec",
 	[".rubocop-todo.yml"] = "rubocop",
 	[".rubocop.yml"] = "rubocop",
 	[".rubocop_todo.yml"] = "rubocop",

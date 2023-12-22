@@ -915,6 +915,12 @@ M.icons = {
 		cterm_color = "37",
 		name = "Go",
 	},
+	["go-mod"] = {
+		icon = "큼",
+		color = "#ec407a",
+		cterm_color = "204",
+		name = "GoMod",
+	},
 	["go_gopher"] = {
 		icon = "큽",
 		color = "#73cddc",
@@ -2084,6 +2090,12 @@ M.icons = {
 		color = "#43a047",
 		cterm_color = "71",
 		name = "Routing",
+	},
+	["rspec"] = {
+		icon = "톸",
+		color = "#ff1744",
+		cterm_color = "197",
+		name = "Rspec",
 	},
 	["rubocop"] = {
 		icon = "턕",
