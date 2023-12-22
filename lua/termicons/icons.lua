@@ -2091,12 +2091,6 @@ M.icons = {
 		cterm_color = "71",
 		name = "Routing",
 	},
-	["rspec"] = {
-		icon = "톸",
-		color = "#ff1744",
-		cterm_color = "197",
-		name = "Rspec",
-	},
 	["rubocop"] = {
 		icon = "턕",
 		color = "#b0bec5",
