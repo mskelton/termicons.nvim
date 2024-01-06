@@ -465,6 +465,12 @@ M.icons = {
 		cterm_color = "30",
 		name = "Commitlint",
 	},
+	["concourse"] = {
+		icon = "톹",
+		color = "#2196f3",
+		cterm_color = "33",
+		name = "Concourse",
+	},
 	["conda"] = {
 		icon = "톝",
 		color = "#43b02a",
@@ -1245,6 +1251,12 @@ M.icons = {
 		cterm_color = "98",
 		name = "Kotlin",
 	},
+	["kubernetes"] = {
+		icon = "톻",
+		color = "#448aff",
+		cterm_color = "69",
+		name = "Kubernetes",
+	},
 	["kusto"] = {
 		icon = "킭",
 		color = "#1e88e5",
@@ -1466,6 +1478,12 @@ M.icons = {
 		color = "#ff7043",
 		cterm_color = "203",
 		name = "Mojo",
+	},
+	["moon"] = {
+		icon = "톺",
+		color = "#7e57c2",
+		cterm_color = "97",
+		name = "Moon",
 	},
 	["moonscript"] = {
 		icon = "탈",
@@ -2090,6 +2108,12 @@ M.icons = {
 		color = "#43a047",
 		cterm_color = "71",
 		name = "Routing",
+	},
+	["rspec"] = {
+		icon = "톸",
+		color = "#ff1744",
+		cterm_color = "197",
+		name = "Rspec",
 	},
 	["rubocop"] = {
 		icon = "턕",
