@@ -245,8 +245,8 @@ M.icons = {
 	},
 	["biome"] = {
 		icon = "톭",
-		color = "#ffb300",
-		cterm_color = "214",
+		color = "#42a5f5",
+		cterm_color = "75",
 		name = "Biome",
 	},
 	["bitbucket"] = {
@@ -1094,6 +1094,12 @@ M.icons = {
 		color = "#e53935",
 		cterm_color = "167",
 		name = "Http",
+	},
+	["huff"] = {
+		icon = "톼",
+		color = "#cfd8dc",
+		cterm_color = "188",
+		name = "Huff",
 	},
 	["husky"] = {
 		icon = "킖",
@@ -2648,6 +2654,12 @@ M.icons = {
 		color = "#ff7ca8",
 		cterm_color = "211",
 		name = "VanillaExtract",
+	},
+	["vedic"] = {
+		icon = "톽",
+		color = "#ff3d00",
+		cterm_color = "202",
+		name = "Vedic",
 	},
 	["velocity"] = {
 		icon = "텝",
