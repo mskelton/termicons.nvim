@@ -137,8 +137,8 @@ M.icons = {
 	},
 	["asciidoc"] = {
 		icon = "퀏",
-		color = "#f44336",
-		cterm_color = "203",
+		color = "#0097a7",
+		cterm_color = "31",
 		name = "Asciidoc",
 	},
 	["assembly"] = {
@@ -626,6 +626,12 @@ M.icons = {
 		color = "#43a047",
 		cterm_color = "71",
 		name = "Django",
+	},
+	["dll"] = {
+		icon = "",
+		color = "#42a5f5",
+		cterm_color = "75",
+		name = "Dll",
 	},
 	["docker"] = {
 		icon = "큗",
@@ -1736,6 +1742,12 @@ M.icons = {
 		color = "#ef5350",
 		cterm_color = "203",
 		name = "Pdf",
+	},
+	["pdm"] = {
+		icon = "",
+		color = "#9575cd",
+		cterm_color = "104",
+		name = "Pdm",
 	},
 	["percy"] = {
 		icon = "탣",
