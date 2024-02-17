@@ -628,7 +628,7 @@ M.icons = {
 		name = "Django",
 	},
 	["dll"] = {
-		icon = "",
+		icon = "퇄",
 		color = "#42a5f5",
 		cterm_color = "75",
 		name = "Dll",
@@ -1701,6 +1701,12 @@ M.icons = {
 		cterm_color = "208",
 		name = "Opam",
 	},
+	["openapi"] = {
+		icon = "톾",
+		color = "#8bc34a",
+		cterm_color = "107",
+		name = "Openapi",
+	},
 	["otne"] = {
 		icon = "탞",
 		color = "#00c853",
@@ -1737,6 +1743,12 @@ M.icons = {
 		cterm_color = "202",
 		name = "Pawn",
 	},
+	["payload"] = {
+		icon = "톿",
+		color = "#cfd8dc",
+		cterm_color = "188",
+		name = "Payload",
+	},
 	["pdf"] = {
 		icon = "탢",
 		color = "#ef5350",
@@ -1744,7 +1756,7 @@ M.icons = {
 		name = "Pdf",
 	},
 	["pdm"] = {
-		icon = "",
+		icon = "퇃",
 		color = "#9575cd",
 		cterm_color = "104",
 		name = "Pdm",
@@ -1796,6 +1808,12 @@ M.icons = {
 		color = "#f57f17",
 		cterm_color = "208",
 		name = "Pipeline",
+	},
+	["pkl"] = {
+		icon = "퇀",
+		color = "#689f38",
+		cterm_color = "71",
+		name = "Pkl",
 	},
 	["plastic"] = {
 		icon = "톐",
@@ -2415,6 +2433,12 @@ M.icons = {
 		cterm_color = "214",
 		name = "Svgr",
 	},
+	["swagger"] = {
+		icon = "퇁",
+		color = "#43a047",
+		cterm_color = "71",
+		name = "Swagger",
+	},
 	["swc"] = {
 		icon = "턿",
 		color = "#e53935",
@@ -2426,6 +2450,12 @@ M.icons = {
 		color = "#fe5e2f",
 		cterm_color = "202",
 		name = "Swift",
+	},
+	["syncpack"] = {
+		icon = "퇂",
+		color = "#8bc34a",
+		cterm_color = "107",
+		name = "Syncpack",
 	},
 	["table"] = {
 		icon = "텁",
