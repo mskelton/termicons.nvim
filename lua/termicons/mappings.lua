@@ -1222,6 +1222,7 @@ M.by_filename = {
 	[".svgrrc.json"] = "svgr",
 	[".svgrrc.yaml"] = "svgr",
 	[".svgrrc.yml"] = "svgr",
+	[".swcrc"] = "swc",
 	[".syncpackrc"] = "syncpack",
 	[".syncpackrc.cjs"] = "syncpack",
 	[".syncpackrc.js"] = "syncpack",
