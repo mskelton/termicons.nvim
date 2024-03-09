@@ -105,6 +105,9 @@ M.mappings = {
 	["storybook"] = {
 		extensions = { "story.svelte" },
 	},
+	["swc"] = {
+		filenames = { ".swcrc" },
+	},
 	["test-js"] = {
 		extensions = {
 			"{js,cjs,mjs,jsx}.snap",
