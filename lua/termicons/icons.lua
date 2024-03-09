@@ -2441,8 +2441,8 @@ M.icons = {
 	},
 	["swc"] = {
 		icon = "턿",
-		color = "#e53935",
-		cterm_color = "167",
+		color = "#fdd835",
+		cterm_color = "221",
 		name = "Swc",
 	},
 	["swift"] = {
