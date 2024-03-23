@@ -683,8 +683,8 @@ M.icons = {
 	},
 	["editorconfig"] = {
 		icon = "큞",
-		color = "#020202",
-		cterm_color = "0",
+		color = "#ffffff",
+		cterm_color = "15",
 		name = "Editorconfig",
 	},
 	["ejs"] = {
