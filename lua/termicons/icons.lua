@@ -357,6 +357,12 @@ M.icons = {
 		cterm_color = "75",
 		name = "Capacitor",
 	},
+	["capnp"] = {
+		icon = "퇅",
+		color = "#c62828",
+		cterm_color = "160",
+		name = "Capnp",
+	},
 	["certificate"] = {
 		icon = "퀯",
 		color = "#ff5722",
@@ -1133,8 +1139,8 @@ M.icons = {
 	},
 	["image"] = {
 		icon = "킙",
-		color = "#26a69a",
-		cterm_color = "36",
+		color = "#26a69f",
+		cterm_color = "37",
 		name = "Image",
 	},
 	["imba"] = {
@@ -1642,7 +1648,7 @@ M.icons = {
 		name = "Npm",
 	},
 	["nrwl"] = {
-		icon = "탖",
+		icon = "",
 		color = "#00b8d4",
 		cterm_color = "38",
 		name = "Nrwl",
@@ -1664,6 +1670,12 @@ M.icons = {
 		color = "#00e676",
 		cterm_color = "42",
 		name = "Nuxt",
+	},
+	["nx"] = {
+		icon = "퇆",
+		color = "#039be5",
+		cterm_color = "32",
+		name = "Nx",
 	},
 	["objective-c"] = {
 		icon = "퀩",
