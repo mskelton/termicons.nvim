@@ -1223,7 +1223,7 @@ M.icons = {
 	},
 	["json"] = {
 		icon = "킥",
-		color = "#fbc02d",
+		color = "#f9a825",
 		cterm_color = "214",
 		name = "Json",
 	},
@@ -1262,6 +1262,12 @@ M.icons = {
 		color = "#29b6f6",
 		cterm_color = "39",
 		name = "Kl",
+	},
+	["knip"] = {
+		icon = "퇇",
+		color = "#ef6c00",
+		cterm_color = "202",
+		name = "Knip",
 	},
 	["kotlin"] = {
 		icon = "킬",
