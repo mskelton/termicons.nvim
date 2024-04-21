@@ -8,7 +8,7 @@ source = {
 }
 description = {
 	summary = "Alternative set of icons for nvim-web-devicons using termicons",
-	homepage = "https://mskelton.github.io/termicons/",
+	homepage = "https://termicons.mskelton.dev/",
 	issues_url = "https://github.com/mskelton/termicons.nvim/issues",
 	maintainer = "Mark Skelton",
 	license = "ISC",

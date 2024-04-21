@@ -6,7 +6,7 @@ Alternative set of icons for [nvim-web-devicons](https://github.com/nvim-tree/nv
 
 ## Requirements
 
-* [termicons](https://mskelton.github.io/termicons)
+* [termicons](https://termicons.mskelton.dev)
 
 ## Installation
 

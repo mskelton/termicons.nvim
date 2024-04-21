@@ -60,7 +60,7 @@ local function get_mapping_url()
 		io.close(file)
 		return "file://" .. local_url
 	else
-		return "https://mskelton.github.io/termicons/termicons.json"
+		return "https://termicons.mskelton.dev/termicons.json"
 	end
 end
 
