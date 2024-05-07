@@ -1013,8 +1013,8 @@ M.icons = {
 	},
 	["h"] = {
 		icon = "킇",
-		color = "#0277bd",
-		cterm_color = "31",
+		color = "#0288d1",
+		cterm_color = "32",
 		name = "H",
 	},
 	["hack"] = {
@@ -1091,8 +1091,8 @@ M.icons = {
 	},
 	["hpp"] = {
 		icon = "킓",
-		color = "#0277bd",
-		cterm_color = "31",
+		color = "#0288d1",
+		cterm_color = "32",
 		name = "Hpp",
 	},
 	["html"] = {
@@ -1654,7 +1654,7 @@ M.icons = {
 		name = "Npm",
 	},
 	["nrwl"] = {
-		icon = "",
+		icon = "퇈",
 		color = "#00b8d4",
 		cterm_color = "38",
 		name = "Nrwl",
