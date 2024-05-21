@@ -495,6 +495,12 @@ M.icons = {
 		cterm_color = "203",
 		name = "Console",
 	},
+	["container"] = {
+		icon = "퇉",
+		color = "#00b0ff",
+		cterm_color = "39",
+		name = "Container",
+	},
 	["contributing"] = {
 		icon = "큂",
 		color = "#ffca28",
@@ -2324,6 +2330,12 @@ M.icons = {
 		color = "#f44336",
 		cterm_color = "203",
 		name = "Sml",
+	},
+	["snapcraft"] = {
+		icon = "퇊",
+		color = "#81c784",
+		cterm_color = "114",
+		name = "Snapcraft",
 	},
 	["snowpack"] = {
 		icon = "턮",
