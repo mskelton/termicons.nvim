@@ -291,6 +291,12 @@ M.icons = {
 		cterm_color = "220",
 		name = "Browserlist",
 	},
+	["bruno"] = {
+		icon = "퇌",
+		color = "#ffab40",
+		cterm_color = "215",
+		name = "Bruno",
+	},
 	["buck"] = {
 		icon = "퀦",
 		color = "#0277bd",
@@ -1046,6 +1052,12 @@ M.icons = {
 		color = "#ffd600",
 		cterm_color = "220",
 		name = "Hardhat",
+	},
+	["harmonix"] = {
+		icon = "퇍",
+		color = "#536dfe",
+		cterm_color = "63",
+		name = "Harmonix",
 	},
 	["haskell"] = {
 		icon = "킌",
@@ -2234,6 +2246,12 @@ M.icons = {
 		color = "#f44336",
 		cterm_color = "203",
 		name = "Scheme",
+	},
+	["screwdriver"] = {
+		icon = "퇋",
+		color = "#0288d1",
+		cterm_color = "32",
+		name = "Screwdriver",
 	},
 	["search"] = {
 		icon = "턟",
