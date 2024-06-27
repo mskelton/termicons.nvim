@@ -16,6 +16,7 @@ Install with your favorite package manager (e.g. [lazy.nvim](https://github.com/
 {
   "mskelton/termicons.nvim",
   requires = { "nvim-tree/nvim-web-devicons" },
+  build = false,
 }
 ```
 
