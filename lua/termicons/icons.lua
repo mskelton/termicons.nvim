@@ -75,6 +75,12 @@ M.icons = {
 		cterm_color = "208",
 		name = "Amazon",
 	},
+	["amplify"] = {
+		icon = "퇐",
+		color = "#ff9800",
+		cterm_color = "208",
+		name = "Amplify",
+	},
 	["android"] = {
 		icon = "퀆",
 		color = "#8bc34a",
@@ -1262,6 +1268,12 @@ M.icons = {
 		color = "#3cbeae",
 		cterm_color = "73",
 		name = "Karma",
+	},
+	["kcl"] = {
+		icon = "퇎",
+		color = "#26c6da",
+		cterm_color = "44",
+		name = "Kcl",
 	},
 	["key"] = {
 		icon = "킩",
@@ -2768,6 +2780,12 @@ M.icons = {
 		color = "#00897b",
 		cterm_color = "6",
 		name = "Verdaccio",
+	},
+	["verified"] = {
+		icon = "퇏",
+		color = "#8bc34a",
+		cterm_color = "107",
+		name = "Verified",
 	},
 	["verilog"] = {
 		icon = "텠",
