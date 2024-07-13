@@ -155,8 +155,8 @@ M.icons = {
 	},
 	["astro"] = {
 		icon = "퀑",
-		color = "#ff6d00",
-		cterm_color = "202",
+		color = "#7c4dff",
+		cterm_color = "99",
 		name = "Astro",
 	},
 	["astyle"] = {
@@ -356,6 +356,12 @@ M.icons = {
 		color = "#00e676",
 		cterm_color = "42",
 		name = "Cadence",
+	},
+	["cairo"] = {
+		icon = "퇑",
+		color = "#f44336",
+		cterm_color = "203",
+		name = "Cairo",
 	},
 	["cake"] = {
 		icon = "퀭",
