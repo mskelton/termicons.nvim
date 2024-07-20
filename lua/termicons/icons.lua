@@ -987,6 +987,12 @@ M.icons = {
 		cterm_color = "31",
 		name = "Gradle",
 	},
+	["grafana-alloy"] = {
+		icon = "퇒",
+		color = "#ff6f00",
+		cterm_color = "202",
+		name = "GrafanaAlloy",
+	},
 	["grain"] = {
 		icon = "킀",
 		color = "#f57c00",
@@ -2768,6 +2774,12 @@ M.icons = {
 		color = "#ff3d00",
 		cterm_color = "202",
 		name = "Vedic",
+	},
+	["velite"] = {
+		icon = "퇓",
+		color = "#26a69a",
+		cterm_color = "36",
+		name = "Velite",
 	},
 	["velocity"] = {
 		icon = "텝",
