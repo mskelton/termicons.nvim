@@ -411,6 +411,12 @@ M.icons = {
 		cterm_color = "236",
 		name = "Circleci",
 	},
+	["clangd"] = {
+		icon = "퇔",
+		color = "#2979ff",
+		cterm_color = "33",
+		name = "Clangd",
+	},
 	["clojure"] = {
 		icon = "퀳",
 		color = "#1e88e5",
@@ -608,6 +614,12 @@ M.icons = {
 		color = "#ffca28",
 		cterm_color = "220",
 		name = "Database",
+	},
+	["deepsource"] = {
+		icon = "퇕",
+		color = "#f44336",
+		cterm_color = "203",
+		name = "Deepsource",
 	},
 	["denizenscript"] = {
 		icon = "큐",
@@ -1149,6 +1161,12 @@ M.icons = {
 		cterm_color = "188",
 		name = "Huff",
 	},
+	["hurl"] = {
+		icon = "퇖",
+		color = "#ec407a",
+		cterm_color = "204",
+		name = "Hurl",
+	},
 	["husky"] = {
 		icon = "킖",
 		color = "#90a4ae",
@@ -1275,6 +1293,12 @@ M.icons = {
 		cterm_color = "208",
 		name = "Jupyter",
 	},
+	["just"] = {
+		icon = "퇗",
+		color = "#ef5350",
+		cterm_color = "203",
+		name = "Just",
+	},
 	["karma"] = {
 		icon = "킨",
 		color = "#3cbeae",
@@ -1346,6 +1370,12 @@ M.icons = {
 		color = "#0277bd",
 		cterm_color = "31",
 		name = "Less",
+	},
+	["liara"] = {
+		icon = "퇘",
+		color = "#69f0ae",
+		cterm_color = "85",
+		name = "Liara",
 	},
 	["lib"] = {
 		icon = "킱",
@@ -1436,6 +1466,12 @@ M.icons = {
 		color = "#42a5f5",
 		cterm_color = "75",
 		name = "Markdown",
+	},
+	["markdownlint"] = {
+		icon = "퇙",
+		color = "#42a5f5",
+		cterm_color = "75",
+		name = "Markdownlint",
 	},
 	["markojs"] = {
 		icon = "킽",
@@ -2121,6 +2157,12 @@ M.icons = {
 		cterm_color = "107",
 		name = "ReduxStore",
 	},
+	["remark"] = {
+		icon = "퇚",
+		color = "#ef5350",
+		cterm_color = "203",
+		name = "Remark",
+	},
 	["remix"] = {
 		icon = "턈",
 		color = "#b0bec5",
@@ -2354,6 +2396,12 @@ M.icons = {
 		color = "#f57f17",
 		cterm_color = "208",
 		name = "Slim",
+	},
+	["slint"] = {
+		icon = "퇛",
+		color = "#2979ff",
+		cterm_color = "33",
+		name = "Slint",
 	},
 	["slug"] = {
 		icon = "턫",
@@ -2666,6 +2714,12 @@ M.icons = {
 		color = "#0288d1",
 		cterm_color = "32",
 		name = "Tsconfig",
+	},
+	["tsil"] = {
+		icon = "퇜",
+		color = "#795548",
+		cterm_color = "95",
+		name = "Tsil",
 	},
 	["tsup"] = {
 		icon = "톫",
