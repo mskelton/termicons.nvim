@@ -1281,6 +1281,12 @@ M.icons = {
 		cterm_color = "214",
 		name = "Json",
 	},
+	["jsr"] = {
+		icon = "퇝",
+		color = "#fdd835",
+		cterm_color = "221",
+		name = "Jsr",
+	},
 	["julia"] = {
 		icon = "킦",
 		color = "#864e9f",
