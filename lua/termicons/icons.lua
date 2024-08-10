@@ -381,6 +381,12 @@ M.icons = {
 		cterm_color = "160",
 		name = "Capnp",
 	},
+	["cds"] = {
+		icon = "퇞",
+		color = "#0288d1",
+		cterm_color = "32",
+		name = "Cds",
+	},
 	["certificate"] = {
 		icon = "퀯",
 		color = "#ff5722",
@@ -704,6 +710,12 @@ M.icons = {
 		color = "#fb8c00",
 		cterm_color = "208",
 		name = "Drawio",
+	},
+	["drizzle"] = {
+		icon = "퇟",
+		color = "#4caf50",
+		cterm_color = "71",
+		name = "Drizzle",
 	},
 	["drone"] = {
 		icon = "큛",
