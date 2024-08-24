@@ -477,6 +477,12 @@ M.icons = {
 		cterm_color = "142",
 		name = "Codeowners",
 	},
+	["coderabbit-ai"] = {
+		icon = "퇠",
+		color = "#f4511e",
+		cterm_color = "202",
+		name = "CoderabbitAi",
+	},
 	["coffee"] = {
 		icon = "퀼",
 		color = "#42a5f5",
