@@ -729,6 +729,12 @@ M.icons = {
 		cterm_color = "188",
 		name = "Drone",
 	},
+	["duc"] = {
+		icon = "퇢",
+		color = "#ff5252",
+		cterm_color = "203",
+		name = "Duc",
+	},
 	["dune"] = {
 		icon = "큜",
 		color = "#f57c00",
@@ -951,6 +957,12 @@ M.icons = {
 		cterm_color = "114",
 		name = "Gemini",
 	},
+	["gemini-ai"] = {
+		icon = "퇣",
+		color = "#81c784",
+		cterm_color = "114",
+		name = "GeminiAi",
+	},
 	["git"] = {
 		icon = "큸",
 		color = "#e64a19",
@@ -962,6 +974,12 @@ M.icons = {
 		color = "#ffffff",
 		cterm_color = "15",
 		name = "Github",
+	},
+	["github-actions-workflow"] = {
+		icon = "퇡",
+		color = "#78909c",
+		cterm_color = "246",
+		name = "GithubActionsWorkflow",
 	},
 	["gitlab"] = {
 		icon = "큹",
