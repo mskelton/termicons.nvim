@@ -1725,6 +1725,7 @@ M.by_filename = {
 	["compose.yml"] = "docker",
 	["composer.lock"] = "json",
 	["concourse.yml"] = "concourse",
+	["config"] = "config",
 	["containerfile"] = "docker",
 	["containerfile.alpha"] = "docker",
 	["containerfile.beta"] = "docker",

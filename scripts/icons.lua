@@ -12,6 +12,9 @@ M.mappings = {
 	["bash"] = {
 		extensions = { "bats" },
 	},
+	["config"] = {
+		filenames = { "config" },
+	},
 	["cypress"] = {
 		extensions = { "cy.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
 	},
