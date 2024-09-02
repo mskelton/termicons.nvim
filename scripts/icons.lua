@@ -12,9 +12,6 @@ M.mappings = {
 	["bash"] = {
 		extensions = { "bats" },
 	},
-	["config"] = {
-		filenames = { "config" },
-	},
 	["cypress"] = {
 		extensions = { "cy.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
 	},
@@ -103,7 +100,7 @@ M.mappings = {
 		extensions = { "routing.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
 	},
 	["settings"] = {
-		filenames = { ".ds_store" },
+		filenames = { ".ds_store", "config" },
 	},
 	["storybook"] = {
 		extensions = { "story.svelte" },
