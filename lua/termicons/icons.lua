@@ -1845,12 +1845,6 @@ M.icons = {
 		cterm_color = "107",
 		name = "Openapi",
 	},
-	["org"] = {
-		icon = "퇥",
-		color = "#77aa99",
-		cterm_color = "108",
-		name = "Org",
-	},
 	["otne"] = {
 		icon = "탞",
 		color = "#00c853",
@@ -2720,12 +2714,6 @@ M.icons = {
 		color = "#b0bec5",
 		cterm_color = "7",
 		name = "Tldraw",
-	},
-	["tmux"] = {
-		icon = "퇤",
-		color = "#1bb91f",
-		cterm_color = "34",
-		name = "Tmux",
 	},
 	["tobi"] = {
 		icon = "텍",
