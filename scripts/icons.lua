@@ -72,6 +72,9 @@ M.mappings = {
 	["ngrx-entity"] = {
 		filenames = { ".entity" },
 	},
+	["org"] = {
+		extensions = { "org" },
+	},
 	["react-js"] = {
 		extensions = { "jsx" },
 	},
@@ -100,7 +103,18 @@ M.mappings = {
 		extensions = { "routing.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
 	},
 	["settings"] = {
-		filenames = { ".ds_store", "config" },
+		filenames = {
+			".bash_profile",
+			".bashrc",
+			".ds_store",
+			".gitconfig",
+			".luaurc",
+			".zprofile",
+			".zshenv",
+			".zshrc",
+			"cmakelists.txt",
+			"config",
+		},
 	},
 	["storybook"] = {
 		extensions = { "story.svelte" },
@@ -122,6 +136,12 @@ M.mappings = {
 			"{ts,cts,mts,tsx}.snap",
 		},
 	},
+	["tmux"] = {
+		filenames = {
+			"tmux.conf",
+			"tmux.conf.local",
+		},
+	},
 	["toml"] = {
 		extensions = { "toml" },
 	},
@@ -133,6 +153,9 @@ M.mappings = {
 	},
 	["typescript"] = {
 		extensions = { "{ts,cts,mts}" },
+	},
+	["vim"] = {
+		filenames = { ".vimrc" },
 	},
 	["yaml"] = {
 		extensions = { "yml", "yaml" },
