@@ -1656,6 +1656,7 @@ M.by_filename = {
 	["blitz.config.ts"] = "blitz",
 	["bower.json"] = "bower",
 	["browserslist"] = "browserlist",
+	["build"] = "build",
 	["buildkite.yaml"] = "buildkite",
 	["buildkite.yml"] = "buildkite",
 	["bun.lockb"] = "bun",
@@ -2711,6 +2712,7 @@ M.by_filename = {
 	["windi.config.js"] = "windicss",
 	["windi.config.json"] = "windicss",
 	["windi.config.ts"] = "windicss",
+	["workspace"] = "build",
 	["yarn-error.log"] = "yarn",
 	["yarn.lock"] = "yarn",
 }
