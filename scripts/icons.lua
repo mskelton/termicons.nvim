@@ -12,7 +12,7 @@ M.mappings = {
 	["bash"] = {
 		extensions = { "bats" },
 	},
-	["build"] = {
+	["bazel"] = {
 		filenames = { "build", "workspace" },
 	},
 	["cypress"] = {
