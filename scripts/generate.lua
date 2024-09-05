@@ -132,7 +132,7 @@ local function build_mapping(termicons, key, name)
 	for icon, meta in pairs(icons.mappings) do
 		for _, pattern in ipairs(meta[key] or {}) do
 			for _, expanded in ipairs(shexpand.expand(pattern)) do
-				res[string.lower(expanded)] = icon
+				res[expanded] = icon
 			end
 		end
 	end

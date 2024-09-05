@@ -19,6 +19,7 @@ M.mappings = {
 		extensions = { "cy.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
 	},
 	["docker"] = {
+		extensions = { "Dockerfile" },
 		filenames = { ".dockerignore", "dockerignore" },
 	},
 	["git"] = {
