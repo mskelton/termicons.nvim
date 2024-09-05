@@ -107,7 +107,7 @@ M.mappings = {
 		extensions = { "routing.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
 	},
 	["ruby"] = {
-		filenames = { "Brewfile", "gemfile$", "rakefile" },
+		filenames = { "brewfile", "gemfile$", "rakefile" },
 	},
 	["settings"] = {
 		filenames = {
