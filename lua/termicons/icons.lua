@@ -915,6 +915,12 @@ M.icons = {
 		cterm_color = "214",
 		name = "Foxpro",
 	},
+	["freemarker"] = {
+		icon = "퇨",
+		color = "#2196f3",
+		cterm_color = "33",
+		name = "Freemarker",
+	},
 	["fsharp"] = {
 		icon = "큲",
 		color = "#378bba",
@@ -2607,6 +2613,12 @@ M.icons = {
 		cterm_color = "71",
 		name = "Swagger",
 	},
+	["sway"] = {
+		icon = "퇦",
+		color = "#00e676",
+		cterm_color = "42",
+		name = "Sway",
+	},
 	["swc"] = {
 		icon = "턿",
 		color = "#fdd835",
@@ -2648,6 +2660,12 @@ M.icons = {
 		color = "#ffca28",
 		cterm_color = "220",
 		name = "Tauri",
+	},
+	["taze"] = {
+		icon = "퇧",
+		color = "#00695c",
+		cterm_color = "23",
+		name = "Taze",
 	},
 	["tcl"] = {
 		icon = "텄",
