@@ -66,6 +66,18 @@ M.tbl_to_str = function(t)
 	return res
 end
 
+--- Convert a table of tables to a string
+--- @param t table
+M.tbls_to_str = function(t)
+	local res = ""
+
+	for key, value in pairs(t) do
+		res = res .. M.tbl(key, M.tbl_to_str(value))
+	end
+
+	return res
+end
+
 --- Create a string for a Lua module
 --- @param content string
 M.mod = function(content)
@@ -100,6 +112,41 @@ M.tbl_contains = function(t, value)
 	end
 
 	return false
+end
+
+--- Print a table to the console
+--- @param value any
+--- @param depth number|nil
+--- @param seen table|nil
+M.inspect = function(value, depth, seen)
+	depth = depth or 0
+	seen = seen or {}
+
+	local indent = string.rep("  ", depth)
+	if type(value) ~= "table" then
+		return tostring(value)
+	end
+
+	if seen[value] then
+		return "<circular reference>"
+	end
+
+	seen[value] = true
+	local result = "{\n"
+
+	for k, v in pairs(value) do
+		local key = type(k) == "string" and k or "[" .. tostring(k) .. "]"
+
+		result = result
+			.. indent
+			.. "  "
+			.. key
+			.. " = "
+			.. M.inspect(v, depth + 1, seen)
+			.. ",\n"
+	end
+
+	return result .. indent .. "}"
 end
 
 return M

@@ -14,17 +14,25 @@ local enabled_icon_packs = {
 }
 
 --- @param url string
-local function fetch_json(url)
+--- @return string
+local function fetch(url)
 	local file = io.popen("curl -s " .. url)
 
 	if file == nil then
-		print("Error: Failed to load JSON from URL")
+		print("Error: Failed to load from URL")
 		os.exit(1)
 	end
 
 	local buf = file:read("*all")
 	file:close()
 
+	return buf
+end
+
+--- @param url string
+--- @return table
+local function fetch_json(url)
+	local buf = fetch(url)
 	local res = json.decode(buf)
 	if res == nil then
 		print("Error: Failed to parse JSON from URL")
@@ -70,22 +78,22 @@ end
 local function generate_icons(termicons)
 	local res = ""
 
-	-- Add color overrides to the mappings table so they can be sorted and applied
-	-- to the list of icons
+	--- Add color overrides to the mappings table so they can be sorted and applied
+	--- to the list of icons
 	for key, value in pairs(icons.by_color) do
 		local t = {}
 
-		-- Copy the original icon metadata
+		--- Copy the original icon metadata
 		for k, v in pairs(termicons[value[1]]) do
 			t[k] = v
 		end
 
-		-- Add the new icon to the table and override the color
+		--- Add the new icon to the table and override the color
 		termicons[key] = t
 		termicons[key].color = value[2]
 	end
 
-	-- Add each icon to the icons table
+	--- Add each icon to the icons table
 	for key, meta in utils.sorted_pairs(termicons) do
 		res = res .. build_icon(key, meta)
 	end
@@ -96,20 +104,20 @@ end
 --- Build a single mapping table expanding the file patterns using brace expansion.
 --- @param termicons table
 --- @param key string
---- @param name string
-local function build_mapping(termicons, key, name)
+--- @return table
+local function build_mapping(termicons, key)
 	local res = {}
 
-	-- First, we find the source mapping from the termicons.json file. If this
-	-- exists, we use it's mappings, otherwise we continue to the custom mappings.
+	--- First, we find the source mapping from the termicons.json file. If this
+	--- exists, we use it's mappings, otherwise we continue to the custom mappings.
 	for termicons_key, meta in pairs(termicons) do
-		-- Icons that are not tied to a specific icon pack are automatically enabled
+		--- Icons that are not tied to a specific icon pack are automatically enabled
 		local enabled = #meta.enabledFor == 0
 
-		-- If the icon is part of a pack (not enabled by default), check if the
-		-- pack is enabled. Eventually this will need to be refactored to create
-		-- separate output tables so that icon packs can be selected at runtime
-		-- when configuring the plugin.
+		--- If the icon is part of a pack (not enabled by default), check if the
+		--- pack is enabled. Eventually this will need to be refactored to create
+		--- separate output tables so that icon packs can be selected at runtime
+		--- when configuring the plugin.
 		if not enabled then
 			for _, icon_pack in pairs(meta.enabledFor) do
 				if utils.tbl_contains(enabled_icon_packs, icon_pack) then
@@ -126,9 +134,9 @@ local function build_mapping(termicons, key, name)
 		end
 	end
 
-	-- For each icon, expand the patterns and add them to the associated result
-	-- mapping. This is technically looping through the mappings more than needed,
-	-- but it's all done at compile time, not runtime so who cares.
+	--- For each icon, expand the patterns and add them to the associated result
+	--- mapping. This is technically looping through the mappings more than needed,
+	--- but it's all done at compile time, not runtime so who cares.
 	for icon, meta in pairs(icons.mappings) do
 		for _, pattern in ipairs(meta[key] or {}) do
 			for _, expanded in ipairs(shexpand.expand(pattern)) do
@@ -137,21 +145,56 @@ local function build_mapping(termicons, key, name)
 		end
 	end
 
-	return utils.tbl(name, utils.tbl_to_str(res))
+	return res
 end
 
 --- Generate the icon file mappings
 --- @param termicons table
+--- @returns table
 local function generate_mappings(termicons)
-	local res = ""
+	return {
+		by_extension = build_mapping(termicons, "extensions"),
+		by_filename = build_mapping(termicons, "filenames"),
+	}
+end
 
-	res = res .. build_mapping(termicons, "extensions", "by_extension")
-	res = res .. build_mapping(termicons, "filenames", "by_filename")
+--- Evaluate a string as Lua code
+--- @param source string
+--- @param err_msg string
+local function eval(source, err_msg)
+	local func, err = load(source)
+	if func then
+		return func()
+	end
 
-	return utils.mod(res)
+	print(err_msg .. err)
+	os.exit(1)
+end
+
+--- Verifies that all base icons from nvim-web-devicons are mapped
+--- @param termicons table
+--- @param mappings table
+local function validate_all_icons_mapped(termicons, mappings)
+	local url =
+		"https://raw.githubusercontent.com/nvim-tree/nvim-web-devicons/master/lua/nvim-web-devicons/icons-default.lua"
+
+	--- @type table
+	local devicons = eval(fetch(url), "Error: Failed to parse nvim-web-devicons")
+
+	for key, _ in pairs(devicons.icons_by_filename) do
+		if termicons[key] == nil then
+			print("Error: Icon not mapped: " .. key)
+		end
+	end
 end
 
 local termicons = fetch_json(get_mapping_url())
+local mappings = generate_mappings(termicons)
 
-utils.write_file("lua/termicons/mappings.lua", generate_mappings(termicons))
+utils.write_file(
+	"lua/termicons/mappings.lua",
+	utils.mod(utils.tbls_to_str(mappings))
+)
 utils.write_file("lua/termicons/icons.lua", generate_icons(termicons))
+
+validate_all_icons_mapped(termicons, mappings)
