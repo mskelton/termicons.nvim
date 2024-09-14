@@ -2726,6 +2726,12 @@ M.by_filename = {
 	["windi.config.json"] = "windicss",
 	["windi.config.ts"] = "windicss",
 	["workspace"] = "bazel",
+	["wxt.config.cjs"] = "wxt",
+	["wxt.config.cts"] = "wxt",
+	["wxt.config.js"] = "wxt",
+	["wxt.config.mjs"] = "wxt",
+	["wxt.config.mts"] = "wxt",
+	["wxt.config.ts"] = "wxt",
 	["yarn-error.log"] = "yarn",
 	["yarn.lock"] = "yarn",
 }

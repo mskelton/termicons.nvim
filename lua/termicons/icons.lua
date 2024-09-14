@@ -3081,6 +3081,12 @@ M.icons = {
 		cterm_color = "24",
 		name = "Word",
 	},
+	["wxt"] = {
+		icon = "퇩",
+		color = "#00c853",
+		cterm_color = "41",
+		name = "Wxt",
+	},
 	["xaml"] = {
 		icon = "텷",
 		color = "#42a5f5",
