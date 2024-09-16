@@ -158,6 +158,17 @@ local function build_mappings(termicons)
 	}
 end
 
+--- Generate the mappings file content
+--- @param mappings table
+local function generate_mappings(mappings)
+	local res = ""
+
+	res = res .. utils.tbl("file_extension", mappings.by_extension)
+	res = res .. utils.tbl("file_filename", mappings.by_filename)
+
+	return utils.mod(res)
+end
+
 --- Verifies that all base icons from nvim-web-devicons are mapped
 --- @param mappings table
 --- @param namespaces table
@@ -181,7 +192,7 @@ end
 local termicons = fetch_json(get_mapping_url())
 local mappings = build_mappings(termicons)
 
-utils.write_file("mappings.lua", utils.mod(utils.tbls_to_str(mappings)))
+utils.write_file("mappings.lua", generate_mappings(mappings))
 utils.write_file("icons.lua", generate_icons(termicons))
 
 validate_all_icons_mapped(mappings, {
