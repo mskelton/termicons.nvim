@@ -72,7 +72,7 @@ end
 M.tbls_to_str = function(t, order)
 	local res = ""
 
-	for key, _ in pairs(order) do
+	for _, key in pairs(order) do
 		res = res .. M.tbl(key, M.tbl_to_str(t[key]))
 	end
 
