@@ -153,8 +153,8 @@ end
 --- @returns table
 local function build_mappings(termicons)
 	return {
-		by_filename = build_mapping(termicons, "filenames"),
 		by_extension = build_mapping(termicons, "extensions"),
+		by_filename = build_mapping(termicons, "filenames"),
 	}
 end
 
