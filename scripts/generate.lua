@@ -151,10 +151,10 @@ end
 --- Generate the icon file mappings
 --- @param termicons table
 --- @returns table
-local function generate_mappings(termicons)
+local function build_mappings(termicons)
 	return {
-		by_filename = build_mapping(termicons, "filenames"),
 		by_extension = build_mapping(termicons, "extensions"),
+		by_filename = build_mapping(termicons, "filenames"),
 	}
 end
 
@@ -172,29 +172,31 @@ local function eval(source, err_msg)
 end
 
 --- Verifies that all base icons from nvim-web-devicons are mapped
---- @param termicons table
 --- @param mappings table
-local function validate_all_icons_mapped(termicons, mappings)
+--- @param namespaces table
+local function validate_all_icons_mapped(mappings, namespaces)
 	local url =
 		"https://raw.githubusercontent.com/nvim-tree/nvim-web-devicons/master/lua/nvim-web-devicons/icons-default.lua"
 
 	--- @type table
 	local devicons = eval(fetch(url), "Error: Failed to parse nvim-web-devicons")
 
-	for key, _ in pairs(devicons.icons_by_filename) do
-		if termicons[key] == nil then
-			print("Error: Icon not mapped: " .. key)
+	for _, ns in ipairs(namespaces) do
+		for key, _ in pairs(devicons[ns[2]]) do
+			if mappings[ns[1]][key] == nil then
+				print("Error: Icon not mapped: " .. key)
+			end
 		end
 	end
 end
 
 local termicons = fetch_json(get_mapping_url())
-local mappings = generate_mappings(termicons)
+local mappings = build_mappings(termicons)
 
-utils.write_file(
-	"lua/termicons/mappings.lua",
-	utils.mod(utils.tbls_to_str(mappings))
-)
-utils.write_file("lua/termicons/icons.lua", generate_icons(termicons))
+utils.write_file("mappings.lua", utils.mod(utils.tbls_to_str(mappings)))
+utils.write_file("icons.lua", generate_icons(termicons))
 
-validate_all_icons_mapped(termicons, mappings)
+validate_all_icons_mapped(mappings, {
+	{ "by_extension", "icons_by_file_extension" },
+	{ "by_filename", "icons_by_filename" },
+})

@@ -4,7 +4,7 @@ local M = {}
 --- @param path string
 --- @param content string
 M.write_file = function(path, content)
-	local file = io.open(path, "w")
+	local file = io.open("lua/termicons/" .. path, "w")
 	if file == nil then
 		print("Error: Failed to open output file")
 		os.exit(1)
