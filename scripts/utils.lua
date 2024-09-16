@@ -4,7 +4,7 @@ local M = {}
 --- @param path string
 --- @param content string
 M.write_file = function(path, content)
-	local file = io.open(path, "w")
+	local file = io.open("lua/termicons/" .. path, "w")
 	if file == nil then
 		print("Error: Failed to open output file")
 		os.exit(1)
@@ -66,6 +66,19 @@ M.tbl_to_str = function(t)
 	return res
 end
 
+--- Convert a table of tables to a string
+--- @param t table
+--- @param order table
+M.tbls_to_str = function(t, order)
+	local res = ""
+
+	for _, key in pairs(order) do
+		res = res .. M.tbl(key, M.tbl_to_str(t[key]))
+	end
+
+	return res
+end
+
 --- Create a string for a Lua module
 --- @param content string
 M.mod = function(content)
@@ -100,6 +113,54 @@ M.tbl_contains = function(t, value)
 	end
 
 	return false
+end
+
+--- Print a table to the console
+--- @param value any
+--- @param depth number|nil
+--- @param seen table|nil
+M.inspect = function(value, depth, seen)
+	depth = depth or 0
+	seen = seen or {}
+
+	local indent = string.rep("  ", depth)
+	if type(value) ~= "table" then
+		return tostring(value)
+	end
+
+	if seen[value] then
+		return "<circular reference>"
+	end
+
+	seen[value] = true
+	local result = "{\n"
+
+	for k, v in pairs(value) do
+		local key = type(k) == "string" and k or "[" .. tostring(k) .. "]"
+
+		result = result
+			.. indent
+			.. "  "
+			.. key
+			.. " = "
+			.. M.inspect(v, depth + 1, seen)
+			.. ",\n"
+	end
+
+	return result .. indent .. "}"
+end
+
+--- Evaluate a string as Lua code
+--- @param source string
+--- @param err_msg string
+M.eval = function(source, err_msg)
+	local func, err = load(source)
+	if func then
+		return func()
+	end
+
+	print(err_msg .. err)
+	os.exit(1)
 end
 
 return M
