@@ -149,4 +149,17 @@ M.inspect = function(value, depth, seen)
 	return result .. indent .. "}"
 end
 
+--- Evaluate a string as Lua code
+--- @param source string
+--- @param err_msg string
+M.eval = function(source, err_msg)
+	local func, err = load(source)
+	if func then
+		return func()
+	end
+
+	print(err_msg .. err)
+	os.exit(1)
+end
+
 return M

@@ -158,19 +158,6 @@ local function build_mappings(termicons)
 	}
 end
 
---- Evaluate a string as Lua code
---- @param source string
---- @param err_msg string
-local function eval(source, err_msg)
-	local func, err = load(source)
-	if func then
-		return func()
-	end
-
-	print(err_msg .. err)
-	os.exit(1)
-end
-
 --- Verifies that all base icons from nvim-web-devicons are mapped
 --- @param mappings table
 --- @param namespaces table
@@ -179,7 +166,8 @@ local function validate_all_icons_mapped(mappings, namespaces)
 		"https://raw.githubusercontent.com/nvim-tree/nvim-web-devicons/master/lua/nvim-web-devicons/icons-default.lua"
 
 	--- @type table
-	local devicons = eval(fetch(url), "Error: Failed to parse nvim-web-devicons")
+	local devicons =
+		utils.eval(fetch(url), "Error: Failed to parse nvim-web-devicons")
 
 	for _, ns in ipairs(namespaces) do
 		for key, _ in pairs(devicons[ns[2]]) do
