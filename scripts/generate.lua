@@ -161,12 +161,10 @@ end
 --- Generate the mappings file content
 --- @param mappings table
 local function generate_mappings(mappings)
-	local res = ""
-
-	res = res .. utils.tbl("file_extension", mappings.by_extension)
-	res = res .. utils.tbl("file_filename", mappings.by_filename)
-
-	return utils.mod(res)
+	return utils.mod(utils.tbls_to_str(mappings, {
+		"by_extension",
+		"by_filename",
+	}))
 end
 
 --- Verifies that all base icons from nvim-web-devicons are mapped

@@ -66,6 +66,19 @@ M.tbl_to_str = function(t)
 	return res
 end
 
+--- Convert a table of tables to a string
+--- @param t table
+--- @param order table
+M.tbls_to_str = function(t, order)
+	local res = ""
+
+	for key, _ in pairs(order) do
+		res = res .. M.tbl(key, M.tbl_to_str(t[key]))
+	end
+
+	return res
+end
+
 --- Create a string for a Lua module
 --- @param content string
 M.mod = function(content)
