@@ -168,9 +168,9 @@ local function generate_mappings(mappings)
 end
 
 --- Verifies that all base icons from nvim-web-devicons are mapped
---- @param mappings table
+--- @param termicons table
 --- @param namespaces table
-local function validate_all_icons_mapped(mappings, namespaces)
+local function validate_all_icons_mapped(termicons, namespaces)
 	local url =
 		"https://raw.githubusercontent.com/nvim-tree/nvim-web-devicons/master/lua/nvim-web-devicons/icons-default.lua"
 
@@ -179,9 +179,20 @@ local function validate_all_icons_mapped(mappings, namespaces)
 		utils.eval(fetch(url), "Error: Failed to parse nvim-web-devicons")
 
 	for _, ns in ipairs(namespaces) do
-		for key, _ in pairs(devicons[ns[2]]) do
-			if mappings[ns[1]][key] == nil then
-				print("Error: Icon not mapped: " .. key)
+		local termicons_ns = termicons[ns[1]]
+		local devicons_ns = devicons[ns[2]]
+		local keys = utils.tbl_keys(devicons_ns)
+		table.sort(keys)
+
+		for _, key in ipairs(keys) do
+			if termicons_ns[key] == nil then
+				print(
+					string.format(
+						"Error: Icon not mapped: %s  %s",
+						devicons_ns[key].icon,
+						key
+					)
+				)
 			end
 		end
 	end

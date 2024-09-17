@@ -163,4 +163,16 @@ M.eval = function(source, err_msg)
 	os.exit(1)
 end
 
+--- Get the keys of a table
+--- @param t table
+M.tbl_keys = function(t)
+	local keys = {}
+
+	for key in pairs(t) do
+		table.insert(keys, key)
+	end
+
+	return keys
+end
+
 return M
