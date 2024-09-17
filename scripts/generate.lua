@@ -182,17 +182,20 @@ local function validate_all_icons_mapped(termicons, namespaces)
 		local termicons_ns = termicons[ns[1]]
 		local devicons_ns = devicons[ns[2]]
 		local keys = utils.tbl_keys(devicons_ns)
+		local missing = {}
 		table.sort(keys)
 
 		for _, key in ipairs(keys) do
 			if termicons_ns[key] == nil then
-				print(
-					string.format(
-						"Error: Icon not mapped: %s  %s",
-						devicons_ns[key].icon,
-						key
-					)
-				)
+				table.insert(missing, key)
+			end
+		end
+
+		if #missing > 0 then
+			print("Error: Missing icons in " .. ns[1])
+
+			for _, key in ipairs(missing) do
+				print(string.format("  %s  %s", devicons_ns[key].icon, key))
 			end
 		end
 	end
