@@ -1407,6 +1407,12 @@ M.icons = {
 		cterm_color = "203",
 		name = "Laravel",
 	},
+	["lefthook"] = {
+		icon = "퇪",
+		color = "#f44336",
+		cterm_color = "203",
+		name = "Lefthook",
+	},
 	["lerna"] = {
 		icon = "킯",
 		color = "#448aff",
