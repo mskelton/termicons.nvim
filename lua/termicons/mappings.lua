@@ -954,6 +954,7 @@ M.by_extension = {
 	["yy"] = "gamemaker",
 	["yyp"] = "gamemaker",
 	["yyz"] = "gamemaker",
+	["zeabur"] = "zeabur",
 	["zig"] = "zig",
 	["zip"] = "zip",
 	["zon"] = "zig",
@@ -2759,6 +2760,12 @@ M.by_filename = {
 	["wxt.config.ts"] = "wxt",
 	["yarn-error.log"] = "yarn",
 	["yarn.lock"] = "yarn",
+	["zeabur.json"] = "zeabur",
+	["zeabur.json5"] = "zeabur",
+	["zeabur.jsonc"] = "zeabur",
+	["zeabur.toml"] = "zeabur",
+	["zeabur.yaml"] = "zeabur",
+	["zeabur.yml"] = "zeabur",
 }
 
 return M

@@ -3123,6 +3123,12 @@ M.icons = {
 		cterm_color = "32",
 		name = "Yarn",
 	},
+	["zeabur"] = {
+		icon = "퇫",
+		color = "#cfd8dc",
+		cterm_color = "188",
+		name = "Zeabur",
+	},
 	["zig"] = {
 		icon = "텼",
 		color = "#f9a825",
