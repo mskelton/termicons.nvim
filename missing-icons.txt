@@ -1,11 +1,7 @@
 Error: Missing icons in by_extension
-    3gp
   󰆧  3mf
-    aac
     ai
-    aif
     android
-    ape
   ⍝  apl
     app
   󰨖  ass
@@ -14,20 +10,14 @@ Error: Missing icons in by_extension
   󰺾  blp
   ⎉  bqn
   󰻫  brep
-    bz
-    bz3
     cache
-    cast
-    ccm
     cljd
   ⚙  cobol
     config.ru
   󰆚  cow
-    cppm
   ⚙  cpy
     crdownload
   󰲹  cue
-    cxxm
     dconf
     desktop
     diff
@@ -39,9 +29,7 @@ Error: Missing icons in by_extension
     ebook
     ebuild
     edn
-    elc
     elf
-    eln
     epp
     epub
     f#
@@ -78,9 +66,7 @@ Error: Missing icons in by_extension
     image
     import
     info
-    ixx
     jwmrc
-    jxl
   󰯄  kbx
     kdb
     kdbx
@@ -102,36 +88,21 @@ Error: Missing icons in by_extension
     lhs
     license
   󰨖  lrc
-    luac
-    luau
-    m
   󰲹  m3u
   󰲹  m3u8
     magnet
     makefile
   󰔉  material
   󰕥  md5
-    mm
     mobi
-    mpp
     msf
     nfo
-    nswag
-    opus
     out
     part
     pck
-    pcm
     php
   󰲹  pls
   󰆧  ply
-    pxd
-    pxi
-    pyd
-    pyi
-    pyo
-    pyw
-    pyx
     qm
     qml
     qrc
@@ -168,12 +139,9 @@ Error: Missing icons in by_extension
     ui
   󰍛  vh
     vsh
-    webmanifest
   󰜫  webpack
   󰆧  wrl
   󰆧  wrz
-    wv
-    wvc
     x
     xcplayground
     xcstrings
@@ -186,7 +154,6 @@ Error: Missing icons in by_filename
     .Xresources
     .gitlab-ci.yml
     .gtkrc-2.0
-    .gvimrc
     .settings.json
     .xinitrc
     .xsession
@@ -195,12 +162,8 @@ Error: Missing icons in by_filename
     PrusaSlicer.ini
     PrusaSlicerGcodeViewer.ini
     QtProject.conf
-    _gvimrc
-    _vimrc
-    avif
     bspwmrc
     build.gradle
-    build.zig.zon
     cantorrc
   󰓙  checkhealth
     copying.lesser
@@ -228,7 +191,6 @@ Error: Missing icons in by_filename
     lxqt.conf
     mix.lock
     mpv.conf
-    node_modules
   󱄆  nuxt.config.cjs
   󱄆  nuxt.config.mjs
     platformio.ini
@@ -238,7 +200,6 @@ Error: Missing icons in by_filename
     sym-lib-table
     vagrantfile$
   󰕼  vlcrc
-  󰜫  webpack
     weston.ini
     xmobarrc
     xmobarrc.hs

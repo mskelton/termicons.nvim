@@ -6,6 +6,17 @@ M.by_color = {
 }
 
 M.mappings = {
+	["audio"] = {
+		extensions = {
+			"aac",
+			"aif",
+			"ape",
+			"opus",
+			"pcm",
+			"wv",
+			"wvc",
+		},
+	},
 	["auto"] = {
 		filenames = { "auto.config.{json,yml,yaml}" },
 	},
@@ -14,6 +25,17 @@ M.mappings = {
 	},
 	["bazel"] = {
 		filenames = { "build", "workspace" },
+	},
+	["cpp"] = {
+		extensions = {
+			"ccm",
+			"cppm",
+			"cxxm",
+			"ixx",
+			"mm",
+			"mpp",
+			"m",
+		},
 	},
 	["cypress"] = {
 		extensions = { "cy.{js,cjs,mjs,jsx,ts,cts,mts,tsx}" },
@@ -31,11 +53,22 @@ M.mappings = {
 	["html"] = {
 		extensions = { "html" },
 	},
+	["image"] = {
+		extensions = { "jxl" },
+		filenames = { "avif" },
+	},
 	["javascript"] = {
 		extensions = { "{js,cjs}" },
+		filenames = { "node_modules" },
+	},
+	["json"] = {
+		extensions = { "nswag", "webmanifest" },
 	},
 	["lisp"] = {
-		extensions = { "el" },
+		extensions = { "el", "elc", "eln" },
+	},
+	["lua"] = {
+		extensions = { "luac", "luau" },
 	},
 	["luarocks"] = {
 		extensions = { "rockspec" },
@@ -78,6 +111,17 @@ M.mappings = {
 	},
 	["org"] = {
 		extensions = { "org" },
+	},
+	["python"] = {
+		extensions = {
+			"pxd",
+			"pxi",
+			"pyd",
+			"pyi",
+			"pyo",
+			"pyw",
+			"pyx",
+		},
 	},
 	["react-js"] = {
 		extensions = { "jsx" },
@@ -161,11 +205,23 @@ M.mappings = {
 	["typescript"] = {
 		extensions = { "{ts,cts,mts}" },
 	},
+	["video"] = {
+		extensions = { "3gp", "cast" },
+	},
 	["vim"] = {
-		filenames = { ".vimrc" },
+		filenames = { "_gvimrc", "_vimrc", ".gvimrc", ".vimrc" },
+	},
+	["webpack"] = {
+		filenames = { "webpack" },
 	},
 	["yaml"] = {
 		extensions = { "yml", "yaml" },
+	},
+	["zig"] = {
+		filenames = { "build.zig.zon" },
+	},
+	["zip"] = {
+		extensions = { "bz", "bz3" },
 	},
 }
 
