@@ -2523,6 +2523,12 @@ M.icons = {
 		cterm_color = "37",
 		name = "Spwn",
 	},
+	["stackblitz"] = {
+		icon = "퇬",
+		color = "#2196f3",
+		cterm_color = "33",
+		name = "Stackblitz",
+	},
 	["stan"] = {
 		icon = "톰",
 		color = "#e53935",
@@ -2642,6 +2648,12 @@ M.icons = {
 		color = "#8bc34a",
 		cterm_color = "107",
 		name = "Syncpack",
+	},
+	["systemd"] = {
+		icon = "퇭",
+		color = "#00e676",
+		cterm_color = "42",
+		name = "Systemd",
 	},
 	["table"] = {
 		icon = "텁",
