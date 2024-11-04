@@ -255,6 +255,24 @@ M.icons = {
 		cterm_color = "220",
 		name = "Bench",
 	},
+	["bench-js"] = {
+		icon = "퇯",
+		color = "#ffca28",
+		cterm_color = "220",
+		name = "BenchJs",
+	},
+	["bench-jsx"] = {
+		icon = "퇯",
+		color = "#00bcd4",
+		cterm_color = "38",
+		name = "BenchJsx",
+	},
+	["bench-ts"] = {
+		icon = "퇯",
+		color = "#0288d1",
+		cterm_color = "32",
+		name = "BenchTs",
+	},
 	["bicep"] = {
 		icon = "퀞",
 		color = "#fbc02d",
