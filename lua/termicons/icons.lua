@@ -33,6 +33,12 @@ M.icons = {
 		cterm_color = "31",
 		name = "Ada",
 	},
+	["adobe-swc"] = {
+		icon = "퇮",
+		color = "#e53935",
+		cterm_color = "167",
+		name = "AdobeSwc",
+	},
 	["adonis"] = {
 		icon = "퀄",
 		color = "#7c4dff",
@@ -242,6 +248,12 @@ M.icons = {
 		color = "#43a047",
 		cterm_color = "71",
 		name = "Bazel",
+	},
+	["bench"] = {
+		icon = "퇯",
+		color = "#ffca28",
+		cterm_color = "220",
+		name = "Bench",
 	},
 	["bicep"] = {
 		icon = "퀞",
@@ -543,6 +555,18 @@ M.icons = {
 		cterm_color = "220",
 		name = "Contributing",
 	},
+	["controller"] = {
+		icon = "퇰",
+		color = "#ffc107",
+		cterm_color = "214",
+		name = "Controller",
+	},
+	["copilot"] = {
+		icon = "퇱",
+		color = "#fafafa",
+		cterm_color = "15",
+		name = "Copilot",
+	},
 	["cpp"] = {
 		icon = "큃",
 		color = "#0288d1",
@@ -650,6 +674,12 @@ M.icons = {
 		color = "#448aff",
 		cterm_color = "69",
 		name = "Dependabot",
+	},
+	["dependencies-update"] = {
+		icon = "퇲",
+		color = "#8bc34a",
+		cterm_color = "107",
+		name = "DependenciesUpdate",
 	},
 	["dhall"] = {
 		icon = "큒",
@@ -938,6 +968,12 @@ M.icons = {
 		color = "#26a69a",
 		cterm_color = "36",
 		name = "Gamemaker",
+	},
+	["garden"] = {
+		icon = "퇳",
+		color = "#26a69a",
+		cterm_color = "36",
+		name = "Garden",
 	},
 	["gatsby"] = {
 		icon = "클",
@@ -1400,6 +1436,12 @@ M.icons = {
 		color = "#1e88e5",
 		cterm_color = "32",
 		name = "Kusto",
+	},
+	["label"] = {
+		icon = "퇴",
+		color = "#ffb300",
+		cterm_color = "214",
+		name = "Label",
 	},
 	["laravel"] = {
 		icon = "킮",
@@ -1925,8 +1967,8 @@ M.icons = {
 	},
 	["perl"] = {
 		icon = "탤",
-		color = "#9575cd",
-		cterm_color = "104",
+		color = "#ba68c8",
+		cterm_color = "134",
 		name = "Perl",
 	},
 	["php"] = {
@@ -2024,6 +2066,12 @@ M.icons = {
 		color = "#03a9f4",
 		cterm_color = "39",
 		name = "Powershell",
+	},
+	["pre-commit"] = {
+		icon = "퇵",
+		color = "#ffb74d",
+		cterm_color = "215",
+		name = "PreCommit",
 	},
 	["prettier"] = {
 		icon = "탳",
@@ -2633,8 +2681,8 @@ M.icons = {
 	},
 	["swc"] = {
 		icon = "턿",
-		color = "#fdd835",
-		cterm_color = "221",
+		color = "#ffca28",
+		cterm_color = "220",
 		name = "Swc",
 	},
 	["swift"] = {
@@ -2798,6 +2846,12 @@ M.icons = {
 		color = "#7cb342",
 		cterm_color = "107",
 		name = "Tree",
+	},
+	["trigger"] = {
+		icon = "퇶",
+		color = "#4caf50",
+		cterm_color = "71",
+		name = "Trigger",
 	},
 	["tsconfig"] = {
 		icon = "텒",
