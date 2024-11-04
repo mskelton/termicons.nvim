@@ -1,8 +1,11 @@
 local M = {}
 
 M.by_color = {
-	["react-js"] = { "react", "#ffca28" },
+	["bench-js"] = { "bench", "#ffca28" },
+	["bench-jsx"] = { "bench", "#00bcd4" },
+	["bench-ts"] = { "bench", "#0288d1" },
 	["go-mod"] = { "go", "#ec407a" },
+	["react-js"] = { "react", "#ffca28" },
 }
 
 M.mappings = {
