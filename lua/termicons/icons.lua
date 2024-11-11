@@ -369,6 +369,12 @@ M.icons = {
 		cterm_color = "32",
 		name = "C",
 	},
+	["c3"] = {
+		icon = "퇷",
+		color = "#0288d1",
+		cterm_color = "32",
+		name = "c3",
+	},
 	["cabal"] = {
 		icon = "퀪",
 		color = "#4a4bcd",
@@ -1041,6 +1047,12 @@ M.icons = {
 		cterm_color = "246",
 		name = "GithubActionsWorkflow",
 	},
+	["github-sponsors"] = {
+		icon = "퇸",
+		color = "#f06292",
+		cterm_color = "204",
+		name = "GithubSponsors",
+	},
 	["gitlab"] = {
 		icon = "큹",
 		color = "#e53935",
@@ -1220,6 +1232,12 @@ M.icons = {
 		color = "#26a69a",
 		cterm_color = "36",
 		name = "Hex",
+	},
+	["histoire"] = {
+		icon = "퇹",
+		color = "#1de9b6",
+		cterm_color = "43",
+		name = "Histoire",
 	},
 	["hjson"] = {
 		icon = "통",
@@ -1439,8 +1457,8 @@ M.icons = {
 	},
 	["kotlin"] = {
 		icon = "킬",
-		color = "#8371d9",
-		cterm_color = "98",
+		color = "#d500f9",
+		cterm_color = "165",
 		name = "Kotlin",
 	},
 	["kubernetes"] = {
@@ -1569,6 +1587,12 @@ M.icons = {
 		cterm_color = "15",
 		name = "Luarocks",
 	},
+	["luau"] = {
+		icon = "퇽",
+		color = "#03a9f4",
+		cterm_color = "39",
+		name = "Luau",
+	},
 	["makefile"] = {
 		icon = "킻",
 		color = "#ef5350",
@@ -1664,6 +1688,12 @@ M.icons = {
 		color = "#4caf50",
 		cterm_color = "71",
 		name = "Minecraft",
+	},
+	["minecraft-fabric"] = {
+		icon = "퇺",
+		color = "#dbd0b4",
+		cterm_color = "187",
+		name = "MinecraftFabric",
 	},
 	["mint"] = {
 		icon = "탄",
@@ -1934,6 +1964,12 @@ M.icons = {
 		color = "#29b6f6",
 		cterm_color = "39",
 		name = "Package",
+	},
+	["palette"] = {
+		icon = "퇻",
+		color = "#4fc3f7",
+		cterm_color = "75",
+		name = "Palette",
 	},
 	["panda"] = {
 		icon = "톩",
@@ -2211,6 +2247,12 @@ M.icons = {
 		cterm_color = "75",
 		name = "Razor",
 	},
+	["rbxmk"] = {
+		icon = "퇾",
+		color = "#00c853",
+		cterm_color = "41",
+		name = "Rbxmk",
+	},
 	["rc"] = {
 		icon = "톕",
 		color = "#0288d1",
@@ -2354,6 +2396,12 @@ M.icons = {
 		color = "#ff5252",
 		cterm_color = "203",
 		name = "Robots",
+	},
+	["rojo"] = {
+		icon = "퇿",
+		color = "#e53935",
+		cterm_color = "167",
+		name = "Rojo",
 	},
 	["rollup"] = {
 		icon = "턒",
@@ -2504,6 +2552,12 @@ M.icons = {
 		color = "#0288d1",
 		cterm_color = "32",
 		name = "Silverstripe",
+	},
+	["simulink"] = {
+		icon = "툀",
+		color = "#64b5f6",
+		cterm_color = "75",
+		name = "Simulink",
 	},
 	["siyuan"] = {
 		icon = "턨",
@@ -2849,8 +2903,8 @@ M.icons = {
 	},
 	["toml"] = {
 		icon = "톉",
-		color = "#7e7f7f",
-		cterm_color = "8",
+		color = "#9c4221",
+		cterm_color = "130",
 		name = "Toml",
 	},
 	["travis"] = {
@@ -2936,6 +2990,12 @@ M.icons = {
 		color = "#dd4814",
 		cterm_color = "166",
 		name = "Ubuntu",
+	},
+	["umi"] = {
+		icon = "퇼",
+		color = "#2196f3",
+		cterm_color = "33",
+		name = "Umi",
 	},
 	["uml"] = {
 		icon = "텙",
@@ -3110,6 +3170,12 @@ M.icons = {
 		color = "#4caf50",
 		cterm_color = "71",
 		name = "Wallaby",
+	},
+	["wally"] = {
+		icon = "툁",
+		color = "#e65100",
+		cterm_color = "166",
+		name = "Wally",
 	},
 	["watchman"] = {
 		icon = "텯",
