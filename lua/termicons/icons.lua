@@ -453,6 +453,12 @@ M.icons = {
 		cterm_color = "236",
 		name = "Circleci",
 	},
+	["citation"] = {
+		icon = "툂",
+		color = "#1e88e5",
+		cterm_color = "32",
+		name = "Citation",
+	},
 	["clangd"] = {
 		icon = "퇔",
 		color = "#2979ff",
@@ -1250,6 +1256,12 @@ M.icons = {
 		color = "#e64a19",
 		cterm_color = "166",
 		name = "Horusec",
+	},
+	["hosts"] = {
+		icon = "툃",
+		color = "#cfd8dc",
+		cterm_color = "188",
+		name = "Hosts",
 	},
 	["hpp"] = {
 		icon = "킓",
