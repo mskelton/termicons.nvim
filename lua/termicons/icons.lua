@@ -1449,6 +1449,12 @@ M.icons = {
 		cterm_color = "36",
 		name = "Key",
 	},
+	["keystatic"] = {
+		icon = "툄",
+		color = "#78909c",
+		cterm_color = "246",
+		name = "Keystatic",
+	},
 	["kivy"] = {
 		icon = "킪",
 		color = "#90a4ae",
@@ -1605,11 +1611,29 @@ M.icons = {
 		cterm_color = "39",
 		name = "Luau",
 	},
+	["lyrics"] = {
+		icon = "툅",
+		color = "#50c5ef",
+		cterm_color = "81",
+		name = "Lyrics",
+	},
 	["makefile"] = {
 		icon = "킻",
 		color = "#ef5350",
 		cterm_color = "203",
 		name = "Makefile",
+	},
+	["markdoc"] = {
+		icon = "툇",
+		color = "#ffb300",
+		cterm_color = "214",
+		name = "Markdoc",
+	},
+	["markdoc-config"] = {
+		icon = "툆",
+		color = "#ffb300",
+		cterm_color = "214",
+		name = "MarkdocConfig",
 	},
 	["markdown"] = {
 		icon = "킼",
@@ -2096,6 +2120,12 @@ M.icons = {
 		color = "#00bfa5",
 		cterm_color = "37",
 		name = "Plop",
+	},
+	["pm2-ecosystem"] = {
+		icon = "툈",
+		color = "#536dfe",
+		cterm_color = "63",
+		name = "pm2Ecosystem",
 	},
 	["pnpm"] = {
 		icon = "탭",
@@ -2720,6 +2750,12 @@ M.icons = {
 		color = "#ffb74d",
 		cterm_color = "215",
 		name = "Sublime",
+	},
+	["subtitles"] = {
+		icon = "툉",
+		color = "#ff9800",
+		cterm_color = "208",
+		name = "Subtitles",
 	},
 	["supabase"] = {
 		icon = "턻",
