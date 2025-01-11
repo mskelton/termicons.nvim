@@ -249,6 +249,12 @@ M.icons = {
 		cterm_color = "71",
 		name = "Bazel",
 	},
+	["beancount"] = {
+		icon = "툊",
+		color = "#e64a19",
+		cterm_color = "166",
+		name = "Beancount",
+	},
 	["bench"] = {
 		icon = "퇯",
 		color = "#ffca28",
@@ -2079,6 +2085,12 @@ M.icons = {
 		cterm_color = "32",
 		name = "PhpElephant",
 	},
+	["phpstan"] = {
+		icon = "툋",
+		color = "#5c6bc0",
+		cterm_color = "61",
+		name = "Phpstan",
+	},
 	["phpunit"] = {
 		icon = "탨",
 		color = "#5c6bc0",
@@ -2480,6 +2492,12 @@ M.icons = {
 		color = "#f44336",
 		cterm_color = "203",
 		name = "Ruby",
+	},
+	["ruff"] = {
+		icon = "툌",
+		color = "#43a047",
+		cterm_color = "71",
+		name = "Ruff",
 	},
 	["rust"] = {
 		icon = "턗",
@@ -3285,6 +3303,12 @@ M.icons = {
 		cterm_color = "24",
 		name = "Word",
 	},
+	["wrangler"] = {
+		icon = "툍",
+		color = "#f57f17",
+		cterm_color = "208",
+		name = "Wrangler",
+	},
 	["wxt"] = {
 		icon = "퇩",
 		color = "#00c853",
@@ -3296,6 +3320,12 @@ M.icons = {
 		color = "#42a5f5",
 		cterm_color = "75",
 		name = "Xaml",
+	},
+	["xmake"] = {
+		icon = "툎",
+		color = "#009688",
+		cterm_color = "30",
+		name = "Xmake",
 	},
 	["xml"] = {
 		icon = "텸",
