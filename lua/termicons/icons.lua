@@ -585,6 +585,12 @@ M.icons = {
 		cterm_color = "39",
 		name = "Container",
 	},
+	["contentlayer"] = {
+		icon = "툏",
+		color = "#651fff",
+		cterm_color = "57",
+		name = "Contentlayer",
+	},
 	["contributing"] = {
 		icon = "큂",
 		color = "#ffca28",
@@ -849,6 +855,12 @@ M.icons = {
 		cterm_color = "202",
 		name = "Ember",
 	},
+	["epub"] = {
+		icon = "툐",
+		color = "#8bc34a",
+		cterm_color = "107",
+		name = "Epub",
+	},
 	["erlang"] = {
 		icon = "큤",
 		color = "#f44336",
@@ -1082,6 +1094,12 @@ M.icons = {
 		color = "#ea80fc",
 		cterm_color = "177",
 		name = "Gleam",
+	},
+	["gnuplot"] = {
+		icon = "툑",
+		color = "#1e88e5",
+		cterm_color = "32",
+		name = "Gnuplot",
 	},
 	["go"] = {
 		icon = "큼",
@@ -2379,6 +2397,12 @@ M.icons = {
 		cterm_color = "107",
 		name = "ReduxStore",
 	},
+	["regedit"] = {
+		icon = "툒",
+		color = "#039be5",
+		cterm_color = "32",
+		name = "Regedit",
+	},
 	["remark"] = {
 		icon = "퇚",
 		color = "#ef5350",
@@ -2546,6 +2570,12 @@ M.icons = {
 		color = "#f44336",
 		cterm_color = "203",
 		name = "Scheme",
+	},
+	["scons"] = {
+		icon = "툓",
+		color = "#c62828",
+		cterm_color = "160",
+		name = "Scons",
 	},
 	["screwdriver"] = {
 		icon = "퇋",
@@ -3071,8 +3101,8 @@ M.icons = {
 	},
 	["unity"] = {
 		icon = "톒",
-		color = "#bdbdbd",
-		cterm_color = "250",
+		color = "#42a5f5",
+		cterm_color = "75",
 		name = "Unity",
 	},
 	["unknown"] = {
