@@ -174,7 +174,7 @@ local function validate_all_icons_mapped(termicons, namespaces)
 	for _, ns in ipairs(namespaces) do
 		local url = string.format(
 			"https://raw.githubusercontent.com/nvim-tree/nvim-web-devicons/master/lua/nvim-web-devicons/default/%s.lua",
-			ns[1]
+			ns[2]
 		)
 
 		--- @type table
