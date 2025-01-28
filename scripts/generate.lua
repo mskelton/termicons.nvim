@@ -171,16 +171,17 @@ end
 --- @param termicons table
 --- @param namespaces table
 local function validate_all_icons_mapped(termicons, namespaces)
-	local url =
-		"https://raw.githubusercontent.com/nvim-tree/nvim-web-devicons/master/lua/nvim-web-devicons/icons-default.lua"
-
-	--- @type table
-	local devicons =
-		utils.eval(fetch(url), "Error: Failed to parse nvim-web-devicons")
-
 	for _, ns in ipairs(namespaces) do
+		local url = string.format(
+			"https://raw.githubusercontent.com/nvim-tree/nvim-web-devicons/master/lua/nvim-web-devicons/default/%s.lua",
+			ns[1]
+		)
+
+		--- @type table
+		local devicons_ns =
+			utils.eval(fetch(url), "Error: Failed to parse nvim-web-devicons")
+
 		local termicons_ns = termicons[ns[1]]
-		local devicons_ns = devicons[ns[2]]
 		local keys = utils.tbl_keys(devicons_ns)
 		local missing = {}
 		table.sort(keys)
