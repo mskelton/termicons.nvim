@@ -471,6 +471,12 @@ M.icons = {
 		cterm_color = "33",
 		name = "Clangd",
 	},
+	["cline"] = {
+		icon = "툔",
+		color = "#42a5f5",
+		cterm_color = "75",
+		name = "Cline",
+	},
 	["clojure"] = {
 		icon = "퀳",
 		color = "#1e88e5",
@@ -548,6 +554,12 @@ M.icons = {
 		color = "#90a4ae",
 		cterm_color = "109",
 		name = "Command",
+	},
+	["commitizen"] = {
+		icon = "툕",
+		color = "#64b5f6",
+		cterm_color = "75",
+		name = "Commitizen",
 	},
 	["commitlint"] = {
 		icon = "퀿",
@@ -3122,6 +3134,12 @@ M.icons = {
 		color = "#42a5f5",
 		cterm_color = "75",
 		name = "Url",
+	},
+	["uv"] = {
+		icon = "툖",
+		color = "#e040fb",
+		cterm_color = "171",
+		name = "Uv",
 	},
 	["vagrant"] = {
 		icon = "텛",
