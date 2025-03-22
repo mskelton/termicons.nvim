@@ -33,6 +33,18 @@ M.icons = {
 		cterm_color = "31",
 		name = "Ada",
 	},
+	["adobe-illustrator"] = {
+		icon = "툗",
+		color = "#5d4037",
+		cterm_color = "238",
+		name = "AdobeIllustrator",
+	},
+	["adobe-photoshop"] = {
+		icon = "툘",
+		color = "#37474f",
+		cterm_color = "238",
+		name = "AdobePhotoshop",
+	},
 	["adobe-swc"] = {
 		icon = "퇮",
 		color = "#e53935",
@@ -929,8 +941,8 @@ M.icons = {
 	},
 	["firebase"] = {
 		icon = "큫",
-		color = "#fbc02d",
-		cterm_color = "214",
+		color = "#ff9100",
+		cterm_color = "208",
 		name = "Firebase",
 	},
 	["flash"] = {
