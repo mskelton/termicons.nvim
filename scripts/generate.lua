@@ -178,11 +178,11 @@ local function validate_all_icons_mapped(termicons, namespaces)
 		)
 
 		--- @type table
-		local devicons_ns =
+		local devicons =
 			utils.eval(fetch(url), "Error: Failed to parse nvim-web-devicons")
 
 		local termicons_ns = termicons[ns[1]]
-		local keys = utils.tbl_keys(devicons_ns)
+		local keys = utils.tbl_keys(devicons)
 		local missing = {}
 		table.sort(keys)
 
@@ -196,7 +196,7 @@ local function validate_all_icons_mapped(termicons, namespaces)
 			print("Error: Missing icons in " .. ns[1])
 
 			for _, key in ipairs(missing) do
-				print(string.format("  %s  %s", devicons_ns[key].icon, key))
+				print(string.format("  %s  %s", devicons[key].icon, key))
 			end
 		end
 	end

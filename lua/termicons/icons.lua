@@ -261,6 +261,12 @@ M.icons = {
 		cterm_color = "71",
 		name = "Bazel",
 	},
+	["bbx"] = {
+		icon = "툙",
+		color = "#f44336",
+		cterm_color = "203",
+		name = "Bbx",
+	},
 	["beancount"] = {
 		icon = "툊",
 		color = "#e64a19",
@@ -290,6 +296,18 @@ M.icons = {
 		color = "#0288d1",
 		cterm_color = "32",
 		name = "BenchTs",
+	},
+	["bibliography"] = {
+		icon = "툚",
+		color = "#f44336",
+		cterm_color = "203",
+		name = "Bibliography",
+	},
+	["bibtex-style"] = {
+		icon = "툛",
+		color = "#795548",
+		cterm_color = "95",
+		name = "BibtexStyle",
 	},
 	["bicep"] = {
 		icon = "퀞",
@@ -435,6 +453,12 @@ M.icons = {
 		cterm_color = "160",
 		name = "Capnp",
 	},
+	["cbx"] = {
+		icon = "툛",
+		color = "#2196f3",
+		cterm_color = "33",
+		name = "Cbx",
+	},
 	["cds"] = {
 		icon = "퇞",
 		color = "#0288d1",
@@ -561,6 +585,12 @@ M.icons = {
 		cterm_color = "23",
 		name = "Coldfusion",
 	},
+	["coloredpetrinets"] = {
+		icon = "툝",
+		color = "#00bcd4",
+		cterm_color = "38",
+		name = "Coloredpetrinets",
+	},
 	["command"] = {
 		icon = "퀾",
 		color = "#90a4ae",
@@ -665,14 +695,14 @@ M.icons = {
 	},
 	["css"] = {
 		icon = "큉",
-		color = "#42a5f5",
-		cterm_color = "75",
+		color = "#7e57c2",
+		cterm_color = "97",
 		name = "Css",
 	},
 	["css-map"] = {
 		icon = "큈",
-		color = "#42a5f5",
-		cterm_color = "75",
+		color = "#7e57c2",
+		cterm_color = "97",
 		name = "CssMap",
 	},
 	["cucumber"] = {
@@ -902,6 +932,12 @@ M.icons = {
 		color = "#3f51b5",
 		cterm_color = "61",
 		name = "Eslint",
+	},
+	["excalidraw"] = {
+		icon = "툞",
+		color = "#5c6bc0",
+		cterm_color = "61",
+		name = "Excalidraw",
 	},
 	["exe"] = {
 		icon = "큦",
@@ -1227,6 +1263,12 @@ M.icons = {
 		cterm_color = "66",
 		name = "Hack",
 	},
+	["hadolint"] = {
+		icon = "툟",
+		color = "#1976d2",
+		cterm_color = "32",
+		name = "Hadolint",
+	},
 	["haml"] = {
 		icon = "킉",
 		color = "#f4511e",
@@ -1550,6 +1592,18 @@ M.icons = {
 		color = "#ff5252",
 		cterm_color = "203",
 		name = "Laravel",
+	},
+	["latexmk"] = {
+		icon = "툠",
+		color = "#26a69a",
+		cterm_color = "36",
+		name = "Latexmk",
+	},
+	["lbx"] = {
+		icon = "툗",
+		color = "#4caf50",
+		cterm_color = "71",
+		name = "Lbx",
 	},
 	["lefthook"] = {
 		icon = "퇪",
@@ -2049,6 +2103,12 @@ M.icons = {
 		cterm_color = "39",
 		name = "Package",
 	},
+	["packship"] = {
+		icon = "툚",
+		color = "#9575cd",
+		cterm_color = "104",
+		name = "Packship",
+	},
 	["palette"] = {
 		icon = "퇻",
 		color = "#4fc3f7",
@@ -2294,6 +2354,12 @@ M.icons = {
 		color = "#3c78aa",
 		cterm_color = "67",
 		name = "PythonMisc",
+	},
+	["pytorch"] = {
+		icon = "툘",
+		color = "#f4511e",
+		cterm_color = "202",
+		name = "Pytorch",
 	},
 	["qml"] = {
 		icon = "톑",
@@ -2714,6 +2780,12 @@ M.icons = {
 		color = "#f44336",
 		cterm_color = "203",
 		name = "Sml",
+	},
+	["snakemake"] = {
+		icon = "툙",
+		color = "#00897b",
+		cterm_color = "6",
+		name = "Snakemake",
 	},
 	["snapcraft"] = {
 		icon = "퇊",
